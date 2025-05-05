@@ -4,10 +4,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
+from nltk.translate.bleu_score import sentence_bleu
+from nltk.translate.bleu_score import SmoothingFunction
+from nltk.metrics.distance import edit_distance
+from datetime import datetime
 import pickle
 import re
 import os
-from datetime import datetime
 
 
 class HinglishWordClassifier:
@@ -43,13 +46,13 @@ class HinglishWordClassifier:
         else:
             return self.vectorizer.transform(X)
 
-    def train(self, data_file, test_size=0.2, log_file='training_log.txt'):
+    def train(self, data_file, test_size=0.2, log_file='training_log.txt', formula_file='evaluation_metrics.txt'):
         """Train the model using the data from the specified file and log results."""
         # Load data
         df = self.load_data(data_file)
 
         # Create log file
-        with open(log_file, 'w', encoding='utf-8') as log:
+        with open(log_file, 'w', encoding='utf-8') as log, open(formula_file, 'w', encoding='utf-8') as formula:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             log.write(f"Training started at: {timestamp}\n")
             log.write(f"Training data file: {data_file}\n")
@@ -93,6 +96,28 @@ class HinglishWordClassifier:
             log.write(classification_report(y_test, y_pred))
             log.write("\n")
 
+            # Log BLEU and edit distance metrics
+            bleu_scores = []
+            edit_distances = []
+            smooth_fn = SmoothingFunction().method1
+
+            for true_label, pred_label in zip(y_test, y_pred):
+                bleu_scores.append(sentence_bleu([true_label], pred_label, smoothing_function=smooth_fn))
+                edit_distances.append(edit_distance(true_label, pred_label))
+
+            avg_bleu = np.mean(bleu_scores)
+            avg_edit_distance = np.mean(edit_distances)
+
+            formula.write("### Evaluation Metrics ###\n")
+            formula.write("1. BLEU Score (Bilingual Evaluation Understudy)\n")
+            formula.write(f"- Formula: BLEU = BP × exp(Σ(w_n × log(p_n)))\n")
+            formula.write(f"- Brevity Penalty (BP): Computed dynamically based on hypotheses and references.\n")
+            formula.write(f"- Average BLEU Score: {avg_bleu:.4f}\n\n")
+
+            formula.write("2. Edit Distance (Levenshtein Distance)\n")
+            formula.write(f"- Formula: Minimum single-character edits (insertions, deletions, substitutions).\n")
+            formula.write(f"- Average Edit Distance: {avg_edit_distance:.4f}\n\n")
+
             # Log some example predictions
             log.write("Example predictions:\n")
             for word, true_label, pred_label in zip(X_test[:10], y_test[:10], y_pred[:10]):
@@ -103,6 +128,9 @@ class HinglishWordClassifier:
             log.write(f"\nTraining completed at: {timestamp}\n")
 
         print(f"Model trained with accuracy: {accuracy:.4f}")
+        print(f"Average BLEU Score: {avg_bleu:.4f}")
+        print(f"Average Edit Distance: {avg_edit_distance:.4f}")
+        print(f"Evaluation metrics written to {formula_file}")
         return accuracy
 
     def save_model(self, file_path="hinglish_model.pkl"):

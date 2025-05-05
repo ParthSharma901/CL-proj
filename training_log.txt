@@ -1,4 +1,4 @@
-Training started at: 2025-04-23 00:29:54
+Training started at: 2025-05-05 17:53:35
 Training data file: train.txt
 Number of examples: 968232
 
@@ -34,4 +34,4 @@ Word: 'hi', True: HI, Predicted: HI
 Word: 'hatvao', True: HI, Predicted: HI
 Word: 'to', True: HI, Predicted: HI
 
-Training completed at: 2025-04-23 00:30:10
+Training completed at: 2025-05-05 17:53:55
