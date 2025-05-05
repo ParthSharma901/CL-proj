@@ -1,0 +1,10 @@
+### Evaluation Metrics ###
+1. BLEU Score (Bilingual Evaluation Understudy)
+- Formula: BLEU = BP × exp(Σ(w_n × log(p_n)))
+- Brevity Penalty (BP): Computed dynamically based on hypotheses and references.
+- Average BLEU Score: 0.3001
+
+2. Edit Distance (Levenshtein Distance)
+- Formula: Minimum single-character edits (insertions, deletions, substitutions).
+- Average Edit Distance: 0.1022
+
