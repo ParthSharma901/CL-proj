@@ -1,0 +1,10 @@
+Sentence [1]: please dekh kya ye sentnce sahi hai?
+Word	Language
+please	EN
+dekh	HI
+kya	HI
+ye	HI
+sentnce	EN
+sahi	HI
+hai	HI
+

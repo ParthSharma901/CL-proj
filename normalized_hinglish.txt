@@ -1,7 +1,3 @@
-plz	EN
-dekh	HI
-na	HI
-ek	HI
-baaar	HI
-bro	EN
+Original [1]: plz dekh kya ye sentnce sahi hai?
+Normalized [1]: please dekh kya ye sentnce sahi hai?
 

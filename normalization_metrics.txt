@@ -1,0 +1,11 @@
+### Normalization Metrics ###
+Average BLEU Score: 0.8091
+Average Edit Distance: 4.0000
+
+Individual Sentence Metrics:
+Sentence 1:
+  Original: plz dekh kya ye sentnce sahi hai?
+  Normalized: please dekh kya ye sentnce sahi hai?
+  BLEU Score: 0.8091
+  Edit Distance: 4
+

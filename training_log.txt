@@ -1,4 +1,4 @@
-Training started at: 2025-05-05 17:53:35
+Training started at: 2025-05-06 17:47:45
 Training data file: train.txt
 Number of examples: 968232
 
@@ -22,16 +22,5 @@ Classification Report:
    macro avg       0.94      0.93      0.94    193647
 weighted avg       0.95      0.95      0.95    193647
 
-Example predictions:
-Word: 'chho', True: HI, Predicted: HI
-Word: 'aegi', True: HI, Predicted: HI
-Word: 'tokyo2020', True: HI, Predicted: HI
-Word: 'ko', True: HI, Predicted: HI
-Word: 'ho', True: HI, Predicted: HI
-Word: 'team', True: EN, Predicted: EN
-Word: 'betho', True: HI, Predicted: HI
-Word: 'hi', True: HI, Predicted: HI
-Word: 'hatvao', True: HI, Predicted: HI
-Word: 'to', True: HI, Predicted: HI
 
-Training completed at: 2025-05-05 17:53:55
+Training completed at: 2025-05-06 17:48:08
