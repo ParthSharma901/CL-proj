@@ -1,0 +1,8 @@
+Hinglish Sentiment Analysis Results
+================================
+
+1. Text: plz dekh kya ye sentnce sahi hai?
+   Positive/Negative Score: -0.50
+   Serious/Jokeful Score: -0.19
+   Quadrant: Negative and Serious
+
