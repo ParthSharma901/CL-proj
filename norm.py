@@ -7,7 +7,10 @@ from sklearn.metrics import accuracy_score, classification_report
 from nltk.translate.bleu_score import sentence_bleu
 from nltk.translate.bleu_score import SmoothingFunction
 from nltk.metrics.distance import edit_distance
+import matplotlib.pyplot as plt
+import seaborn as sns
 from datetime import datetime
+from sklearn.metrics import confusion_matrix
 import pickle
 import re
 import os
@@ -90,6 +93,16 @@ class HinglishWordClassifier:
         y_pred = self.model.predict(X_test_features)
         accuracy = accuracy_score(y_test, y_pred)
         print(f"Model trained with accuracy: {accuracy:.4f}")
+        cm = confusion_matrix(y_test, y_pred, labels=["EN", "HI"])
+        labels = ["EN", "HI"]
+        plt.figure(figsize=(6, 5))
+        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=labels, yticklabels=labels)
+        plt.xlabel("Predicted")
+        plt.ylabel("Actual")
+        plt.title("Confusion Matrix - Training Data")
+        plt.tight_layout()
+        plt.savefig("training_data_matrix.png")
+        plt.close()
         return accuracy
 
     def save_model(self, file_path="hinglish_model.pkl"):
@@ -146,7 +159,7 @@ class HinglishWordClassifier:
         # Convert to lowercase
         sentence = sentence.lower()
 
-        # Split into words while preserving spaces
+        # Split into words while preserving spaces 
         tokens = re.findall(r'\S+|\s+', sentence)
 
         # Normalize each word
