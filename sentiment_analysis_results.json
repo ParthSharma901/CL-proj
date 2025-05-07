@@ -1,128 +1,128 @@
 [
   {
-    "text": "please dekh kya ye sentnce sahi hai ??",
-    "sentiment_score": -0.20653638888888887,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.20653638888888887
+    "text": "please देख कय ये sentnce सःइ है ? ?",
+    "sentiment_score": 0.18816999999999998,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.18816999999999998
   },
   {
-    "text": "iss is first half ??",
-    "sentiment_score": -0.2930355235042735,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.2930355235042735
+    "text": "इसस is first half ? ?",
+    "sentiment_score": 0.0,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.0
   },
   {
-    "text": "full sem course",
-    "sentiment_score": 0.36398437499999997,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.36398437499999997
+    "text": "full semester course",
+    "sentiment_score": 0.007894736842105262,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.007894736842105262
   },
   {
     "text": "oh right",
-    "sentiment_score": -0.10937500000000003,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.10937500000000003
+    "sentiment_score": 0.35,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.35
   },
   {
     "text": "once a week",
-    "sentiment_score": 0.3,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.3
+    "sentiment_score": 0.0,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.0
   },
   {
     "text": "yes",
-    "sentiment_score": 0.41408249999999996,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.41408249999999996
+    "sentiment_score": 0.198228,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.198228
   },
   {
-    "text": "full sem once a week",
-    "sentiment_score": 0.33784375,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.33784375
+    "text": "full semester once a week",
+    "sentiment_score": 0.009375,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.009375
   },
   {
-    "text": "ayein ??",
-    "sentiment_score": -0.3,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.3
+    "text": "अयेइन ? ?",
+    "sentiment_score": 0.0,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.0
   },
   {
-    "text": "full sem ...... and class are once a week",
-    "sentiment_score": 0.3219871794871795,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.3219871794871795
+    "text": "full semester ...... and classes are once a week",
+    "sentiment_score": 0.018243243243243244,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.018243243243243244
   },
   {
-    "text": "there is lab as well right ??",
-    "sentiment_score": 0.1141852335164835,
+    "text": "there 's lab as well right ? ?",
+    "sentiment_score": 0.23706,
     "sentiment_category": "Positive",
-    "sentiment_strength": 0.1141852335164835
+    "sentiment_strength": 0.23706
   },
   {
     "text": "lab extra",
-    "sentiment_score": 0.15729166666666666,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.15729166666666666
+    "sentiment_score": -0.075,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.075
   },
   {
-    "text": "i asked a senior he was like half sem only",
-    "sentiment_score": -0.13293203205128204,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.13293203205128204
+    "text": "i asked a senior हे was like half semester only",
+    "sentiment_score": 0.058785176470588237,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.058785176470588237
   },
   {
     "text": "1 class and 1 lab",
-    "sentiment_score": 0.304921875,
+    "sentiment_score": 0.049999999999999996,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.049999999999999996
+  },
+  {
+    "text": "हान once a week full semester is half semester",
+    "sentiment_score": 0.0075,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.0075
+  },
+  {
+    "text": "like वे",
+    "sentiment_score": 0.10836,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.10836
+  },
+  {
+    "text": "no इक like credit wise its the same",
+    "sentiment_score": 0.21552000000000002,
     "sentiment_category": "Positive",
-    "sentiment_strength": 0.304921875
-  },
-  {
-    "text": "haan once a week full sem is half sem",
-    "sentiment_score": -0.27230101495726494,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.27230101495726494
-  },
-  {
-    "text": "like ve",
-    "sentiment_score": 0.38427999999999995,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.38427999999999995
-  },
-  {
-    "text": "no ik like credit wise its the same",
-    "sentiment_score": -0.2299622048611111,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.2299622048611111
+    "sentiment_strength": 0.21552000000000002
   },
   {
     "text": "lite anyway",
     "sentiment_score": 0.0,
-    "sentiment_category": "Positive",
+    "sentiment_category": "Neutral",
     "sentiment_strength": 0.0
   },
   {
-    "text": "last year it was prolly that is why",
-    "sentiment_score": -0.15127954727564102,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.15127954727564102
+    "text": "last year it was prolly that 's why",
+    "sentiment_score": -0.01730769230769231,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.01730769230769231
   },
   {
-    "text": "timetable for csx (( both a and b ))",
-    "sentiment_score": 0.15,
-    "sentiment_category": "Positive",
-    "sentiment_strength": 0.15
+    "text": "timetable for csx ( ( both a and b ) )",
+    "sentiment_score": 0.0,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.0
   },
   {
-    "text": "laugh out loud lmao ts pmo",
-    "sentiment_score": -0.20293916666666667,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.20293916666666667
+    "text": "laugh out लोउद लमओ this shit िपसिसनग मैन off",
+    "sentiment_score": -0.08652666666666667,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.08652666666666667
   },
   {
-    "text": "fuck you cocky as no bitch zero hairline smelly as chimp of a human",
-    "sentiment_score": -0.34171874999999996,
+    "text": "fuck you cocky ass no bitches zero hairline smelly ass chimp of a human",
+    "sentiment_score": -0.28572,
     "sentiment_category": "Negative",
-    "sentiment_strength": 0.34171874999999996
+    "sentiment_strength": 0.28572
   }
 ]

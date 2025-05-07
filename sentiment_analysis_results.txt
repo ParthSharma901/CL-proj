@@ -1,87 +1,87 @@
-Hinglish Sentiment Analysis Results with SentiWordNet
-==============================================
+Hinglish-Devanagari Sentiment Analysis Results
+===========================================
 
-1. Text: please dekh kya ye sentnce sahi hai ??
-   Sentiment Score: -0.21
-   Category: Negative (Strength: 0.21)
+1. Text: please देख कय ये sentnce सःइ है ? ?
+   Sentiment Score: 0.19
+   Category: Neutral (Strength: 0.19)
 
-2. Text: iss is first half ??
-   Sentiment Score: -0.29
-   Category: Negative (Strength: 0.29)
+2. Text: इसस is first half ? ?
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
 
-3. Text: full sem course
-   Sentiment Score: 0.36
-   Category: Positive (Strength: 0.36)
+3. Text: full semester course
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
 
 4. Text: oh right
-   Sentiment Score: -0.11
-   Category: Negative (Strength: 0.11)
+   Sentiment Score: 0.35
+   Category: Positive (Strength: 0.35)
 
 5. Text: once a week
-   Sentiment Score: 0.30
-   Category: Positive (Strength: 0.30)
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
 
 6. Text: yes
-   Sentiment Score: 0.41
-   Category: Positive (Strength: 0.41)
+   Sentiment Score: 0.20
+   Category: Neutral (Strength: 0.20)
 
-7. Text: full sem once a week
-   Sentiment Score: 0.34
-   Category: Positive (Strength: 0.34)
+7. Text: full semester once a week
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
 
-8. Text: ayein ??
-   Sentiment Score: -0.30
-   Category: Negative (Strength: 0.30)
+8. Text: अयेइन ? ?
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
 
-9. Text: full sem ...... and class are once a week
-   Sentiment Score: 0.32
-   Category: Positive (Strength: 0.32)
+9. Text: full semester ...... and classes are once a week
+   Sentiment Score: 0.02
+   Category: Neutral (Strength: 0.02)
 
-10. Text: there is lab as well right ??
-   Sentiment Score: 0.11
-   Category: Positive (Strength: 0.11)
+10. Text: there 's lab as well right ? ?
+   Sentiment Score: 0.24
+   Category: Positive (Strength: 0.24)
 
 11. Text: lab extra
-   Sentiment Score: 0.16
-   Category: Positive (Strength: 0.16)
+   Sentiment Score: -0.07
+   Category: Neutral (Strength: 0.07)
 
-12. Text: i asked a senior he was like half sem only
-   Sentiment Score: -0.13
-   Category: Negative (Strength: 0.13)
+12. Text: i asked a senior हे was like half semester only
+   Sentiment Score: 0.06
+   Category: Neutral (Strength: 0.06)
 
 13. Text: 1 class and 1 lab
-   Sentiment Score: 0.30
-   Category: Positive (Strength: 0.30)
+   Sentiment Score: 0.05
+   Category: Neutral (Strength: 0.05)
 
-14. Text: haan once a week full sem is half sem
-   Sentiment Score: -0.27
-   Category: Negative (Strength: 0.27)
+14. Text: हान once a week full semester is half semester
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
 
-15. Text: like ve
-   Sentiment Score: 0.38
-   Category: Positive (Strength: 0.38)
+15. Text: like वे
+   Sentiment Score: 0.11
+   Category: Neutral (Strength: 0.11)
 
-16. Text: no ik like credit wise its the same
-   Sentiment Score: -0.23
-   Category: Negative (Strength: 0.23)
+16. Text: no इक like credit wise its the same
+   Sentiment Score: 0.22
+   Category: Positive (Strength: 0.22)
 
 17. Text: lite anyway
    Sentiment Score: 0.00
-   Category: Positive (Strength: 0.00)
+   Category: Neutral (Strength: 0.00)
 
-18. Text: last year it was prolly that is why
-   Sentiment Score: -0.15
-   Category: Negative (Strength: 0.15)
+18. Text: last year it was prolly that 's why
+   Sentiment Score: -0.02
+   Category: Neutral (Strength: 0.02)
 
-19. Text: timetable for csx (( both a and b ))
-   Sentiment Score: 0.15
-   Category: Positive (Strength: 0.15)
+19. Text: timetable for csx ( ( both a and b ) )
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
 
-20. Text: laugh out loud lmao ts pmo
-   Sentiment Score: -0.20
-   Category: Negative (Strength: 0.20)
+20. Text: laugh out लोउद लमओ this shit िपसिसनग मैन off
+   Sentiment Score: -0.09
+   Category: Neutral (Strength: 0.09)
 
-21. Text: fuck you cocky as no bitch zero hairline smelly as chimp of a human
-   Sentiment Score: -0.34
-   Category: Negative (Strength: 0.34)
+21. Text: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
+   Sentiment Score: -0.29
+   Category: Negative (Strength: 0.29)
 

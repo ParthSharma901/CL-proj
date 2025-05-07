@@ -1,63 +1,84 @@
 Original [1]: plz dekh kya ye sentnce sahi hai?
 Normalized [1]: please dekh kya ye sentnce sahi hai ??
+Mixed E-H [1]: please देख कय ये sentnce सःइ है ? ?
 
 Original [2]: Iss is first half?
 Normalized [2]: iss is first half ??
+Mixed E-H [2]: इसस is first half ? ?
 
 Original [3]: full sem course
 Normalized [3]: full semester course
+Mixed E-H [3]: full semester course
 
 Original [4]: Oh right
 Normalized [4]: oh right
+Mixed E-H [4]: oh right
 
 Original [5]: Once a week
 Normalized [5]: once a week
+Mixed E-H [5]: once a week
 
 Original [6]: yep
 Normalized [6]: yes
+Mixed E-H [6]: yes
 
 Original [7]: Full sem once a week
 Normalized [7]: full semester once a week
+Mixed E-H [7]: full semester once a week
 
 Original [8]: Ayein?
 Normalized [8]: ayein ??
+Mixed E-H [8]: अयेइन ? ?
 
 Original [9]: full sem... and classes are once a week
 Normalized [9]: full semester ...... and classes are once a week
+Mixed E-H [9]: full semester ...... and classes are once a week
 
 Original [10]: There's lab as well right?
 Normalized [10]: there 's lab as well right ??
+Mixed E-H [10]: there 's lab as well right ? ?
 
 Original [11]: lab extra
 Normalized [11]: lab extra
+Mixed E-H [11]: lab extra
 
 Original [12]: I asked a senior he was like half sem only
 Normalized [12]: i asked a senior he was like half semester only
+Mixed E-H [12]: i asked a senior हे was like half semester only
 
 Original [13]: 1 class and 1 lab
 Normalized [13]: 1 class and 1 lab
+Mixed E-H [13]: 1 class and 1 lab
 
 Original [14]: Haan once a week full sem is half sem
 Normalized [14]: haan once a week full semester is half semester
+Mixed E-H [14]: हान once a week full semester is half semester
 
 Original [15]: Like ve
 Normalized [15]: like ve
+Mixed E-H [15]: like वे
 
 Original [16]: No ik like credit wise its the same
 Normalized [16]: no ik like credit wise its the same
+Mixed E-H [16]: no इक like credit wise its the same
 
 Original [17]: Lite anyway
 Normalized [17]: lite anyway
+Mixed E-H [17]: lite anyway
 
 Original [18]: Last year it was prolly that's why
 Normalized [18]: last year it was prolly that 's why
+Mixed E-H [18]: last year it was prolly that 's why
 
 Original [19]: timetable for csx(both A and B)
 Normalized [19]: timetable for csx (( both a and b ))
+Mixed E-H [19]: timetable for csx ( ( both a and b ) )
 
 Original [20]: lol lmao ts pmo
 Normalized [20]: laugh out loud lmao this shit pissing me off
+Mixed E-H [20]: laugh out लोउद लमओ this shit िपसिसनग मैन off
 
 Original [21]: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
 Normalized [21]: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
+Mixed E-H [21]: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
 

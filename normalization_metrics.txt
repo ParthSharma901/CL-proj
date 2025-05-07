@@ -1,6 +1,6 @@
 ### Normalization Metrics ###
-Average BLEU Score: 0.5693
-Average Edit Distance: 2.7143
+Average BLEU Score: 0.5442
+Average Edit Distance: 4.6190
 
 Individual Sentence Metrics:
 Sentence 1:
@@ -17,9 +17,9 @@ Sentence 2:
 
 Sentence 3:
   Original: full sem course
-  Normalized: full sem course
-  BLEU Score: 0.5623
-  Edit Distance: 0
+  Normalized: full semester course
+  BLEU Score: 0.1351
+  Edit Distance: 5
 
 Sentence 4:
   Original: Oh right
@@ -41,9 +41,9 @@ Sentence 6:
 
 Sentence 7:
   Original: Full sem once a week
-  Normalized: full sem once a week
-  BLEU Score: 1.0000
-  Edit Distance: 1
+  Normalized: full semester once a week
+  BLEU Score: 0.2857
+  Edit Distance: 6
 
 Sentence 8:
   Original: Ayein?
@@ -53,15 +53,15 @@ Sentence 8:
 
 Sentence 9:
   Original: full sem... and classes are once a week
-  Normalized: full sem ...... and class are once a week
-  BLEU Score: 0.3689
-  Edit Distance: 6
+  Normalized: full semester ...... and classes are once a week
+  BLEU Score: 0.6105
+  Edit Distance: 9
 
 Sentence 10:
   Original: There's lab as well right?
-  Normalized: there is lab as well right ??
-  BLEU Score: 0.5411
-  Edit Distance: 5
+  Normalized: there 's lab as well right ??
+  BLEU Score: 0.8409
+  Edit Distance: 4
 
 Sentence 11:
   Original: lab extra
@@ -71,9 +71,9 @@ Sentence 11:
 
 Sentence 12:
   Original: I asked a senior he was like half sem only
-  Normalized: i asked a senior he was like half sem only
-  BLEU Score: 1.0000
-  Edit Distance: 1
+  Normalized: i asked a senior he was like half semester only
+  BLEU Score: 0.7825
+  Edit Distance: 6
 
 Sentence 13:
   Original: 1 class and 1 lab
@@ -83,9 +83,9 @@ Sentence 13:
 
 Sentence 14:
   Original: Haan once a week full sem is half sem
-  Normalized: haan once a week full sem is half sem
-  BLEU Score: 1.0000
-  Edit Distance: 1
+  Normalized: haan once a week full semester is half semester
+  BLEU Score: 0.5133
+  Edit Distance: 11
 
 Sentence 15:
   Original: Like ve
@@ -107,9 +107,9 @@ Sentence 17:
 
 Sentence 18:
   Original: Last year it was prolly that's why
-  Normalized: last year it was prolly that is why
-  BLEU Score: 0.7071
-  Edit Distance: 3
+  Normalized: last year it was prolly that 's why
+  BLEU Score: 1.0000
+  Edit Distance: 2
 
 Sentence 19:
   Original: timetable for csx(both A and B)
@@ -119,13 +119,13 @@ Sentence 19:
 
 Sentence 20:
   Original: lol lmao ts pmo
-  Normalized: laugh out loud lmao ts pmo
-  BLEU Score: 0.2021
-  Edit Distance: 11
+  Normalized: laugh out loud lmao this shit pissing me off
+  BLEU Score: 0.0240
+  Edit Distance: 29
 
 Sentence 21:
   Original: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
-  Normalized: fuck you cocky as no bitch zero hairline smelly as chimp of a human
-  BLEU Score: 0.3365
-  Edit Distance: 4
+  Normalized: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
+  BLEU Score: 1.0000
+  Edit Distance: 0
 

@@ -19,10 +19,10 @@ half	EN
 ?	EN
 ?	EN
 
-Sentence [3]: full sem course
+Sentence [3]: full semester course
 Word	Language
 full	EN
-sem	EN
+semester	EN
 course	EN
 
 Sentence [4]: oh right
@@ -40,10 +40,10 @@ Sentence [6]: yes
 Word	Language
 yes	EN
 
-Sentence [7]: full sem once a week
+Sentence [7]: full semester once a week
 Word	Language
 full	EN
-sem	EN
+semester	EN
 once	EN
 a	EN
 week	EN
@@ -54,22 +54,22 @@ ayein	HI
 ?	EN
 ?	EN
 
-Sentence [9]: full sem ...... and class are once a week
+Sentence [9]: full semester ...... and classes are once a week
 Word	Language
 full	EN
-sem	EN
+semester	EN
 ......	EN
 and	EN
-class	EN
+classes	EN
 are	EN
 once	EN
 a	EN
 week	EN
 
-Sentence [10]: there is lab as well right ??
+Sentence [10]: there 's lab as well right ??
 Word	Language
 there	EN
-is	EN
+'s	EN
 lab	EN
 as	EN
 well	EN
@@ -82,7 +82,7 @@ Word	Language
 lab	EN
 extra	EN
 
-Sentence [12]: i asked a senior he was like half sem only
+Sentence [12]: i asked a senior he was like half semester only
 Word	Language
 i	EN
 asked	EN
@@ -92,7 +92,7 @@ he	HI
 was	EN
 like	EN
 half	EN
-sem	EN
+semester	EN
 only	EN
 
 Sentence [13]: 1 class and 1 lab
@@ -103,17 +103,17 @@ and	EN
 1	EN
 lab	EN
 
-Sentence [14]: haan once a week full sem is half sem
+Sentence [14]: haan once a week full semester is half semester
 Word	Language
 haan	HI
 once	EN
 a	EN
 week	EN
 full	EN
-sem	EN
+semester	EN
 is	EN
 half	EN
-sem	EN
+semester	EN
 
 Sentence [15]: like ve
 Word	Language
@@ -136,7 +136,7 @@ Word	Language
 lite	EN
 anyway	EN
 
-Sentence [18]: last year it was prolly that is why
+Sentence [18]: last year it was prolly that 's why
 Word	Language
 last	EN
 year	EN
@@ -144,7 +144,7 @@ it	EN
 was	EN
 prolly	EN
 that	EN
-is	EN
+'s	EN
 why	EN
 
 Sentence [19]: timetable for csx (( both a and b ))
@@ -161,27 +161,30 @@ b	EN
 )	EN
 )	EN
 
-Sentence [20]: laugh out loud lmao ts pmo
+Sentence [20]: laugh out loud lmao this shit pissing me off
 Word	Language
 laugh	EN
 out	EN
 loud	HI
 lmao	HI
-ts	EN
-pmo	EN
+this	EN
+shit	EN
+pissing	HI
+me	HI
+off	EN
 
-Sentence [21]: fuck you cocky as no bitch zero hairline smelly as chimp of a human
+Sentence [21]: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
 Word	Language
 fuck	EN
 you	EN
 cocky	EN
-as	EN
+ass	EN
 no	EN
-bitch	EN
+bitches	EN
 zero	EN
 hairline	EN
 smelly	EN
-as	EN
+ass	EN
 chimp	EN
 of	EN
 a	EN
