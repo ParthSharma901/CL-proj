@@ -14,6 +14,7 @@ import seaborn as sns
 import json
 from textblob import TextBlob
 import warnings
+import emoji
 
 warnings.filterwarnings('ignore')
 
@@ -106,6 +107,39 @@ class HinglishSentimentAnalyzer:
             ':|': 0, ':-|': 0, ':*': 1.0, ':-*': 1.0, '<3': 1.2
         }
 
+        # Dictionary of emojis and their sentiment weights
+        self.emoji_sentiment = {
+            # Positive emojis
+            '😊': 1.0,  # Smiling face with smiling eyes
+            '😄': 1.2,  # Grinning face with smiling eyes
+            '😁': 1.1,  # Beaming face with smiling eyes
+            '😍': 1.5,  # Smiling face with heart-eyes
+            '🥰': 1.4,  # Smiling face with hearts
+            '👍': 0.8,  # Thumbs up
+            '❤️': 1.3,  # Red heart
+            '🎉': 1.0,  # Party popper
+            '✨': 0.7,  # Sparkles
+            '🙏': 0.9,  # Folded hands (thank you/please)
+            '🤗': 1.0,  # Hugging face
+
+            # Negative emojis
+            '😢': -1.0,  # Crying face
+            '😭': -1.3,  # Loudly crying face
+            '😞': -0.8,  # Disappointed face
+            '😔': -0.7,  # Pensive face
+            '😡': -1.4,  # Pouting face (angry)
+            '👎': -0.8,  # Thumbs down
+            '😠': -1.2,  # Angry face
+            '😒': -0.9,  # Unamused face
+            '😩': -1.1,  # Weary face
+            '😫': -1.2,  # Tired face
+            '🙄': -0.6,  # Face with rolling eyes
+
+            # Neutral/ambiguous emojis
+            '😐': 0.0,  # Neutral face
+            '🤔': -0.1  # Thinking face (slightly negative)
+        }
+
         # Dictionary of sentiment words (both English and Hindi)
         self.sentiment_dict = {
             # English positive words
@@ -168,6 +202,21 @@ class HinglishSentimentAnalyzer:
 
         # Neutral threshold for reclassification
         self.neutral_threshold = 0.2
+
+    def detect_emojis(self, text):
+        """
+        Detect emojis in text and return their sentiment scores
+        """
+        emoji_scores = []
+
+        # Extract all emojis from the text
+        emojis_in_text = [c for c in text if c in self.emoji_sentiment]
+
+        # Add sentiment scores for each emoji found
+        for e in emojis_in_text:
+            emoji_scores.append(self.emoji_sentiment.get(e, 0))
+
+        return emoji_scores
 
     def preprocess(self, text):
         """
@@ -253,13 +302,19 @@ class HinglishSentimentAnalyzer:
     def analyze_sentiment(self, text):
         """
         Analyze sentiment of mixed English-Devanagari text using lexicon-based approach
-        with WordNet reclassification for neutral texts
+        with WordNet reclassification for neutral texts, now also accounting for emojis
         """
         # Preprocess text and get tokens
         processed_text, tokens = self.preprocess(text)
 
         # Initialize sentiment score
         lexicon_score = 0
+
+        # Check for emojis and add their sentiment weight
+        emoji_scores = self.detect_emojis(text)
+        if emoji_scores:
+            emoji_sentiment = sum(emoji_scores)
+            lexicon_score += emoji_sentiment
 
         # Check for emoticons in original text
         for emoticon, score in self.emoticons.items():
@@ -278,11 +333,20 @@ class HinglishSentimentAnalyzer:
 
         # Calculate average score from lexicon and VADER
         if len(tokens) > 0:
-            divisor = max(1, min(len(tokens) / 3, 5))  # Normalize for text length
+            # Adjust divisor based on emoji presence - emojis have stronger impact
+            emoji_count = len(emoji_scores)
+            word_count = len(tokens)
+
+            # Emojis are weighted more heavily in shorter texts
+            divisor = max(1, min((word_count - emoji_count * 0.5) / 3, 5))
             lexicon_score = lexicon_score / divisor
 
-        # Combine lexicon score with VADER score
-        base_score = (lexicon_score * 0.7) + (vader_compound * 0.3)
+        # Combine lexicon score with VADER score, giving more weight to lexicon if emojis present
+        if emoji_scores:
+            base_score = (lexicon_score * 0.8) + (vader_compound * 0.2)
+        else:
+            base_score = (lexicon_score * 0.7) + (vader_compound * 0.3)
+
         base_score = max(min(base_score, 1), -1)  # Clamp to [-1, 1]
 
         # Check if score is near neutral and needs reclassification
@@ -302,7 +366,9 @@ class HinglishSentimentAnalyzer:
         return {
             'score': final_score,
             'category': sentiment_category,
-            'strength': abs(final_score)
+            'strength': abs(final_score),
+            'emojis_found': bool(emoji_scores),
+            'emoji_count': len(emoji_scores)
         }
 
     def analyze_multiple(self, sentences):
@@ -314,7 +380,9 @@ class HinglishSentimentAnalyzer:
                 'text': sentence,
                 'sentiment_score': sentiment_result['score'],
                 'sentiment_category': sentiment_result['category'],
-                'sentiment_strength': sentiment_result['strength']
+                'sentiment_strength': sentiment_result['strength'],
+                'emojis_found': sentiment_result['emojis_found'],
+                'emoji_count': sentiment_result['emoji_count']
             })
 
         return results
@@ -328,6 +396,7 @@ class HinglishSentimentAnalyzer:
         texts = [r['text'][:30] + '...' if len(r['text']) > 30 else r['text'] for r in results]
         sentiment_scores = [r['sentiment_score'] for r in results]
         categories = [r['sentiment_category'] for r in results]
+        emoji_counts = [r['emoji_count'] for r in results]
 
         # Create figure and axes
         fig, ax = plt.subplots(figsize=(10, max(6, len(texts) * 0.5)))
@@ -355,7 +424,7 @@ class HinglishSentimentAnalyzer:
         ax.set_yticks(range(len(texts)))
         ax.set_yticklabels(texts)
         ax.set_xlabel('Sentiment Score: Negative (-1) to Neutral (0) to Positive (+1)', fontsize=12)
-        ax.set_title('Hinglish-Devanagari Sentiment Analysis', fontsize=14)
+        ax.set_title('Hinglish-Devanagari Sentiment Analysis with Emoji Support', fontsize=14)
 
         # Set x-axis limits
         ax.set_xlim(-1.1, 1.1)
@@ -368,10 +437,14 @@ class HinglishSentimentAnalyzer:
             score = sentiment_scores[i]
             label_position = 0.05 if score < 0 else -0.05
             alignment = 'left' if score < 0 else 'right'
+
+            # Add emoji indicator if present
+            emoji_indicator = f" (🔍{emoji_counts[i]})" if emoji_counts[i] > 0 else ""
+
             ax.text(
                 score + label_position,
                 bar.get_y() + bar.get_height() / 2,
-                f"{score:.2f} ({categories[i]})",
+                f"{score:.2f} ({categories[i]}){emoji_indicator}",
                 ha=alignment,
                 va='center',
                 color='black',
@@ -383,9 +456,10 @@ class HinglishSentimentAnalyzer:
         legend_handles = [
             plt.Rectangle((0, 0), 1, 1, color=colors['Positive']),
             plt.Rectangle((0, 0), 1, 1, color=colors['Neutral']),
-            plt.Rectangle((0, 0), 1, 1, color=colors['Negative'])
+            plt.Rectangle((0, 0), 1, 1, color=colors['Negative']),
+            plt.Text(0, 0, "🔍", fontsize=10)  # Emoji indicator
         ]
-        ax.legend(legend_handles, ['Positive', 'Neutral', 'Negative'],
+        ax.legend(legend_handles, ['Positive', 'Neutral', 'Negative', 'Emojis Found'],
                   loc='lower right', frameon=True)
 
         plt.tight_layout()
@@ -436,11 +510,11 @@ def read_sentences_from_file(input_file):
         print(f"Error: Input file {input_file} not found!")
         # Use default sentences if file not found
         return [
-            "मेरा din bahut अच्छा था",
-            "kya बकवास hai yeh",
-            "mujhe yeh joke bahut फनी laga",
-            "ye exam bahut मुश्किल hai",
-            "aaj main bahut खुश hu because मेरा birthday hai"
+            "मेरा din bahut अच्छा था 😊",
+            "kya बकवास hai yeh 😡",
+            "mujhe yeh joke bahut फनी laga 😂",
+            "ye exam bahut मुश्किल hai 😩",
+            "aaj main bahut खुश hu because मेरा birthday hai 🎉🎂"
         ]
 
     with open(input_file, 'r', encoding='utf-8') as file:
@@ -452,14 +526,19 @@ def read_sentences_from_file(input_file):
 def write_results_to_file(results, output_file):
     """Write sentiment analysis results to a text file"""
     with open(output_file, 'w', encoding='utf-8') as file:
-        file.write("Hinglish-Devanagari Sentiment Analysis Results\n")
-        file.write("===========================================\n\n")
+        file.write("Hinglish-Devanagari Sentiment Analysis Results with Emoji Support\n")
+        file.write("==========================================================\n\n")
 
         for i, result in enumerate(results):
             file.write(f"{i + 1}. Text: {result['text']}\n")
             file.write(f"   Sentiment Score: {result['sentiment_score']:.2f}\n")
-            file.write(
-                f"   Category: {result['sentiment_category']} (Strength: {result['sentiment_strength']:.2f})\n\n")
+            file.write(f"   Category: {result['sentiment_category']} (Strength: {result['sentiment_strength']:.2f})\n")
+
+            # Add emoji information if present
+            if result['emojis_found']:
+                file.write(f"   Emojis found: Yes (Count: {result['emoji_count']})\n")
+
+            file.write("\n")
 
 
 def save_results_as_json(results, json_file):
@@ -490,7 +569,7 @@ def main():
     print(f"Found {len(sentences)} sentences to analyze.")
 
     # Analyze sentences
-    print("Analyzing mixed English-Devanagari sentences...")
+    print("Analyzing mixed English-Devanagari sentences (with emoji support)...")
     results = analyzer.analyze_multiple(sentences)
 
     # Write results to output file
@@ -513,11 +592,14 @@ def main():
     neg_count = categories.count('Negative')
     neu_count = categories.count('Neutral')
 
+    emoji_texts = [r for r in results if r['emojis_found']]
+
     print("\nSummary of Results:")
     print(f"Total sentences analyzed: {len(results)}")
     print(f"Positive: {pos_count} ({pos_count / len(results) * 100:.1f}%)")
     print(f"Negative: {neg_count} ({neg_count / len(results) * 100:.1f}%)")
     print(f"Neutral: {neu_count} ({neu_count / len(results) * 100:.1f}%)")
+    print(f"Sentences with emojis: {len(emoji_texts)} ({len(emoji_texts) / len(results) * 100:.1f}%)")
 
 
 if __name__ == "__main__":
