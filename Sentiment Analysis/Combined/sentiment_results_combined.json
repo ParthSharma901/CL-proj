@@ -36,10 +36,10 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "no😂",
-    "sentiment_score": 0.0,
+    "text": "no 😂",
+    "sentiment_score": -0.08879999999999999,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.0,
+    "sentiment_strength": 0.08879999999999999,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Unofficial"
@@ -279,7 +279,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "करने कय वाले हो 😂😂",
+    "text": "करने कय वाले हो 😂 😂",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -306,7 +306,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯🤯🤯🤯",
+    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯 🤯 🤯 🤯",
     "sentiment_score": 0.10804061538461537,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.10804061538461537,
@@ -315,10 +315,10 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "are you still alive🤯",
-    "sentiment_score": -0.03088235294117647,
+    "text": "are you still alive 🤯",
+    "sentiment_score": 0.083316,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.03088235294117647,
+    "sentiment_strength": 0.083316,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Unofficial"
@@ -405,7 +405,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "ay hindi national language feeling prowd indian army😡😡😡",
+    "text": "ay hindi national language feeling prowd indian army 😡 😡 😡",
     "sentiment_score": -1,
     "sentiment_category": "Negative",
     "sentiment_strength": 1,
@@ -513,7 +513,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "😭😭",
+    "text": "😭 😭",
     "sentiment_score": -1,
     "sentiment_category": "Negative",
     "sentiment_strength": 1,
@@ -621,7 +621,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding telugu☠️",
+    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु ☠️",
     "sentiment_score": -0.06965657142857141,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.06965657142857141,
@@ -837,7 +837,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "😱😱😱😱😱😱",
+    "text": "😱 😱 😱 😱 😱 😱",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -910,11 +910,11 @@
   },
   {
     "text": "tomorrow you will realise whom तो trust and whom तो not 🤡",
-    "sentiment_score": -0.21092347826086952,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.21092347826086952,
-    "emojis_found": true,
-    "emoji_count": 1,
+    "sentiment_score": 0.07793866666666667,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.07793866666666667,
+    "emojis_found": false,
+    "emoji_count": 0,
     "dataset": "Official"
   },
   {
@@ -972,7 +972,7 @@
     "dataset": "Official"
   },
   {
-    "text": "helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all sooooonnn⭐⭐⭐ ~the dance crew 💃",
+    "text": "helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all son ⭐ ⭐ ⭐ ~the dance crew 💃",
     "sentiment_score": 0.40337,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.40337,
@@ -981,7 +981,7 @@
     "dataset": "Official"
   },
   {
-    "text": "hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस ☺️☺️",
+    "text": "hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस ☺️ ☺️",
     "sentiment_score": 0.29572,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.29572,
@@ -1053,19 +1053,19 @@
     "dataset": "Official"
   },
   {
-    "text": "also answer the question asked just write student😅",
-    "sentiment_score": 0.018,
+    "text": "also answer the question asked just write student 😅",
+    "sentiment_score": 0.016666666666666666,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.018,
+    "sentiment_strength": 0.016666666666666666,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
   },
   {
-    "text": "send मैन friend req also tq : : > >",
-    "sentiment_score": 0.09676799999999999,
+    "text": "send मैन friend request also tq : : > >",
+    "sentiment_score": 0.087393,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.09676799999999999,
+    "sentiment_strength": 0.087393,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
@@ -1080,10 +1080,10 @@
     "dataset": "Official"
   },
   {
-    "text": "still old😅",
-    "sentiment_score": -0.15,
+    "text": "still old 😅",
+    "sentiment_score": -0.012499999999999999,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.15,
+    "sentiment_strength": 0.012499999999999999,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
@@ -1152,7 +1152,7 @@
     "dataset": "Official"
   },
   {
-    "text": "adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️❤️",
+    "text": "adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️ ❤️",
     "sentiment_score": 0.30635999999999997,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.30635999999999997,
@@ -1170,7 +1170,7 @@
     "dataset": "Official"
   },
   {
-    "text": "for single degree students ! ! do रेिगसतेर : : ) )",
+    "text": ": : // // for single degree students ! ! do रेिगसतेर : : ) )",
     "sentiment_score": -0.0703125,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0703125,
@@ -1261,11 +1261,11 @@
   },
   {
     "text": "and also have fun with दसा 🤡",
-    "sentiment_score": -0.451726153846154,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.451726153846154,
-    "emojis_found": true,
-    "emoji_count": 1,
+    "sentiment_score": 0.042522000000000004,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.042522000000000004,
+    "emojis_found": false,
+    "emoji_count": 0,
     "dataset": "Official"
   },
   {
@@ -1287,7 +1287,7 @@
     "dataset": "Official"
   },
   {
-    "text": "dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance industry .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..",
+    "text": "dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance इनदुसत्रय .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..",
     "sentiment_score": 0.5004,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.5004,
@@ -1368,7 +1368,7 @@
     "dataset": "Official"
   },
   {
-    "text": "random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with 👍/👎 ) )",
+    "text": "random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with 👍 // 👎 ) )",
     "sentiment_score": -0.0196969696969697,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0196969696969697,
@@ -1378,11 +1378,11 @@
   },
   {
     "text": "i think its because bring beer and chips is very फर from obh 🤡",
-    "sentiment_score": -0.26666666666666666,
-    "sentiment_category": "Negative",
-    "sentiment_strength": 0.26666666666666666,
-    "emojis_found": true,
-    "emoji_count": 1,
+    "sentiment_score": 0.005357142857142856,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.005357142857142856,
+    "emojis_found": false,
+    "emoji_count": 0,
     "dataset": "Official"
   },
   {
@@ -1467,7 +1467,7 @@
     "dataset": "Official"
   },
   {
-    "text": "हेय ! ! hope you are doing well .. since i do this everytime , , and i am bored ( ( __plus , , a few people asked__ ) ) , , here is the set of resources for the next semester : : took some time and effort but there you go : : ) ) enjoy ig .. [ [ note ] ] do go through the readme ..",
+    "text": "हेय ! ! hope you are doing well .. since i do this everytime , , and i am bored ( ( __plus , , a few people asked__ ) ) , , here is the set of resources for the next semester : : : : // िगथुबcओमझयx7कसेमेसतेर2रेसोउरcएसिगत took some time and effort but there you go : : ) ) enjoy ig .. [ [ note ] ] do go through the readme ..",
     "sentiment_score": 0.37412,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.37412,
@@ -1638,10 +1638,10 @@
     "dataset": "Official"
   },
   {
-    "text": "curfew still exists please be back into rooms by 1230pm",
-    "sentiment_score": 0.04671733333333333,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.04671733333333333,
+    "text": "curfew still exists please be back into rooms by 12 :3 0pm",
+    "sentiment_score": 0.25673999999999997,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.25673999999999997,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"

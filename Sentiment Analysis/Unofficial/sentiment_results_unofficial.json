@@ -32,10 +32,10 @@
     "emoji_count": 0
   },
   {
-    "text": "no😂",
-    "sentiment_score": 0.0,
+    "text": "no 😂",
+    "sentiment_score": -0.08879999999999999,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.0,
+    "sentiment_strength": 0.08879999999999999,
     "emojis_found": false,
     "emoji_count": 0
   },
@@ -248,7 +248,7 @@
     "emoji_count": 0
   },
   {
-    "text": "करने कय वाले हो 😂😂",
+    "text": "करने कय वाले हो 😂 😂",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -272,7 +272,7 @@
     "emoji_count": 0
   },
   {
-    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯🤯🤯🤯",
+    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯 🤯 🤯 🤯",
     "sentiment_score": 0.10804061538461537,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.10804061538461537,
@@ -280,10 +280,10 @@
     "emoji_count": 0
   },
   {
-    "text": "are you still alive🤯",
-    "sentiment_score": -0.03088235294117647,
+    "text": "are you still alive 🤯",
+    "sentiment_score": 0.083316,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.03088235294117647,
+    "sentiment_strength": 0.083316,
     "emojis_found": false,
     "emoji_count": 0
   },
@@ -360,7 +360,7 @@
     "emoji_count": 0
   },
   {
-    "text": "ay hindi national language feeling prowd indian army😡😡😡",
+    "text": "ay hindi national language feeling prowd indian army 😡 😡 😡",
     "sentiment_score": -1,
     "sentiment_category": "Negative",
     "sentiment_strength": 1,
@@ -456,7 +456,7 @@
     "emoji_count": 0
   },
   {
-    "text": "😭😭",
+    "text": "😭 😭",
     "sentiment_score": -1,
     "sentiment_category": "Negative",
     "sentiment_strength": 1,
@@ -552,7 +552,7 @@
     "emoji_count": 0
   },
   {
-    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding telugu☠️",
+    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु ☠️",
     "sentiment_score": -0.06965657142857141,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.06965657142857141,
@@ -744,7 +744,7 @@
     "emoji_count": 0
   },
   {
-    "text": "😱😱😱😱😱😱",
+    "text": "😱 😱 😱 😱 😱 😱",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,

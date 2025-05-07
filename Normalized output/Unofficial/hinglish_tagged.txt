@@ -70,9 +70,10 @@ just	EN
 kinda	EN
 stupid	EN
 
-Sentence [5]: no😂
+Sentence [5]: no 😂
 Word	Language
-no😂	EM
+no	EN
+😂	EM
 
 Sentence [6]: are wo to must hai
 Word	Language
@@ -384,13 +385,14 @@ policy	EN
 ++	EN
 girish	HI
 
-Sentence [32]: karne kya vaale ho 😂😂
+Sentence [32]: karne kya vaale ho 😂 😂
 Word	Language
 karne	HI
 kya	HI
 vaale	HI
 ho	HI
-😂😂	EM
+😂	EM
+😂	EM
 
 Sentence [33]: demolish the mess
 Word	Language
@@ -412,7 +414,7 @@ takes	EN
 it	EN
 seriously	EN
 
-Sentence [35]: guruji always a pleasure protest nahi karoge ?? !! 🤯🤯🤯🤯
+Sentence [35]: guruji always a pleasure protest nahi karoge ?? !! 🤯 🤯 🤯 🤯
 Word	Language
 guruji	HI
 always	EN
@@ -425,14 +427,18 @@ karoge	HI
 ?	EN
 !	EN
 !	EN
-🤯🤯🤯🤯	EM
+🤯	EM
+🤯	EM
+🤯	EM
+🤯	EM
 
-Sentence [36]: are you still alive🤯
+Sentence [36]: are you still alive 🤯
 Word	Language
 are	EN
 you	EN
 still	EN
-alive🤯	EM
+alive	EN
+🤯	EM
 
 Sentence [37]: mein actual kaam karra
 Word	Language
@@ -513,7 +519,7 @@ danger	HI
 found	EN
 here	EN
 
-Sentence [46]: ay hindi national language feeling prowd indian army😡😡😡
+Sentence [46]: ay hindi national language feeling prowd indian army 😡 😡 😡
 Word	Language
 ay	EN
 hindi	EN
@@ -522,7 +528,10 @@ language	EN
 feeling	EN
 prowd	EN
 indian	EN
-army😡😡😡	EM
+army	EN
+😡	EM
+😡	EM
+😡	EM
 
 Sentence [47]: whatever happened to tamil tiger 😔
 Word	Language
@@ -677,9 +686,10 @@ Sentence [57]: wtf
 Word	Language
 wtf	EN
 
-Sentence [58]: 😭😭
+Sentence [58]: 😭 😭
 Word	Language
-😭😭	EM
+😭	EM
+😭	EM
 
 Sentence [59]: which course is chopella teaching ??
 Word	Language
@@ -772,7 +782,7 @@ Sentence [69]: +1
 Word	Language
 +1	EN
 
-Sentence [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu☠️
+Sentence [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu ☠️
 Word	Language
 we	EN
 telugu	HI
@@ -787,7 +797,8 @@ you	EN
 guys	EN
 start	EN
 understanding	EN
-telugu☠️	EM
+telugu	HI
+☠️	EM
 
 Sentence [71]: bros asking us to ask questions like i have no idea what you said tf do you want main to ask ?? ```` sir when will you start teaching python ''''
 Word	Language
@@ -1022,9 +1033,14 @@ will	EN
 let	EN
 loose	EN
 
-Sentence [94]: 😱😱😱😱😱😱
+Sentence [94]: 😱 😱 😱 😱 😱 😱
 Word	Language
-😱😱😱😱😱😱	EM
+😱	EM
+😱	EM
+😱	EM
+😱	EM
+😱	EM
+😱	EM
 
 Sentence [95]: crazy
 Word	Language

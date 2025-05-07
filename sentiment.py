@@ -11,10 +11,15 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 import os
 import seaborn as sns
+import platform
 import json
 from textblob import TextBlob
 import warnings
 import emoji
+import matplotlib as mpl
+from matplotlib.font_manager import FontProperties
+import unicodedata
+import platform
 
 warnings.filterwarnings('ignore')
 
@@ -99,6 +104,9 @@ class HinglishSentimentAnalyzer:
         # Initialize NLTK's Vader sentiment analyzer
         self.vader = SentimentIntensityAnalyzer()
 
+        # Set up proper fonts for Hindi text and emoji rendering
+        self.setup_fonts()
+
         # Dictionary of emoticons and their sentiments (positive/negative)
         self.emoticons = {
             ':)': 1.0, ':-)': 1.0, ':D': 1.5, ':-D': 1.5, ';)': 0.7, ';-)': 0.7,
@@ -129,7 +137,6 @@ class HinglishSentimentAnalyzer:
             '😔': -0.7,  # Pensive face
             '😡': -1.4,  # Pouting face (angry)
             '👎': -0.8,  # Thumbs down
-            '🤡': -1.5,  # clown face
             '😠': -1.2,  # Angry face
             '😒': -0.9,  # Unamused face
             '😩': -1.1,  # Weary face
@@ -203,6 +210,71 @@ class HinglishSentimentAnalyzer:
 
         # Neutral threshold for reclassification
         self.neutral_threshold = 0.2
+
+    def setup_fonts(self):
+        """Set up font support for Hindi/Devanagari and emojis"""
+        # Determine the best font to use based on operating system
+        self.best_font = self.get_unicode_font()
+
+        # Configure matplotlibrc for better Unicode support
+        plt.rcParams['font.family'] = self.best_font['family']
+
+        # Create a FontProperties object for later use
+        self.hindi_font = FontProperties(family=self.best_font['family'], size=10)
+
+        print(f"Using font: {self.best_font['family']} for Unicode text rendering")
+
+    def get_unicode_font(self):
+        """Find a font that supports both Devanagari and emoji characters"""
+        # Default fallback
+        default_font = {'family': 'DejaVu Sans', 'weight': 'normal'}
+
+        # Platform-specific font recommendations
+        system = platform.system()
+        if system == 'Windows':
+            fonts_to_try = ['Arial Unicode MS', 'Nirmala UI', 'Mangal', 'Arial']
+        elif system == 'Darwin':  # macOS
+            fonts_to_try = ['Apple Color Emoji', 'Arial Unicode MS', 'Noto Sans']
+        else:  # Linux and others
+            fonts_to_try = ['Noto Sans', 'Noto Color Emoji', 'DejaVu Sans', 'FreeSans']
+
+        # Check which fonts are available
+        available_fonts = [f.name for f in mpl.font_manager.fontManager.ttflist]
+
+        # Find the first font that exists in our system
+        for font in fonts_to_try:
+            if any(font.lower() in af.lower() for af in available_fonts):
+                return {'family': font, 'weight': 'normal'}
+
+        # Return default font if none of the preferred fonts are available
+        return default_font
+
+    def truncate_text_properly(self, text, max_length=40):
+        """
+        Properly truncate text, respecting Unicode characters and preserving emojis
+        """
+        if len(text) <= max_length:
+            return text
+
+        # Count characters, not bytes
+        char_count = 0
+        truncated_text = ""
+
+        # Process one character at a time to ensure emoji and Devanagari aren't cut
+        for char in text:
+            truncated_text += char
+            char_count += 1
+
+            if char_count >= max_length - 1:
+                break
+
+        # Add ellipsis to indicate truncation
+        return truncated_text + "…"
+
+    def contains_hindi(self, text):
+        """Check if text contains Hindi/Devanagari characters"""
+        devanagari_range = range(0x0900, 0x097F + 1)  # Devanagari Unicode range
+        return any(ord(char) in devanagari_range for char in text)
 
     def detect_emojis(self, text):
         """
@@ -391,81 +463,138 @@ class HinglishSentimentAnalyzer:
     def plot_sentiment_histogram(self, results, save_path=None):
         """
         Plot sentiment analysis results as a horizontal bar chart
-        with positive/negative/neutral sentiment on x-axis and sentences on y-axis
+        with improved emoji handling but no HTML output
         """
         # Extract data from results
-        texts = [r['text'][:30] + '...' if len(r['text']) > 30 else r['text'] for r in results]
         sentiment_scores = [r['sentiment_score'] for r in results]
         categories = [r['sentiment_category'] for r in results]
         emoji_counts = [r['emoji_count'] for r in results]
 
-        # Create figure and axes
-        fig, ax = plt.subplots(figsize=(10, max(6, len(texts) * 0.5)))
+        # Enhanced text processing to better preserve emojis during truncation
+        processed_texts = []
+        for r in results:
+            text = r['text']
+            if len(text) > 40:
+                # Find emoji positions in text
+                emoji_positions = []
+                for i, char in enumerate(text):
+                    if char in emoji.EMOJI_DATA:
+                        emoji_positions.append((i, char))
 
-        # Create horizontal bar chart with colored bars based on sentiment category
+                # If emojis exist, ensure they're included in truncated text
+                if emoji_positions:
+                    # Basic truncation first
+                    trunc_text = self.truncate_text_properly(text[:35], max_length=35)
+
+                    # Append emojis at the end for visibility if they would be cut off
+                    if any(pos > 35 for pos, _ in emoji_positions):
+                        emoji_chars = ' ' + ''.join([e[1] for e in emoji_positions if e[0] > 35])
+                        processed_texts.append(trunc_text + "…" + emoji_chars)
+                    else:
+                        processed_texts.append(trunc_text)
+                else:
+                    # No emojis, use standard truncation
+                    processed_texts.append(self.truncate_text_properly(text, max_length=40))
+            else:
+                processed_texts.append(text)
+
+        # Calculate appropriate figure height
+        contains_hindi_text = any(self.contains_hindi(text) for text in processed_texts)
+        row_height = 0.6 if contains_hindi_text else 0.5
+        fig_height = max(6, len(processed_texts) * row_height)
+
+        # Create figure with higher DPI for better emoji rendering
+        fig, ax = plt.subplots(figsize=(12, fig_height), dpi=300)
+
+        # Create horizontal bar chart
         colors = {
-            'Positive': '#4CAF50',  # Green
-            'Negative': '#F44336',  # Red
-            'Neutral': '#9E9E9E'  # Gray
+            'Positive': '#4CAF50',
+            'Negative': '#F44336',
+            'Neutral': '#9E9E9E'
         }
-
         bar_colors = [colors[category] for category in categories]
-
-        bars = ax.barh(
-            range(len(texts)),
-            sentiment_scores,
-            height=0.7,
-            color=bar_colors
-        )
+        bars = ax.barh(range(len(processed_texts)), sentiment_scores, height=0.7, color=bar_colors)
 
         # Add a vertical line at x=0
         ax.axvline(x=0, color='black', linestyle='-', alpha=0.5)
 
-        # Add labels and title
-        ax.set_yticks(range(len(texts)))
-        ax.set_yticklabels(texts)
+        # Set up the y-axis with text labels
+        ax.set_yticks(range(len(processed_texts)))
+
+        # Try to enhance emoji font support while keeping Hindi support
+        try:
+            system = platform.system()
+            if system == 'Darwin':  # macOS
+                emoji_hindi_font = self.hindi_font.copy()
+                emoji_hindi_font.set_family(['Apple Color Emoji', *self.hindi_font.get_family()])
+            elif system == 'Windows':
+                emoji_hindi_font = self.hindi_font.copy()
+                emoji_hindi_font.set_family(['Segoe UI Emoji', *self.hindi_font.get_family()])
+            else:  # Linux
+                emoji_hindi_font = self.hindi_font.copy()
+                emoji_hindi_font.set_family(['Noto Color Emoji', *self.hindi_font.get_family()])
+
+            labels = ax.set_yticklabels(processed_texts, fontproperties=emoji_hindi_font)
+        except:
+            # Fall back to standard hindi_font
+            labels = ax.set_yticklabels(processed_texts, fontproperties=self.hindi_font)
+
+        # Adjust font size for Hindi text
+        if contains_hindi_text:
+            for label in labels:
+                label.set_fontsize(9)
+
+        # Set x-axis label and title
         ax.set_xlabel('Sentiment Score: Negative (-1) to Neutral (0) to Positive (+1)', fontsize=12)
-        ax.set_title('Hinglish-Devanagari Sentiment Analysis with Emoji Support', fontsize=14)
-
-        # Set x-axis limits
+        ax.set_title('Hinglish-Devanagari Sentiment Analysis with Emoji Support',
+                     fontsize=14, fontproperties=self.hindi_font)
         ax.set_xlim(-1.1, 1.1)
-
-        # Add grid lines
         ax.grid(True, axis='x', linestyle='--', alpha=0.6)
 
         # Add value labels on bars
         for i, bar in enumerate(bars):
             score = sentiment_scores[i]
-            label_position = 0.05 if score < 0 else -0.05
-            alignment = 'left' if score < 0 else 'right'
 
-            # Add emoji indicator if present
-            emoji_indicator = f" (🔍{emoji_counts[i]})" if emoji_counts[i] > 0 else ""
+            # Position logic
+            if score < 0:
+                label_position = score + 0.05
+                alignment = 'left'
+                txt_color = 'white' if score < -0.3 else 'black'
+            else:
+                label_position = score - 0.05
+                alignment = 'right'
+                txt_color = 'white' if score > 0.3 else 'black'
+
+            # Add emoji indicator
+            emoji_indicator = f" 🔍{emoji_counts[i]}" if emoji_counts[i] > 0 else ""
 
             ax.text(
-                score + label_position,
+                label_position,
                 bar.get_y() + bar.get_height() / 2,
                 f"{score:.2f} ({categories[i]}){emoji_indicator}",
                 ha=alignment,
                 va='center',
-                color='black',
+                color=txt_color,
                 fontweight='bold',
-                fontsize=9
+                fontsize=9,
+                fontproperties=self.hindi_font
             )
 
-        # Add legend for sentiment categories
+        # Add legend
         legend_handles = [
             plt.Rectangle((0, 0), 1, 1, color=colors['Positive']),
             plt.Rectangle((0, 0), 1, 1, color=colors['Neutral']),
             plt.Rectangle((0, 0), 1, 1, color=colors['Negative']),
-            plt.Text(0, 0, "🔍", fontsize=10)  # Emoji indicator
+            plt.Text(0, 0, "🔍", fontsize=10)
         ]
         ax.legend(legend_handles, ['Positive', 'Neutral', 'Negative', 'Emojis Found'],
-                  loc='lower right', frameon=True)
+                  loc='lower right', frameon=True, prop=self.hindi_font)
 
+        # Layout adjustments
         plt.tight_layout()
+        fig.subplots_adjust(left=0.2)
 
-        # Save if path is provided
+        # Save with high quality
         if save_path:
             plt.savefig(save_path, dpi=300, bbox_inches='tight')
             print(f"Plot saved to {save_path}")

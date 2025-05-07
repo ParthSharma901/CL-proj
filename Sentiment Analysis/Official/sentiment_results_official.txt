@@ -6,9 +6,8 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Category: Neutral (Strength: 0.01)
 
 2. Text: tomorrow you will realise whom तो trust and whom तो not 🤡
-   Sentiment Score: -0.21
-   Category: Negative (Strength: 0.21)
-   Emojis found: Yes (Count: 1)
+   Sentiment Score: 0.08
+   Category: Neutral (Strength: 0.08)
 
 3. Text: anyways , , happy होिल guys ! ! have fun
    Sentiment Score: 0.46
@@ -34,11 +33,11 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.01
    Category: Neutral (Strength: 0.01)
 
-9. Text: helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all sooooonnn⭐⭐⭐ ~the dance crew 💃
+9. Text: helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all son ⭐ ⭐ ⭐ ~the dance crew 💃
    Sentiment Score: 0.40
    Category: Positive (Strength: 0.40)
 
-10. Text: hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस ☺️☺️
+10. Text: hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस ☺️ ☺️
    Sentiment Score: 0.30
    Category: Positive (Strength: 0.30)
 
@@ -70,21 +69,21 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.02
    Category: Neutral (Strength: 0.02)
 
-18. Text: also answer the question asked just write student😅
+18. Text: also answer the question asked just write student 😅
    Sentiment Score: 0.02
    Category: Neutral (Strength: 0.02)
 
-19. Text: send मैन friend req also tq : : > >
-   Sentiment Score: 0.10
-   Category: Neutral (Strength: 0.10)
+19. Text: send मैन friend request also tq : : > >
+   Sentiment Score: 0.09
+   Category: Neutral (Strength: 0.09)
 
 20. Text: basically you will be asked ques like purpose of joining this गरप
    Sentiment Score: 0.06
    Category: Neutral (Strength: 0.06)
 
-21. Text: still old😅
-   Sentiment Score: -0.15
-   Category: Neutral (Strength: 0.15)
+21. Text: still old 😅
+   Sentiment Score: -0.01
+   Category: Neutral (Strength: 0.01)
 
 22. Text: you want तो be old that s your prerogative
    Sentiment Score: 0.06
@@ -114,7 +113,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.08
    Category: Neutral (Strength: 0.08)
 
-29. Text: adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️❤️
+29. Text: adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️ ❤️
    Sentiment Score: 0.31
    Category: Positive (Strength: 0.31)
 
@@ -122,7 +121,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-31. Text: for single degree students ! ! do रेिगसतेर : : ) )
+31. Text: : : // // for single degree students ! ! do रेिगसतेर : : ) )
    Sentiment Score: -0.07
    Category: Neutral (Strength: 0.07)
 
@@ -163,9 +162,8 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Category: Neutral (Strength: 0.03)
 
 41. Text: and also have fun with दसा 🤡
-   Sentiment Score: -0.45
-   Category: Negative (Strength: 0.45)
-   Emojis found: Yes (Count: 1)
+   Sentiment Score: 0.04
+   Category: Neutral (Strength: 0.04)
 
 42. Text: िनकिक अकक getting real
    Sentiment Score: 0.01
@@ -176,7 +174,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Category: Positive (Strength: 0.33)
    Emojis found: Yes (Count: 1)
 
-44. Text: dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance industry .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..
+44. Text: dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance इनदुसत्रय .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..
    Sentiment Score: 0.50
    Category: Positive (Strength: 0.50)
 
@@ -213,15 +211,14 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.02
    Category: Neutral (Strength: 0.02)
 
-53. Text: random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with 👍/👎 ) )
+53. Text: random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with 👍 // 👎 ) )
    Sentiment Score: -0.02
    Category: Neutral (Strength: 0.02)
    Emojis found: Yes (Count: 2)
 
 54. Text: i think its because bring beer and chips is very फर from obh 🤡
-   Sentiment Score: -0.27
-   Category: Negative (Strength: 0.27)
-   Emojis found: Yes (Count: 1)
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
 
 55. Text: पेरहापस ..
    Sentiment Score: 0.00
@@ -259,7 +256,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.45
    Category: Positive (Strength: 0.45)
 
-64. Text: हेय ! ! hope you are doing well .. since i do this everytime , , and i am bored ( ( __plus , , a few people asked__ ) ) , , here is the set of resources for the next semester : : took some time and effort but there you go : : ) ) enjoy ig .. [ [ note ] ] do go through the readme ..
+64. Text: हेय ! ! hope you are doing well .. since i do this everytime , , and i am bored ( ( __plus , , a few people asked__ ) ) , , here is the set of resources for the next semester : : : : // िगथुबcओमझयx7कसेमेसतेर2रेसोउरcएसिगत took some time and effort but there you go : : ) ) enjoy ig .. [ [ note ] ] do go through the readme ..
    Sentiment Score: 0.37
    Category: Positive (Strength: 0.37)
 
@@ -336,9 +333,9 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.09
    Category: Neutral (Strength: 0.09)
 
-83. Text: curfew still exists please be back into rooms by 1230pm
-   Sentiment Score: 0.05
-   Category: Neutral (Strength: 0.05)
+83. Text: curfew still exists please be back into rooms by 12 :3 0pm
+   Sentiment Score: 0.26
+   Category: Positive (Strength: 0.26)
 
 84. Text: if you guys need any help or wan न talk or literally anything we are here direct message करलो
    Sentiment Score: 0.05

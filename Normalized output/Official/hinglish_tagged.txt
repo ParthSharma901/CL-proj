@@ -85,7 +85,7 @@ food	EN
 is	EN
 here	EN
 
-Sentence [9]: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all sooooonnn⭐⭐⭐ ~the dance crew 💃
+Sentence [9]: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all son ⭐ ⭐ ⭐ ~the dance crew 💃
 Word	Language
 helloo	EN
 all	EN
@@ -127,13 +127,16 @@ to	HI
 see	HI
 you	EN
 all	EN
-sooooonnn⭐⭐⭐	EM
+son	EN
+⭐	EM
+⭐	EM
+⭐	EM
 ~the	EN
 dance	EN
 crew	EN
 💃	EM
 
-Sentence [10]: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates ☺️☺️
+Sentence [10]: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates ☺️ ☺️
 Word	Language
 hey	EN
 guys	EN
@@ -166,7 +169,8 @@ team	EN
 and	EN
 your	EN
 batchmates	HI
-☺️☺️	EM
+☺️	EM
+☺️	EM
 
 Sentence [11]: hi all ,, today 's football finals are starting right now .. please do come and support
 Word	Language
@@ -333,7 +337,7 @@ old	EN
 generation	EN
 kids	EN
 
-Sentence [18]: also answer the question asked just write student😅
+Sentence [18]: also answer the question asked just write student 😅
 Word	Language
 also	EN
 answer	EN
@@ -342,14 +346,15 @@ question	EN
 asked	EN
 just	EN
 write	EN
-student😅	EM
+student	EN
+😅	EM
 
-Sentence [19]: send main friend req also tq :: >>
+Sentence [19]: send main friend request also tq :: >>
 Word	Language
 send	EN
 main	HI
 friend	EN
-req	EN
+request	EN
 also	EN
 tq	EN
 :	EN
@@ -372,10 +377,11 @@ joining	EN
 this	EN
 grp	HI
 
-Sentence [21]: still old😅
+Sentence [21]: still old 😅
 Word	Language
 still	EN
-old😅	EM
+old	EN
+😅	EM
 
 Sentence [22]: you want to be old that  s your prerogative
 Word	Language
@@ -565,7 +571,7 @@ projects	EN
 !	EN
 !	EN
 
-Sentence [29]: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️❤️
+Sentence [29]: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️ ❤️
 Word	Language
 adding	EN
 to	HI
@@ -672,7 +678,8 @@ please	EN
 be	EN
 careful	EN
 anyway	EN
-❤️❤️	EM
+❤️	EM
+❤️	EM
 
 Sentence [30]: reminder !! deadline 6pm ..
 Word	Language
@@ -683,8 +690,12 @@ deadline	EN
 6pm	EN
 ..	EN
 
-Sentence [31]: for single degree students !! do register :: ))
+Sentence [31]: :: // // for single degree students !! do register :: ))
 Word	Language
+:	EN
+:	EN
+//	EN
+//	EN
 for	EN
 single	EN
 degree	EN
@@ -904,7 +915,7 @@ culture	EN
 of	EN
 the	EN
 finance	EN
-industry	EN
+industry	HI
 ..	EN
 your	EN
 attendance	EN
@@ -1303,7 +1314,7 @@ the	EN
 road	EN
 ..	EN
 
-Sentence [53]: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with 👍/👎 ))
+Sentence [53]: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with 👍 // 👎 ))
 Word	Language
 random	EN
 question	EN
@@ -1337,7 +1348,9 @@ here	EN
 (	EN
 react	EN
 with	EN
-👍/👎	EM
+👍	EM
+//	EN
+👎	EM
 )	EN
 )	EN
 
@@ -1460,7 +1473,7 @@ Word	Language
 ok	EN
 cutie	EN
 
-Sentence [64]: heya !! hope you are doing well .. since i do this everytime ,, and i am bored (( __plus ,, a few people asked__ )) ,, here is the set of resources for the next semester :: took some time and effort but there you go :: )) enjoy ig .. [[ note ]] do go through the readme ..
+Sentence [64]: heya !! hope you are doing well .. since i do this everytime ,, and i am bored (( __plus ,, a few people asked__ )) ,, here is the set of resources for the next semester :: :: // githubcomzyx7ksemester2resourcesgit took some time and effort but there you go :: )) enjoy ig .. [[ note ]] do go through the readme ..
 Word	Language
 heya	HI
 !	EN
@@ -1507,6 +1520,10 @@ next	EN
 semester	EN
 :	EN
 :	EN
+:	EN
+:	EN
+//	EN
+githubcomzyx7ksemester2resourcesgit	HI
 took	EN
 some	EN
 time	EN
@@ -1959,7 +1976,7 @@ wait	EN
 for	EN
 tomorrow	EN
 
-Sentence [83]: curfew still exists please be back into rooms by 1230pm
+Sentence [83]: curfew still exists please be back into rooms by 12 :3 0pm
 Word	Language
 curfew	EN
 still	EN
@@ -1970,7 +1987,9 @@ back	EN
 into	EN
 rooms	EN
 by	EN
-1230pm	EN
+12	EN
+:3	EM
+0pm	EN
 
 Sentence [84]: if you guys need any help or wan na talk or literally anything we are here direct message karlo
 Word	Language

@@ -17,9 +17,9 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.25
    Category: Negative (Strength: 0.25)
 
-5. Text: no😂
-   Sentiment Score: 0.00
-   Category: Neutral (Strength: 0.00)
+5. Text: no 😂
+   Sentiment Score: -0.09
+   Category: Neutral (Strength: 0.09)
 
 6. Text: are वओ तो must है
    Sentiment Score: 0.01
@@ -125,7 +125,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.22
    Category: Negative (Strength: 0.22)
 
-32. Text: करने कय वाले हो 😂😂
+32. Text: करने कय वाले हो 😂 😂
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
@@ -137,13 +137,13 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.07
    Category: Neutral (Strength: 0.07)
 
-35. Text: गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯🤯🤯🤯
+35. Text: गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯 🤯 🤯 🤯
    Sentiment Score: 0.11
    Category: Neutral (Strength: 0.11)
 
-36. Text: are you still alive🤯
-   Sentiment Score: -0.03
-   Category: Neutral (Strength: 0.03)
+36. Text: are you still alive 🤯
+   Sentiment Score: 0.08
+   Category: Neutral (Strength: 0.08)
 
 37. Text: मेइन actual काम कररा
    Sentiment Score: 0.04
@@ -181,7 +181,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-46. Text: ay hindi national language feeling prowd indian army😡😡😡
+46. Text: ay hindi national language feeling prowd indian army 😡 😡 😡
    Sentiment Score: -1.00
    Category: Negative (Strength: 1.00)
    Emojis found: Yes (Count: 3)
@@ -231,7 +231,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.18
    Category: Neutral (Strength: 0.18)
 
-58. Text: 😭😭
+58. Text: 😭 😭
    Sentiment Score: -1.00
    Category: Negative (Strength: 1.00)
    Emojis found: Yes (Count: 2)
@@ -280,7 +280,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-70. Text: we तेलुगु ppl are गोन न lose privacy if you guys start understanding telugu☠️
+70. Text: we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु ☠️
    Sentiment Score: -0.07
    Category: Neutral (Strength: 0.07)
 
@@ -376,7 +376,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.13
    Category: Neutral (Strength: 0.13)
 
-94. Text: 😱😱😱😱😱😱
+94. Text: 😱 😱 😱 😱 😱 😱
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 

@@ -20,6 +20,7 @@ import os
 import nltk
 import string
 import emoji
+import unicodedata
 
 # Download required NLTK data
 try:
@@ -61,7 +62,7 @@ class HinglishWordClassifier:
             "yep": "yes", "nope": "no", "wassup": "what's up", "info": "information", "pic": "picture",
             "pics": "pictures", "convo": "conversation", "coz": "because", "bcz": "because", "2day": "today",
             "2moro": "tomorrow", "4get": "forget", "c u": "see you", "tel": "tell", "tol": "told",
-            "lmao": "laughing my ass off",
+            "lmao": "laughing my ass off", "req": "request",
 
             "aaf": "always and forever", "aab": "average at best", "aak": "alive and kicking",
             "aamof": "as a matter of fact", "aamoi": "as a matter of interest", "aap": "always a pleasure",
@@ -131,14 +132,13 @@ class HinglishWordClassifier:
         }
 
         # Set of known English words for correcting repeated characters
-        # This will be populated in load_english_dictionary
         self.english_words = set()
         self.load_english_dictionary()
 
         # Initialize the Hindi to Devanagari transliteration mapping
         self.init_transliteration_mapping()
 
-        # Common ASCII emoticons
+        # Common ASCII emoticons for detection
         self.ascii_emoticons = {
             ':)': True, ':(': True, ':D': True, ':P': True, ':p': True,
             ';)': True, ':-D': True, ':-|': True, ':o': True, ':O': True,
@@ -248,21 +248,46 @@ class HinglishWordClassifier:
         self.transliteration_cache = {}
 
     def is_emoji(self, text):
-        """Check if the text is an emoji or emoticon."""
-        # Check if it's a Unicode emoji
+        """Check if a text is an emoji or emoticon"""
+        # Check for Unicode emoji
         if emoji.emoji_count(text) > 0:
             return True
 
-        # Check if it's an ASCII emoticon
+        # Check for ASCII emoticon
         if text in self.ascii_emoticons:
             return True
 
-        # Check for common emoticons that might not be in the predefined list
-        emoticon_pattern = r'[:;=][\'"]?[-~]?[DdPpOo\)\(\]\[\}\{\|\\/]'
+        # Check for other common emoticon patterns
+        emoticon_pattern = r'^[:;=][\-]?[)(/\\DdPp]$|^[)(/\\DdPp][\-]?[:;=]$'
         if re.match(emoticon_pattern, text):
             return True
 
         return False
+
+    def preprocess_text_with_emojis(self, text):
+        """
+        Preprocess text to separate emojis from words, adding spaces around them
+        """
+
+        # Function to add spaces around emoji
+        def add_spaces_around_emoji(match):
+            return f" {match.group(0)} "
+
+        # Find all emoji characters and add spaces around them
+        result = text
+
+        # Replace Unicode emojis with spaces around them
+        result = emoji.replace_emoji(result, lambda e, _: f" {e} ")
+
+        # Replace ASCII emoticons with spaces around them
+        for emoticon in self.ascii_emoticons:
+            if emoticon in result:
+                result = result.replace(emoticon, f" {emoticon} ")
+
+        # Fix any double spaces that might have been created
+        result = re.sub(r'\s+', ' ', result).strip()
+
+        return result
 
     def load_english_dictionary(self):
         """Load English dictionary from NLTK or create a minimal one."""
@@ -277,7 +302,7 @@ class HinglishWordClassifier:
                 "so", "awesome", "yummy", "great", "cool", "good", "nice", "love", "hello", "thank",
                 "morning", "night", "today", "tomorrow", "please", "thanks", "welcome", "happy",
                 "sad", "angry", "amazing", "wonderful", "beautiful", "pretty", "ugly", "smart",
-                "dumb", "stupid", "crazy", "insane", "mad", "glad", "sorry", "excuse", "pardon"
+                "dumb", "stupid", "crazy", "insane", "mad", "glad", "sorry", "excuse", "pardon", "he","a"
             ]
             self.english_words = set(common_words)
             print(f"Using minimal dictionary with {len(self.english_words)} words.")
@@ -285,6 +310,7 @@ class HinglishWordClassifier:
     def normalize_repeated_chars(self, word):
         """
         Normalize a word with repeated characters by checking against a dictionary.
+        Skip normalization for emojis.
 
         Args:
             word (str): Word to normalize
@@ -292,12 +318,12 @@ class HinglishWordClassifier:
         Returns:
             str: Normalized word
         """
-        # Skip short words or words with no repetition
-        if len(word) <= 2:
+        # Skip emoji normalization
+        if self.is_emoji(word):
             return word
 
-        # Skip emoji/emoticons from normalization
-        if self.is_emoji(word):
+        # Skip short words or words with no repetition
+        if len(word) <= 2:
             return word
 
         # Check if the word has repeated characters (3 or more of the same letter)
@@ -320,7 +346,7 @@ class HinglishWordClassifier:
     def transliterate_to_devanagari(self, text):
         """
         Transliterate Hindi/Hinglish text in Latin script to Devanagari script
-        using character-by-character mapping.
+        using character-by-character mapping. Skip transliteration for emojis.
 
         Args:
             text (str): Hindi/Hinglish text in Latin script
@@ -328,7 +354,7 @@ class HinglishWordClassifier:
         Returns:
             str: Text in Devanagari script
         """
-        # Skip emoji/emoticons from transliteration
+        # Skip emoji transliteration
         if self.is_emoji(text):
             return text
 
@@ -385,6 +411,17 @@ class HinglishWordClassifier:
                     word, lang = parts
                     data.append((word, lang))
 
+        # Add emoji training examples with "EM" label
+        emoji_examples = [
+            ("😊", "EM"), ("😂", "EM"), ("🤔", "EM"), ("❤️", "EM"),
+            ("👍", "EM"), ("🔥", "EM"), ("😎", "EM"), ("😢", "EM"),
+            (":)", "EM"), (":(", "EM"), (":D", "EM"), (";)", "EM"),
+            (":-)", "EM"), ("XD", "EM"), (":P", "EM"), ("<3", "EM")
+        ]
+
+        for item in emoji_examples:
+            data.append(item)
+
         return pd.DataFrame(data, columns=['word', 'language'])
 
     def extract_features(self, X, fit=False):
@@ -412,9 +449,9 @@ class HinglishWordClassifier:
     def lemmatize_for_classification(self, word):
         """
         Apply lemmatization for classification purposes only.
-        This doesn't affect the final normalized text output.
-        Skip lemmatization for emoji/emoticons.
+        Skip for emojis.
         """
+        # Skip lemmatization for emojis
         if self.is_emoji(word):
             return word
 
@@ -427,16 +464,6 @@ class HinglishWordClassifier:
         """Train the model using the data from the specified file."""
         # Load data
         df = self.load_data(data_file)
-
-        # Add emoji/emoticon examples with label "EM"
-        emoji_examples = [
-            ("😊", "EM"), ("😂", "EM"), ("🙏", "EM"), ("❤️", "EM"),
-            ("👍", "EM"), ("🎉", "EM"), ("🔥", "EM"), ("✨", "EM"),
-            (":)", "EM"), (":(", "EM"), (":D", "EM"), (";)", "EM"),
-            (":-)", "EM"), (":-(", "EM"), (":P", "EM"), ("XD", "EM")
-        ]
-        emoji_df = pd.DataFrame(emoji_examples, columns=['word', 'language'])
-        df = pd.concat([df, emoji_df], ignore_index=True)
 
         # Split into features and target
         X = df['word'].values
@@ -459,6 +486,8 @@ class HinglishWordClassifier:
         y_pred = self.model.predict(X_test_features)
         accuracy = accuracy_score(y_test, y_pred)
         print(f"Model trained with accuracy: {accuracy:.4f}")
+
+        # Update confusion matrix for three classes: EN, HI, EM
         cm = confusion_matrix(y_test, y_pred, labels=["EN", "HI", "EM"])
         labels = ["EN", "HI", "EM"]
         plt.figure(figsize=(8, 6))
@@ -496,12 +525,9 @@ class HinglishWordClassifier:
     def normalize_word(self, word):
         """
         Normalize a single word using custom rules.
-        Handle English and Hindi words differently.
-        Now follows the flowchart more closely with distinct SMS -> English normalization
-        steps before language identification.
-        Skip normalization for emoji/emoticons.
+        Skip normalization for emojis.
         """
-        # Check if the word is an emoji/emoticon and return as is
+        # Skip emoji normalization
         if self.is_emoji(word):
             return word
 
@@ -538,10 +564,13 @@ class HinglishWordClassifier:
     def normalize_text(self, text):
         """
         Apply comprehensive text normalization following the flowchart.
-        Preserve emojis/emoticons during normalization.
+        Preserves emojis and separates them from text.
         """
-        # Convert to lowercase
-        text = text.lower()
+        # First preprocess to separate emojis from words
+        text = self.preprocess_text_with_emojis(text)
+
+        # Convert to lowercase but preserve emojis
+        text = ''.join(c.lower() if not self.is_emoji(c) else c for c in text)
 
         # Remove URLs
         text = re.sub(r'http\S+|www\S+|https\S+', '', text)
@@ -564,27 +593,17 @@ class HinglishWordClassifier:
         text = re.sub(r"'ve", " have", text)
         text = re.sub(r"'m", " am", text)
 
-        # Extract emojis/emoticons first to preserve them
-        emoji_tokens = []
-        emoji_positions = []
+        # Tokenize
+        tokens = self.custom_tokenize(text)
 
-        # First, tokenize the text
-        tokens = word_tokenize(text)
-
-        # Identify emojis and their positions
-        for i, token in enumerate(tokens):
-            if self.is_emoji(token):
-                emoji_tokens.append(token)
-                emoji_positions.append(i)
-
-        # Apply word-level normalization based on the flowchart (excluding emojis)
+        # Apply word-level normalization based on the flowchart
         normalized_tokens = []
-        for i, token in enumerate(tokens):
-            if i in emoji_positions:
-                # Keep emoji as is
+        for token in tokens:
+            if self.is_emoji(token):
+                # Keep emojis as is
                 normalized_tokens.append(token)
             else:
-                # Normalize other tokens
+                # Normalize non-emoji tokens
                 normalized_tokens.append(self.normalize_word(token))
 
         # Join tokens back together
@@ -592,9 +611,46 @@ class HinglishWordClassifier:
 
         return normalized_text
 
+    def custom_tokenize(self, text):
+        """
+        Custom tokenization that keeps emojis as separate tokens
+        """
+        # First, get baseline tokens from NLTK
+        base_tokens = word_tokenize(text)
+
+        final_tokens = []
+
+        # Check each token if it contains emojis
+        for token in base_tokens:
+            if self.is_emoji(token):
+                # If it's an emoji or emoticon, keep as is
+                final_tokens.append(token)
+            elif any(emoji.emoji_count(char) > 0 for char in token):
+                # If the token contains embedded emojis, split them
+                current_word = ""
+                for char in token:
+                    if emoji.emoji_count(char) > 0:
+                        # If current char is an emoji
+                        if current_word:
+                            final_tokens.append(current_word)
+                            current_word = ""
+                        final_tokens.append(char)
+                    else:
+                        # If current char is regular text
+                        current_word += char
+
+                # Add any remaining word
+                if current_word:
+                    final_tokens.append(current_word)
+            else:
+                # Regular token without emojis
+                final_tokens.append(token)
+
+        return final_tokens
+
     def tokenize(self, text):
-        """Tokenize text into words using NLTK."""
-        return word_tokenize(text.lower())
+        """Tokenize text into words while preserving emojis as separate tokens."""
+        return self.custom_tokenize(text)
 
     def process_file(self, input_file, output_dir=None,
                      normalized_file=None, tagged_file=None,
@@ -683,7 +739,7 @@ class HinglishWordClassifier:
                         transliterated = self.transliterate_to_devanagari(word)
                         transliterated_words.append(transliterated)
                     else:
-                        # Keep emoji/emoticon or English word as is
+                        # Keep emojis and English words as is
                         transliterated_words.append(word)
 
                 # Add a blank line in the tagged file
@@ -759,7 +815,10 @@ class HinglishWordClassifier:
         return normalized_sentences, final_outputs, avg_bleu, avg_edit_distance
 
     def predict(self, words):
-        """Predict language for a list of words."""
+        """
+        Predict language for a list of words.
+        Emojis are automatically labeled as "EM".
+        """
         if self.model is None or self.vectorizer is None:
             raise ValueError("Model not trained yet. Call train() first or load a model.")
 
@@ -767,18 +826,21 @@ class HinglishWordClassifier:
         if isinstance(words, str):
             words = [words]
 
-        # Check for emojis first
         results = []
         for word in words:
+            # Check if word is an emoji first
             if self.is_emoji(word):
                 results.append((word, "EM"))
             else:
-                # Extract features using lemmatization for classification
-                features = self.extract_features([word])
-
-                # Predict
-                prediction = self.model.predict(features)[0]
-                results.append((word, prediction))
+                # For non-emoji words, use the model to predict
+                try:
+                    features = self.extract_features([word])
+                    prediction = self.model.predict(features)[0]
+                    results.append((word, prediction))
+                except Exception as e:
+                    # Fallback to "EN" if there's an error in prediction
+                    print(f"Error predicting for word '{word}': {e}")
+                    results.append((word, "EN"))
 
         return results
 

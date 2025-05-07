@@ -1,6 +1,6 @@
 ### Normalization Metrics ###
-Average BLEU Score: 0.6142
-Average Edit Distance: 4.6300
+Average BLEU Score: 0.4295
+Average Edit Distance: 4.7900
 
 Individual Sentence Metrics:
 Sentence 1:
@@ -12,7 +12,7 @@ Sentence 1:
 Sentence 2:
   Original: We can to go girish's office, abhi toh wahi soche hai, otherwise suggest something
   Normalized: we can to go girish 's office ,, abhi toh wahi soche hai ,, otherwise suggest something
-  BLEU Score: 0.7852
+  BLEU Score: 0.7265
   Edit Distance: 6
 
 Sentence 3:
@@ -24,19 +24,19 @@ Sentence 3:
 Sentence 4:
   Original: The reason is pretty obvious, we are all enraged about that, but having a protest without any clear idea of what u r even doing is just kinda stupid
   Normalized: the reason is pretty obvious ,, we are all enraged about that ,, but having a protest without any clear idea of what you are even doing is just kinda stupid
-  BLEU Score: 0.7683
+  BLEU Score: 0.7361
   Edit Distance: 9
 
 Sentence 5:
   Original: No😂
-  Normalized: no😂
-  BLEU Score: 0.1778
-  Edit Distance: 1
+  Normalized: no 😂
+  BLEU Score: 0.0000
+  Edit Distance: 2
 
 Sentence 6:
   Original: Are wo to must hai
   Normalized: are wo to must hai
-  BLEU Score: 1.0000
+  BLEU Score: 0.6687
   Edit Distance: 1
 
 Sentence 7:
@@ -48,176 +48,176 @@ Sentence 7:
 Sentence 8:
   Original: We can think more till Monday, but what I thought is ki we will go to girish office and talk directly, asking for a confirmation as to when things will change
   Normalized: we can think more till monday ,, but what i thought is ki we will go to girish office and talk directly ,, asking for a confirmation as to when things will change
-  BLEU Score: 0.8922
+  BLEU Score: 0.7285
   Edit Distance: 7
 
 Sentence 9:
   Original: Tu akela bhi to ja skta hai fir to 😂
   Normalized: tu akela bhi to ja skta hai fir to 😂
-  BLEU Score: 1.0000
+  BLEU Score: 0.8801
   Edit Distance: 1
 
 Sentence 10:
   Original: Upto you, cpro ka grading ke liye toh Dena chahiye
   Normalized: upto you ,, cpro ka grading ke liye toh dena chahiye
-  BLEU Score: 0.8165
+  BLEU Score: 0.5707
   Edit Distance: 4
 
 Sentence 11:
   Original: Things will not change
   Normalized: things will not change
-  BLEU Score: 1.0000
+  BLEU Score: 0.3976
   Edit Distance: 1
 
 Sentence 12:
   Original: I'm pretty sure he's said that things will change once we can come up with our own website for mess registration
   Normalized: i am pretty sure he 's said that things will change once we can come up with our own website for mess registration
-  BLEU Score: 0.9173
+  BLEU Score: 0.9067
   Edit Distance: 4
 
 Sentence 13:
   Original: If less people are there, he can easily send us back
   Normalized: if less people are there ,, he can easily send us back
-  BLEU Score: 0.8344
+  BLEU Score: 0.7448
   Edit Distance: 3
 
 Sentence 14:
   Original: We can try still
   Normalized: we can try still
-  BLEU Score: 1.0000
+  BLEU Score: 0.3976
   Edit Distance: 1
 
 Sentence 15:
   Original: If there is no protest
   Normalized: if there is no protest
-  BLEU Score: 1.0000
+  BLEU Score: 0.6687
   Edit Distance: 1
 
 Sentence 16:
   Original: Point hai bhai ...
   Normalized: point hai bhai ......
-  BLEU Score: 0.3976
+  BLEU Score: 0.1699
   Edit Distance: 4
 
 Sentence 17:
   Original: We call ug 2also
   Normalized: we call ug 2also
-  BLEU Score: 1.0000
+  BLEU Score: 0.3976
   Edit Distance: 1
 
 Sentence 18:
   Original: Shi baat h bhai
   Normalized: shi baat hai bhai
-  BLEU Score: 0.1880
+  BLEU Score: 0.0955
   Edit Distance: 3
 
 Sentence 19:
   Original: And ug3
   Normalized: and ug3
-  BLEU Score: 0.3162
+  BLEU Score: 0.1495
   Edit Distance: 1
 
 Sentence 20:
   Original: And pg
   Normalized: and pg
-  BLEU Score: 0.3162
+  BLEU Score: 0.1495
   Edit Distance: 1
 
 Sentence 21:
   Original: Ye bhi point hai bhai
   Normalized: ye bhi point hai bhai
-  BLEU Score: 1.0000
+  BLEU Score: 0.6687
   Edit Distance: 1
 
 Sentence 22:
   Original: Phd
   Normalized: phd
-  BLEU Score: 0.1778
+  BLEU Score: 0.0000
   Edit Distance: 1
 
 Sentence 23:
   Original: Where? And by when will things change? Did he say anything regarding that
   Normalized: where ?? and by when will things change ?? did he say anything regarding that
-  BLEU Score: 0.7767
+  BLEU Score: 0.5072
   Edit Distance: 7
 
 Sentence 24:
   Original: Haa bhai naya group bana IIIT Unofficial
   Normalized: haan bhai naya group bana it unofficial
-  BLEU Score: 0.4347
+  BLEU Score: 0.4111
   Edit Distance: 7
 
 Sentence 25:
   Original: Tumhare bapuji baithe hai na unme ???
   Normalized: tumhare bapuji baithe hai na unme ??
-  BLEU Score: 0.8825
+  BLEU Score: 0.7421
   Edit Distance: 2
 
 Sentence 26:
   Original: Spam
   Normalized: spam
-  BLEU Score: 0.1778
+  BLEU Score: 0.0000
   Edit Distance: 1
 
 Sentence 27:
   Original: IIITH SPAM ftw
   Normalized: ith spam ftw
-  BLEU Score: 0.2403
+  BLEU Score: 0.1136
   Edit Distance: 9
 
 Sentence 28:
   Original: Lost found
   Normalized: lost found
-  BLEU Score: 0.3162
+  BLEU Score: 0.1495
   Edit Distance: 1
 
 Sentence 29:
   Original: Buy sell rent
   Normalized: buy sell rent
-  BLEU Score: 0.5623
+  BLEU Score: 0.2403
   Edit Distance: 1
 
 Sentence 30:
   Original: It's literally what I said, he will not be changing the system until we can create a better one for him. Source: mps
   Normalized: it 's literally what i said ,, he will not be changing the system until we can create a better one for him .. source :: mps
-  BLEU Score: 0.7923
+  BLEU Score: 0.6520
   Edit Distance: 10
 
 Sentence 31:
   Original: [LOST] Old mess policy [FOUND] Shitty Mess-y Policy + Girish
   Normalized: [[ lost ]] old mess policy [[ found ]] shitty messy policy ++ girish
-  BLEU Score: 0.3482
+  BLEU Score: 0.0636
   Edit Distance: 24
 
 Sentence 32:
   Original: karne kya vaale ho 😂😂
-  Normalized: karne kya vaale ho 😂😂
-  BLEU Score: 1.0000
-  Edit Distance: 0
+  Normalized: karne kya vaale ho 😂 😂
+  BLEU Score: 0.5081
+  Edit Distance: 1
 
 Sentence 33:
   Original: Demolish the mess
   Normalized: demolish the mess
-  BLEU Score: 0.5623
+  BLEU Score: 0.2403
   Edit Distance: 1
 
 Sentence 34:
   Original: Been saying this abt yuktahar but no one takes it seriously
   Normalized: been saying this about yuktahar but no one takes it seriously
-  BLEU Score: 0.7017
+  BLEU Score: 0.6316
   Edit Distance: 3
 
 Sentence 35:
   Original: Guruji aap protest nahi karoge??!🤯🤯🤯🤯
-  Normalized: guruji always a pleasure protest nahi karoge ?? !! 🤯🤯🤯🤯
-  BLEU Score: 0.4692
-  Edit Distance: 19
+  Normalized: guruji always a pleasure protest nahi karoge ?? !! 🤯 🤯 🤯 🤯
+  BLEU Score: 0.3238
+  Edit Distance: 22
 
 Sentence 36:
   Original: Are u still alive🤯
-  Normalized: are you still alive🤯
-  BLEU Score: 0.1880
-  Edit Distance: 3
+  Normalized: are you still alive 🤯
+  BLEU Score: 0.0537
+  Edit Distance: 4
 
 Sentence 37:
   Original: mein actual kaam karra
@@ -240,19 +240,19 @@ Sentence 39:
 Sentence 40:
   Original: Bohot maza ayega parrr protest haww
   Normalized: bohot maza ayega par protest haww
-  BLEU Score: 0.2541
+  BLEU Score: 0.1221
   Edit Distance: 3
 
 Sentence 41:
   Original: Ande tamatar phek sakte hai kya
   Normalized: ande tamatar phek sakte hai kya
-  BLEU Score: 1.0000
+  BLEU Score: 0.7598
   Edit Distance: 1
 
 Sentence 42:
   Original: WALL PE GAALI LIKH DE KYA
   Normalized: wall pe gaali likh de kya
-  BLEU Score: 1.0000
+  BLEU Score: 0.0000
   Edit Distance: 20
 
 Sentence 43:
@@ -264,79 +264,79 @@ Sentence 43:
 Sentence 44:
   Original: The messes got me resurrected
   Normalized: the messes got main resurrected
-  BLEU Score: 0.2857
+  BLEU Score: 0.1257
   Edit Distance: 4
 
 Sentence 45:
   Original: Danger found here
   Normalized: danger found here
-  BLEU Score: 0.5623
+  BLEU Score: 0.2403
   Edit Distance: 1
 
 Sentence 46:
   Original: ay hindi national language FEELING PROWD INDIAN ARMY😡😡😡
-  Normalized: ay hindi national language feeling prowd indian army😡😡😡
-  BLEU Score: 1.0000
-  Edit Distance: 22
+  Normalized: ay hindi national language feeling prowd indian army 😡 😡 😡
+  BLEU Score: 0.2346
+  Edit Distance: 25
 
 Sentence 47:
   Original: Whatever happened to tamil tiger 😔
   Normalized: whatever happened to tamil tiger 😔
-  BLEU Score: 1.0000
+  BLEU Score: 0.7598
   Edit Distance: 1
 
 Sentence 48:
   Original: oh fuck ya I forgor
   Normalized: oh fuck ya i forgor
-  BLEU Score: 1.0000
+  BLEU Score: 0.2857
   Edit Distance: 1
 
 Sentence 49:
   Original: LTTE vaazhga ig
   Normalized: ltte vaazhga ig
-  BLEU Score: 0.5623
+  BLEU Score: 0.2403
   Edit Distance: 4
 
 Sentence 50:
   Original: First csc class of 11th was crazy
   Normalized: first csc class of 11th was crazy
-  BLEU Score: 1.0000
+  BLEU Score: 0.8091
   Edit Distance: 1
 
 Sentence 51:
   Original: fair enough, I was waiting for Dutch to finally have a good plan
   Normalized: fair enough ,, i was waiting for dutch to finally have a good plan
-  BLEU Score: 0.8612
+  BLEU Score: 0.4936
   Edit Distance: 4
 
 Sentence 52:
   Original: NAHHHHHH WHATVTHE FUCK KCK
   Normalized: nah whatvthe fuck kck
-  BLEU Score: 0.3976
+  BLEU Score: 0.0000
   Edit Distance: 23
 
 Sentence 53:
   Original: I'm already bored
   Normalized: i am already bored
-  BLEU Score: 0.1880
+  BLEU Score: 0.1699
   Edit Distance: 3
 
 Sentence 54:
   Original: Guys why is my old maths professor posting AI generated video of a girl walking and slowly becoming woman, then pregnant, then having baby then both women growing up further 1/10/25, 2:14 PM - Inesh Roy: Need to see this!!
   Normalized: guys why is my old maths professor posting ai generated video of a girl walking and slowly becoming woman ,, then pregnant ,, then having baby then both women growing up further 11025 ,, 214 pm -- inesh roy :: need to see this !!
-  BLEU Score: 0.7396
+  BLEU Score: 0.5973
   Edit Distance: 22
 
 Sentence 55:
   Original: Thats the same prof I told about in the blue room that day btw
   Normalized: thats the same prof i told about in the blue room that day by the way
-  BLEU Score: 0.7917
+  BLEU Score: 0.5307
   Edit Distance: 9
 
 Sentence 56:
   Original: I was so concerned without reading the above text
   Normalized: i was so concerned without reading the above text
-  BLEU Score: 1.0000
+  BLEU Score: 0.8633
   Edit Distance: 1
 
 Sentence 57:
@@ -347,9 +347,9 @@ Sentence 57:
 
 Sentence 58:
   Original: 😭😭
-  Normalized: 😭😭
-  BLEU Score: 0.1778
-  Edit Distance: 0
+  Normalized: 😭 😭
+  BLEU Score: 0.0000
+  Edit Distance: 1
 
 Sentence 59:
   Original: which course is chopella teaching?
@@ -360,25 +360,25 @@ Sentence 59:
 Sentence 60:
   Original: I think he's teaching ra
   Normalized: i think he 's teaching ra
-  BLEU Score: 1.0000
+  BLEU Score: 0.7598
   Edit Distance: 2
 
 Sentence 61:
   Original: No ds
   Normalized: no ds
-  BLEU Score: 0.3162
+  BLEU Score: 0.1495
   Edit Distance: 1
 
 Sentence 62:
   Original: But like genuinely what is this guy yapping
   Normalized: but like genuinely what is this guy yapping
-  BLEU Score: 1.0000
+  BLEU Score: 0.8409
   Edit Distance: 1
 
 Sentence 63:
   Original: Yapping with an accent*
   Normalized: yapping with an accent **
-  BLEU Score: 0.7598
+  BLEU Score: 0.5081
   Edit Distance: 3
 
 Sentence 64:
@@ -390,7 +390,7 @@ Sentence 64:
 Sentence 65:
   Original: Bro stayed in the US for abt 4yrs and caught enough accent to last a lifetime..
   Normalized: bro stayed in the us for about 4yrs and caught enough accent to last a lifetime ......
-  BLEU Score: 0.7625
+  BLEU Score: 0.5749
   Edit Distance: 10
 
 Sentence 66:
@@ -402,13 +402,13 @@ Sentence 66:
 Sentence 67:
   Original: Shush
   Normalized: shush
-  BLEU Score: 0.1778
+  BLEU Score: 0.0000
   Edit Distance: 1
 
 Sentence 68:
   Original: Rizzlyvik sar pls teach me telugu sar
   Normalized: rizzlyvik sar please teach main telugu sar
-  BLEU Score: 0.1045
+  BLEU Score: 0.0831
   Edit Distance: 7
 
 Sentence 69:
@@ -419,14 +419,14 @@ Sentence 69:
 
 Sentence 70:
   Original: We telugu ppl are gonna lose privacy if u guys start understanding telugu☠️
-  Normalized: we telugu ppl are gon na lose privacy if you guys start understanding telugu☠️
-  BLEU Score: 0.7825
-  Edit Distance: 4
+  Normalized: we telugu ppl are gon na lose privacy if you guys start understanding telugu ☠️
+  BLEU Score: 0.5703
+  Edit Distance: 5
 
 Sentence 71:
   Original: Bros asking us to ask questions like I have no idea what u said tf do u want me to ask? "Sir when will u start teaching python"
   Normalized: bros asking us to ask questions like i have no idea what you said tf do you want main to ask ?? ```` sir when will you start teaching python ''''
-  BLEU Score: 0.5258
+  BLEU Score: 0.3338
   Edit Distance: 24
 
 Sentence 72:
@@ -444,43 +444,43 @@ Sentence 73:
 Sentence 74:
   Original: to be honest I'll ask next time he stares at me
   Normalized: to be honest i will ask next time he stares at main
-  BLEU Score: 0.6340
+  BLEU Score: 0.5311
   Edit Distance: 7
 
 Sentence 75:
   Original: Let's sell that rare bird on the black market and use the money to have a party
   Normalized: let 's sell that rare bird on the black market and use the money to have a party
-  BLEU Score: 1.0000
+  BLEU Score: 0.9391
   Edit Distance: 2
 
 Sentence 76:
   Original: Computer science prof
   Normalized: computer science prof
-  BLEU Score: 0.5623
+  BLEU Score: 0.2403
   Edit Distance: 1
 
 Sentence 77:
   Original: He's a computer science prof?
   Normalized: he 's a computer science prof ??
-  BLEU Score: 0.8409
+  BLEU Score: 0.6804
   Edit Distance: 4
 
 Sentence 78:
   Original: Whatever
   Normalized: whatever
-  BLEU Score: 0.1778
+  BLEU Score: 0.0000
   Edit Distance: 1
 
 Sentence 79:
   Original: Tech guy
   Normalized: tech guy
-  BLEU Score: 0.3162
+  BLEU Score: 0.1495
   Edit Distance: 1
 
 Sentence 80:
   Original: "Dot iiit dot" 🤓
   Normalized: ```` dot it dot '''' 🤓
-  BLEU Score: 0.0878
+  BLEU Score: 0.0699
   Edit Distance: 13
 
 Sentence 81:
@@ -516,25 +516,25 @@ Sentence 85:
 Sentence 86:
   Original: YOO @919356351244
   Normalized: yoo @@ 919356351244
-  BLEU Score: 0.2236
+  BLEU Score: 0.1699
   Edit Distance: 5
 
 Sentence 87:
   Original: “Super excited!”
   Normalized:  super excited !! 
-  BLEU Score: 0.3097
+  BLEU Score: 0.1323
   Edit Distance: 5
 
 Sentence 88:
   Original: If you're excited you should kys
   Normalized: if you are excited you should kys
-  BLEU Score: 0.4889
+  BLEU Score: 0.4347
   Edit Distance: 3
 
 Sentence 89:
   Original: GUYS WE'RE SUPER EXCITED TO RUN TO OUR COMPUTERS AND CODE THIS
   Normalized: guys we are super excited to run to our computers and code this
-  BLEU Score: 0.7911
+  BLEU Score: 0.0000
   Edit Distance: 52
 
 Sentence 90:
@@ -546,7 +546,7 @@ Sentence 90:
 Sentence 91:
   Original: He threatened to let loose
   Normalized: he threatened to let loose
-  BLEU Score: 1.0000
+  BLEU Score: 0.6687
   Edit Distance: 1
 
 Sentence 92:
@@ -558,14 +558,14 @@ Sentence 92:
 Sentence 93:
   Original: In few mins I'll LET LOOSE
   Normalized: in few mins i will let loose
-  BLEU Score: 0.4889
+  BLEU Score: 0.0699
   Edit Distance: 13
 
 Sentence 94:
   Original: 😱😱😱😱😱😱
-  Normalized: 😱😱😱😱😱😱
-  BLEU Score: 0.1778
-  Edit Distance: 0
+  Normalized: 😱 😱 😱 😱 😱 😱
+  BLEU Score: 0.0000
+  Edit Distance: 5
 
 Sentence 95:
   Original: crazy
@@ -582,19 +582,19 @@ Sentence 96:
 Sentence 97:
   Original: his courses are POPL and Compilers i think
   Normalized: his courses are popl and compilers i think
-  BLEU Score: 1.0000
+  BLEU Score: 0.1809
   Edit Distance: 5
 
 Sentence 98:
   Original: Like they didn't want to deal with this bs and quit coz even the tas had no idea what this guy was on
   Normalized: like they did not want to deal with this bs and quit because even the tas had no idea what this guy was on
-  BLEU Score: 0.7641
+  BLEU Score: 0.7332
   Edit Distance: 9
 
 Sentence 99:
   Original: Yes, this comes in popl
   Normalized: yes ,, this comes in popl
-  BLEU Score: 0.6804
+  BLEU Score: 0.6148
   Edit Distance: 3
 
 Sentence 100:

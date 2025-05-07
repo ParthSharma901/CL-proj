@@ -23,10 +23,10 @@ Original [8]: Food is here
 Normalized [8]: food is here
 
 Original [9]: Helloo All Navrang is going to start within the next 10 minutes. We request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers. Hoping to see you all sooooonnn⭐⭐⭐ ~The Dance Crew 💃
-Normalized [9]: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all sooooonnn⭐⭐⭐ ~the dance crew 💃
+Normalized [9]: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all son ⭐ ⭐ ⭐ ~the dance crew 💃
 
 Original [10]: Hey guys our institute’s football team has a match rn in the inter college tournament. Please go to the football ground to support our team and your batchmates ☺️☺️
-Normalized [10]: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates ☺️☺️
+Normalized [10]: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates ☺️ ☺️
 
 Original [11]: Hi all, Today's football finals are starting rn. Please do come and support
 Normalized [11]: hi all ,, today 's football finals are starting right now .. please do come and support
@@ -50,16 +50,16 @@ Original [17]: Kya kare we are old generation kids
 Normalized [17]: kya kare we are old generation kids
 
 Original [18]: Also answer the question asked just write student😅
-Normalized [18]: also answer the question asked just write student😅
+Normalized [18]: also answer the question asked just write student 😅
 
 Original [19]: send me friend req also tq :>
-Normalized [19]: send main friend req also tq :: >>
+Normalized [19]: send main friend request also tq :: >>
 
 Original [20]: Basically u will be asked ques like purpose of joining this grp
 Normalized [20]: basically you will be asked ques like purpose of joining this grp
 
 Original [21]: Still old😅
-Normalized [21]: still old😅
+Normalized [21]: still old 😅
 
 Original [22]: You want to be old that’s your prerogative
 Normalized [22]: you want to be old that  s your prerogative
@@ -83,13 +83,13 @@ Original [28]: Guys, as you know, Chicken Pox is spreading. So be a little more 
 Normalized [28]: guys ,, as you know ,, chicken pox is spreading .. so be a little more careful about your hygiene and try to avoid close contact with people for some time .. and inform the parliament if you happen to have any symptoms .. stay safe and atb for endsems and projects !!
 
 Original [29]: Adding to that plss pls take note: 1. Initial symptoms include rashes (which may be accompanied by blister in later stage) 2. Fever (low or high either) 3. Fatigue and loss of appetite Also symptoms take a week or more to actually show up ... So ppl might b infected but themselves be unaware of the same So pls try to not b in crowded places at least. And people who have had it in the past or are vaccinated are less prone but can still get it . So pls be careful anyway ❤️❤️
-Normalized [29]: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️❤️
+Normalized [29]: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️ ❤️
 
 Original [30]: Reminder! Deadline 6PM.
 Normalized [30]: reminder !! deadline 6pm ..
 
 Original [31]: https://www.goldmansachs.com/careers/students/programs-and-internships/india/hackathon For Single Degree Students! Do Register :)
-Normalized [31]: for single degree students !! do register :: ))
+Normalized [31]: :: // // for single degree students !! do register :: ))
 
 Original [32]: IIITH students only eligible for CS Hackathon, not Quant.
 Normalized [32]: ith students only eligible for cs hackathon ,, not quant ..
@@ -155,7 +155,7 @@ Original [52]: basically rule of thumb: only attempt crossing if you think you c
 Normalized [52]: basically rule of thumb :: only attempt crossing if you think you can cross it at a go ,, do not stop in the middle of the road ..
 
 Original [53]: random question: does ug1 not prefer going to bbc? i generally have not noticed a lot of ug1s here! (react with 👍/👎)
-Normalized [53]: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with 👍/👎 ))
+Normalized [53]: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with 👍 // 👎 ))
 
 Original [54]: I think its coz BBC is very far from OBH 🤡
 Normalized [54]: i think its because bring beer and chips is very far from obh 🤡
@@ -188,7 +188,7 @@ Original [63]: Ok cutie
 Normalized [63]: ok cutie
 
 Original [64]: heya! hope you're doing well. since i do this everytime, and i am bored (_plus, a few people asked_), here is the set of resources for the next semester: https://github.com/zyx7k/Semester-2-Resources.git took some time and effort but there you go :) enjoy ig. [NOTE] do go through the README.
-Normalized [64]: heya !! hope you are doing well .. since i do this everytime ,, and i am bored (( __plus ,, a few people asked__ )) ,, here is the set of resources for the next semester :: took some time and effort but there you go :: )) enjoy ig .. [[ note ]] do go through the readme ..
+Normalized [64]: heya !! hope you are doing well .. since i do this everytime ,, and i am bored (( __plus ,, a few people asked__ )) ,, here is the set of resources for the next semester :: :: // githubcomzyx7ksemester2resourcesgit took some time and effort but there you go :: )) enjoy ig .. [[ note ]] do go through the readme ..
 
 Original [65]: Bhai chhutti enjoy karne de
 Normalized [65]: bhai chhutti enjoy karne de
@@ -245,7 +245,7 @@ Original [82]: Don't wait for tmrw
 Normalized [82]: do not wait for tomorrow
 
 Original [83]: CURFEW STILL EXISTS PLEASE BE BACK INTO ROOMS BY 12:30PM
-Normalized [83]: curfew still exists please be back into rooms by 1230pm
+Normalized [83]: curfew still exists please be back into rooms by 12 :3 0pm
 
 Original [84]: If u guys need any help or wanna talk or literally anything We r here Dm karlo
 Normalized [84]: if you guys need any help or wan na talk or literally anything we are here direct message karlo
