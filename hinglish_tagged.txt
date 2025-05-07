@@ -1,4 +1,4 @@
-Sentence [1]: please dekh kya ye sentnce sahi hai?
+Sentence [1]: please dekh kya ye sentnce sahi hai ??
 Word	Language
 please	EN
 dekh	HI
@@ -7,4 +7,183 @@ ye	HI
 sentnce	EN
 sahi	HI
 hai	HI
+?	EN
+?	EN
+
+Sentence [2]: iss is first half ??
+Word	Language
+iss	HI
+is	EN
+first	EN
+half	EN
+?	EN
+?	EN
+
+Sentence [3]: full sem course
+Word	Language
+full	EN
+sem	EN
+course	EN
+
+Sentence [4]: oh right
+Word	Language
+oh	EN
+right	EN
+
+Sentence [5]: once a week
+Word	Language
+once	EN
+a	EN
+week	EN
+
+Sentence [6]: yes
+Word	Language
+yes	EN
+
+Sentence [7]: full sem once a week
+Word	Language
+full	EN
+sem	EN
+once	EN
+a	EN
+week	EN
+
+Sentence [8]: ayein ??
+Word	Language
+ayein	HI
+?	EN
+?	EN
+
+Sentence [9]: full sem ...... and class are once a week
+Word	Language
+full	EN
+sem	EN
+......	EN
+and	EN
+class	EN
+are	EN
+once	EN
+a	EN
+week	EN
+
+Sentence [10]: there is lab as well right ??
+Word	Language
+there	EN
+is	EN
+lab	EN
+as	EN
+well	EN
+right	EN
+?	EN
+?	EN
+
+Sentence [11]: lab extra
+Word	Language
+lab	EN
+extra	EN
+
+Sentence [12]: i asked a senior he was like half sem only
+Word	Language
+i	EN
+asked	EN
+a	EN
+senior	EN
+he	HI
+was	EN
+like	EN
+half	EN
+sem	EN
+only	EN
+
+Sentence [13]: 1 class and 1 lab
+Word	Language
+1	EN
+class	EN
+and	EN
+1	EN
+lab	EN
+
+Sentence [14]: haan once a week full sem is half sem
+Word	Language
+haan	HI
+once	EN
+a	EN
+week	EN
+full	EN
+sem	EN
+is	EN
+half	EN
+sem	EN
+
+Sentence [15]: like ve
+Word	Language
+like	EN
+ve	HI
+
+Sentence [16]: no ik like credit wise its the same
+Word	Language
+no	EN
+ik	HI
+like	EN
+credit	EN
+wise	EN
+its	EN
+the	EN
+same	EN
+
+Sentence [17]: lite anyway
+Word	Language
+lite	EN
+anyway	EN
+
+Sentence [18]: last year it was prolly that is why
+Word	Language
+last	EN
+year	EN
+it	EN
+was	EN
+prolly	EN
+that	EN
+is	EN
+why	EN
+
+Sentence [19]: timetable for csx (( both a and b ))
+Word	Language
+timetable	EN
+for	EN
+csx	EN
+(	EN
+(	EN
+both	EN
+a	EN
+and	EN
+b	EN
+)	EN
+)	EN
+
+Sentence [20]: laugh out loud lmao ts pmo
+Word	Language
+laugh	EN
+out	EN
+loud	HI
+lmao	HI
+ts	EN
+pmo	EN
+
+Sentence [21]: fuck you cocky as no bitch zero hairline smelly as chimp of a human
+Word	Language
+fuck	EN
+you	EN
+cocky	EN
+as	EN
+no	EN
+bitch	EN
+zero	EN
+hairline	EN
+smelly	EN
+as	EN
+chimp	EN
+of	EN
+a	EN
+human	EN
 

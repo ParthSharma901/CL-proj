@@ -1,3 +1,63 @@
 Original [1]: plz dekh kya ye sentnce sahi hai?
-Normalized [1]: please dekh kya ye sentnce sahi hai?
+Normalized [1]: please dekh kya ye sentnce sahi hai ??
+
+Original [2]: Iss is first half?
+Normalized [2]: iss is first half ??
+
+Original [3]: full sem course
+Normalized [3]: full sem course
+
+Original [4]: Oh right
+Normalized [4]: oh right
+
+Original [5]: Once a week
+Normalized [5]: once a week
+
+Original [6]: yep
+Normalized [6]: yes
+
+Original [7]: Full sem once a week
+Normalized [7]: full sem once a week
+
+Original [8]: Ayein?
+Normalized [8]: ayein ??
+
+Original [9]: full sem... and classes are once a week
+Normalized [9]: full sem ...... and class are once a week
+
+Original [10]: There's lab as well right?
+Normalized [10]: there is lab as well right ??
+
+Original [11]: lab extra
+Normalized [11]: lab extra
+
+Original [12]: I asked a senior he was like half sem only
+Normalized [12]: i asked a senior he was like half sem only
+
+Original [13]: 1 class and 1 lab
+Normalized [13]: 1 class and 1 lab
+
+Original [14]: Haan once a week full sem is half sem
+Normalized [14]: haan once a week full sem is half sem
+
+Original [15]: Like ve
+Normalized [15]: like ve
+
+Original [16]: No ik like credit wise its the same
+Normalized [16]: no ik like credit wise its the same
+
+Original [17]: Lite anyway
+Normalized [17]: lite anyway
+
+Original [18]: Last year it was prolly that's why
+Normalized [18]: last year it was prolly that is why
+
+Original [19]: timetable for csx(both A and B)
+Normalized [19]: timetable for csx (( both a and b ))
+
+Original [20]: lol lmao ts pmo
+Normalized [20]: laugh out loud lmao ts pmo
+
+Original [21]: fuck you cocky ass no bitches zero hairline smelly ass chimp of a human
+Normalized [21]: fuck you cocky as no bitch zero hairline smelly as chimp of a human
 

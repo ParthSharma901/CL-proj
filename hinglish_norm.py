@@ -7,12 +7,28 @@ from sklearn.metrics import accuracy_score, classification_report
 from nltk.translate.bleu_score import sentence_bleu
 from nltk.translate.bleu_score import SmoothingFunction
 from nltk.metrics.distance import edit_distance
+from nltk.stem import WordNetLemmatizer
+from nltk.stem.porter import PorterStemmer
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
 import pickle
 import re
 import os
+import nltk
+import string
+
+# Download required NLTK data
+try:
+    nltk.data.find('tokenizers/punkt')
+    nltk.data.find('corpora/wordnet')
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('punkt')
+    nltk.download('wordnet')
+    nltk.download('stopwords')
 
 
 class HinglishWordClassifier:
@@ -20,22 +36,56 @@ class HinglishWordClassifier:
         self.vectorizer = None
         self.model = None
 
-        # Initialize normalization dictionary for Hinglish
-        self.normalization_dict = {
-            # English shortenings
-            "pls": "please", "plz": "please", "u": "you", "r": "are", "ur": "your",
-            "thx": "thanks", "wud": "would", "wht": "what", "abt": "about",
-            "bcoz": "because", "cuz": "because", "b4": "before", "gr8": "great",
-            "btw": "by the way", "cya": "see you", "dm": "direct message",
-            "idk": "i don't know", "lmk": "let me know", "tbh": "to be honest",
+        # Initialize NLTK components
+        self.lemmatizer = WordNetLemmatizer()
+        self.stemmer = PorterStemmer()
+        self.stop_words = set(stopwords.words('english'))
 
-            # Hinglish specific corrections
-            "kya": "kya", "hai": "hai", "nhi": "nahi", "kese": "kaise",
-            "acha": "achha", "thik": "theek", "pyar": "pyaar", "ho": "ho",
-            "kuch": "kuchh", "dost": "dost", "kam": "kaam", "jada": "zyada",
-            "kaha": "kahaan", "tum": "tum", "me": "main", "mai": "main",
-            "koi": "koi", "h": "hai", "k": "ke", "n": "ne", "ko": "ko",
-            "ty": "thank you", "gn": "good night", "gm": "good morning"
+        # List of words that should not be lemmatized
+        self.do_not_lemmatize = {
+            "as", "was", "has", "is", "this", "his", "hers", "its", "theirs",
+            "yours", "bus", "pass", "class", "glass", "grass", "brass", "us",
+            "yes", "kiss", "miss", "mess", "less", "toss", "boss", "loss"
+        }
+
+        # Initialize normalization dictionary for English abbreviations and contractions
+        self.english_norm_dict = {
+            "pls": "please", "plz": "please", "u": "you", "r": "are",
+            "ur": "your", "thx": "thanks", "wud": "would", "wht": "what",
+            "abt": "about", "bcoz": "because", "cuz": "because", "b4": "before",
+            "gr8": "great", "btw": "by the way", "ty": "thank you",
+            "gn": "good night", "gm": "good morning", "idk": "i don't know",
+            "lol": "laugh out loud", "omg": "oh my god", "dm": "direct message",
+            "tbh": "to be honest", "lmk": "let me know", "brb": "be right back",
+            "rn": "right now", "irl": "in real life", "fb": "facebook",
+            "cya": "see you", "asap": "as soon as possible", "thnx": "thanks",
+            "msg": "message", "tmrw": "tomorrow", "tdy": "today",
+            "tho": "though", "thru": "through", "gonna": "going to",
+            "wanna": "want to", "gotta": "got to", "dunno": "don't know",
+            "yep": "yes", "nope": "no", "wassup": "what's up",
+            "info": "information", "pic": "picture", "pics": "pictures",
+            "convo": "conversation", "coz": "because", "bcz": "because",
+            "2day": "today", "2moro": "tomorrow", "4get": "forget",
+            "c u": "see you", "tel": "tell", "tol": "told"
+        }
+
+        # Dictionary for Hindi-specific normalization
+        self.hindi_norm_dict = {
+            "nhi": "nahi", "kese": "kaise", "acha": "achha", "thik": "theek",
+            "pyar": "pyaar", "kuch": "kuchh", "kam": "kaam", "jada": "zyada",
+            "kaha": "kahaan", "me": "main", "mai": "main", "h": "hai",
+            "k": "ke", "n": "ne", "mtlb": "matlab", "accha": "achha",
+            "hyn": "haan", "haa": "haan", "hn": "haan", "mje": "mujhe",
+            "yr": "yaar", "ha": "haan", "hm": "hum", "shyd": "shayad",
+            "abi": "abhi", "abhi": "abhi", "k liye": "ke liye",
+            "krna": "karna", "kro": "karo", "ache": "achhe",
+            "aaj kl": "aaj kal", "aajkl": "aaj kal", "koi ni": "koi nahi",
+            "koi nh": "koi nahi", "sb": "sab", "agr": "agar", "vo": "woh",
+            "krte": "karte", "ho gya": "ho gaya", "hogya": "ho gaya",
+            "kya hua": "kya hua", "kyun": "kyon", "ghr": "ghar",
+            "fr": "fir", "zyda": "zyada", "kha": "kahan", "kb": "kab",
+            "ke lie": "ke liye", "fikar": "fikr", "bhaut": "bahut",
+            "bht": "bahut", "bht": "bahut", "bhot": "bahut"
         }
 
     def load_data(self, file_path):
@@ -127,57 +177,95 @@ class HinglishWordClassifier:
         print(f"Model loaded from {file_path}")
 
     def normalize_word(self, word):
-        """Normalize a single word using the dictionary or return the original."""
-        # Remove punctuation for lookup, but keep original for return
+        """
+        Normalize a single word using NLTK and custom rules.
+        Handle English and Hindi words differently.
+        """
+        # Remove punctuation for normalization, but keep track of it
         word_clean = re.sub(r'[^\w\s]', '', word.lower())
+        punctuation = ''.join(c for c in word if c in string.punctuation)
+        punct_positions = []
+        if word.startswith(punctuation):
+            punct_positions.append('start')
+        if word.endswith(punctuation):
+            punct_positions.append('end')
 
-        # Get normalized form or original if not in dictionary
-        normalized = self.normalization_dict.get(word_clean, word_clean)
+        # Try to determine if word is likely English or Hindi
+        # (This is a simple heuristic, could be improved)
+        is_likely_english = bool(re.search(r'[a-zA-Z]', word_clean))
 
-        # If word had punctuation, transfer it to the normalized form
-        if word != word_clean:
-            # Find the punctuation
-            punct_match = re.search(r'[^\w\s]+', word)
-            if punct_match:
-                punct = punct_match.group(0)
-                # Check if punctuation is at beginning, end, or both
-                if word.startswith(punct):
-                    normalized = punct + normalized
-                if word.endswith(punct):
-                    normalized = normalized + punct
+        # Normalize based on language
+        if is_likely_english:
+            # For English words, use custom replacements and NLTK
+            normalized = word_clean
+            # Apply common text replacements
+            normalized = self.english_norm_dict.get(normalized, normalized)
+
+            # Only lemmatize if it's not in our do_not_lemmatize list
+            if normalized not in self.do_not_lemmatize:
+                try:
+                    # Check if lemmatization would change the word
+                    lemmatized = self.lemmatizer.lemmatize(normalized)
+                    # Only use lemmatized form if it doesn't drastically change the word
+                    if len(lemmatized) > 1:  # Avoid single-letter lemmatizations
+                        normalized = lemmatized
+                except:
+                    pass  # Skip if lemmatization fails
+        else:
+            # For Hindi/Hinglish words, use our custom replacements
+            normalized = self.hindi_norm_dict.get(word_clean, word_clean)
+
+        # Reattach punctuation if it existed
+        if 'start' in punct_positions:
+            normalized = punctuation + normalized
+        if 'end' in punct_positions:
+            normalized = normalized + punctuation
 
         return normalized
 
-    def normalize_sentence(self, sentence):
+    def normalize_text(self, text):
         """
-        Normalize a Hinglish sentence by:
-        1. Converting to lowercase
-        2. Fixing spelling mistakes and short forms
-        3. Removing extra spaces
+        Apply comprehensive text normalization.
         """
         # Convert to lowercase
-        sentence = sentence.lower()
+        text = text.lower()
 
-        # Split into words while preserving spaces 
-        tokens = re.findall(r'\S+|\s+', sentence)
+        # Remove URLs
+        text = re.sub(r'http\S+|www\S+|https\S+', '', text)
 
-        # Normalize each word
-        normalized_tokens = []
-        for token in tokens:
-            if token.strip():  # If it's a word
-                normalized_tokens.append(self.normalize_word(token))
-            else:  # If it's whitespace
-                normalized_tokens.append(token)
+        # Fix spacing issues
+        text = re.sub(r'\s+', ' ', text).strip()
 
-        # Combine and clean up extra spaces
-        normalized = ''.join(normalized_tokens)
-        normalized = re.sub(r'\s+', ' ', normalized).strip()
+        # Correct multiple punctuation
+        text = re.sub(r'([!?])\1+', r'\1', text)  # Convert !! or ??? to single ! or ?
+        text = re.sub(r'\.{2,}', '...', text)  # Normalize ellipses to three dots
 
-        return normalized
+        # Handle contractions
+        text = re.sub(r"won't", "will not", text)
+        text = re.sub(r"can't", "cannot", text)
+        text = re.sub(r"n't", " not", text)
+        text = re.sub(r"'re", " are", text)
+        text = re.sub(r"'s", " is", text)
+        text = re.sub(r"'d", " would", text)
+        text = re.sub(r"'ll", " will", text)
+        text = re.sub(r"'t", " not", text)
+        text = re.sub(r"'ve", " have", text)
+        text = re.sub(r"'m", " am", text)
+
+        # Tokenize
+        tokens = word_tokenize(text)
+
+        # Apply word-level normalization
+        normalized_tokens = [self.normalize_word(token) for token in tokens]
+
+        # Join tokens back together
+        normalized_text = ' '.join(normalized_tokens)
+
+        return normalized_text
 
     def tokenize(self, text):
-        """Tokenize Hinglish text into words."""
-        return re.findall(r'\b\w+\b', text.lower())
+        """Tokenize text into words using NLTK."""
+        return word_tokenize(text.lower())
 
     def process_file(self, input_file, normalized_file='normalized_hinglish.txt',
                      tagged_file='hinglish_tagged.txt', metrics_file='normalization_metrics.txt'):
@@ -201,7 +289,8 @@ class HinglishWordClassifier:
         # Step 1: Normalize sentences
         normalized_sentences = []
         for sentence in original_sentences:
-            normalized = self.normalize_sentence(sentence)
+            # Use our custom normalization which handles Hinglish better
+            normalized = self.normalize_text(sentence)
             normalized_sentences.append(normalized)
 
         # Save normalized text

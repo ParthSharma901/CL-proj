@@ -1,8 +1,128 @@
 [
   {
-    "text": "plz dekh kya ye sentnce sahi hai?",
-    "positive_negative": -0.5,
-    "serious_jokeful": -0.1875,
-    "quadrant": "Negative and Serious"
+    "text": "please dekh kya ye sentnce sahi hai ??",
+    "sentiment_score": -0.20653638888888887,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.20653638888888887
+  },
+  {
+    "text": "iss is first half ??",
+    "sentiment_score": -0.2930355235042735,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.2930355235042735
+  },
+  {
+    "text": "full sem course",
+    "sentiment_score": 0.36398437499999997,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.36398437499999997
+  },
+  {
+    "text": "oh right",
+    "sentiment_score": -0.10937500000000003,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.10937500000000003
+  },
+  {
+    "text": "once a week",
+    "sentiment_score": 0.3,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.3
+  },
+  {
+    "text": "yes",
+    "sentiment_score": 0.41408249999999996,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.41408249999999996
+  },
+  {
+    "text": "full sem once a week",
+    "sentiment_score": 0.33784375,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.33784375
+  },
+  {
+    "text": "ayein ??",
+    "sentiment_score": -0.3,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.3
+  },
+  {
+    "text": "full sem ...... and class are once a week",
+    "sentiment_score": 0.3219871794871795,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.3219871794871795
+  },
+  {
+    "text": "there is lab as well right ??",
+    "sentiment_score": 0.1141852335164835,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.1141852335164835
+  },
+  {
+    "text": "lab extra",
+    "sentiment_score": 0.15729166666666666,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.15729166666666666
+  },
+  {
+    "text": "i asked a senior he was like half sem only",
+    "sentiment_score": -0.13293203205128204,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.13293203205128204
+  },
+  {
+    "text": "1 class and 1 lab",
+    "sentiment_score": 0.304921875,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.304921875
+  },
+  {
+    "text": "haan once a week full sem is half sem",
+    "sentiment_score": -0.27230101495726494,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.27230101495726494
+  },
+  {
+    "text": "like ve",
+    "sentiment_score": 0.38427999999999995,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.38427999999999995
+  },
+  {
+    "text": "no ik like credit wise its the same",
+    "sentiment_score": -0.2299622048611111,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.2299622048611111
+  },
+  {
+    "text": "lite anyway",
+    "sentiment_score": 0.0,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.0
+  },
+  {
+    "text": "last year it was prolly that is why",
+    "sentiment_score": -0.15127954727564102,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.15127954727564102
+  },
+  {
+    "text": "timetable for csx (( both a and b ))",
+    "sentiment_score": 0.15,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.15
+  },
+  {
+    "text": "laugh out loud lmao ts pmo",
+    "sentiment_score": -0.20293916666666667,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.20293916666666667
+  },
+  {
+    "text": "fuck you cocky as no bitch zero hairline smelly as chimp of a human",
+    "sentiment_score": -0.34171874999999996,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.34171874999999996
   }
 ]
