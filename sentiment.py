@@ -129,6 +129,7 @@ class HinglishSentimentAnalyzer:
             '😔': -0.7,  # Pensive face
             '😡': -1.4,  # Pouting face (angry)
             '👎': -0.8,  # Thumbs down
+            '🤡': -1.5,  # clown face
             '😠': -1.2,  # Angry face
             '😒': -0.9,  # Unamused face
             '😩': -1.1,  # Weary face

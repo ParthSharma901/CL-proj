@@ -15,8 +15,8 @@ Normalized [4]: the reason is pretty obvious ,, we are all enraged about that ,,
 Mixed E-H [4]: the reason is pretty obvious , , we are all enraged about that , , but having a protest without any clear idea of what you are even doing is just kinda stupid
 
 Original [5]: No😂
-Normalized [5]: no
-Mixed E-H [5]: no
+Normalized [5]: no😂
+Mixed E-H [5]: no😂
 
 Original [6]: Are wo to must hai
 Normalized [6]: are wo to must hai
@@ -31,8 +31,8 @@ Normalized [8]: we can think more till monday ,, but what i thought is ki we wil
 Mixed E-H [8]: we can think more till monday , , but what i thought is िक we will go तो िगिरश office and talk directly , , asking for a confirmation as तो when things will change
 
 Original [9]: Tu akela bhi to ja skta hai fir to 😂
-Normalized [9]: tu akela bhi to ja skta hai fir to 
-Mixed E-H [9]: तु अकेल िभ तो ज सकता है फइर तो
+Normalized [9]: tu akela bhi to ja skta hai fir to 😂
+Mixed E-H [9]: तु अकेल िभ तो ज सकता है फइर तो 😂
 
 Original [10]: Upto you, cpro ka grading ke liye toh Dena chahiye
 Normalized [10]: upto you ,, cpro ka grading ke liye toh dena chahiye
@@ -123,8 +123,8 @@ Normalized [31]: [[ lost ]] old mess policy [[ found ]] shitty messy policy ++ g
 Mixed E-H [31]: [ [ lost ] ] old mess policy [ [ found ] ] शइततय messy policy ++ िगिरश
 
 Original [32]: karne kya vaale ho 😂😂
-Normalized [32]: karne kya vaale ho 
-Mixed E-H [32]: करने कय वाले हो
+Normalized [32]: karne kya vaale ho 😂😂
+Mixed E-H [32]: करने कय वाले हो 😂😂
 
 Original [33]: Demolish the mess
 Normalized [33]: demolish the mess
@@ -135,20 +135,20 @@ Normalized [34]: been saying this about yuktahar but no one takes it seriously
 Mixed E-H [34]: been saying this about युकतःअर but no one takes it seriously
 
 Original [35]: Guruji aap protest nahi karoge??!🤯🤯🤯🤯
-Normalized [35]: guruji always a pleasure protest nahi karoge ?? !! 
-Mixed E-H [35]: गुरुिज always a pleasure protest नःइ करोगे ? ? ! !
+Normalized [35]: guruji always a pleasure protest nahi karoge ?? !! 🤯🤯🤯🤯
+Mixed E-H [35]: गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯🤯🤯🤯
 
 Original [36]: Are u still alive🤯
-Normalized [36]: are you still alive
-Mixed E-H [36]: are you still alive
+Normalized [36]: are you still alive🤯
+Mixed E-H [36]: are you still alive🤯
 
 Original [37]: mein actual kaam karra
 Normalized [37]: mein actual kaam karra
 Mixed E-H [37]: मेइन actual काम कररा
 
 Original [38]: tumhara protest dekhne aaunga popcorn leke 😂
-Normalized [38]: tumhara protest dekhne aaunga popcorn leke 
-Mixed E-H [38]: तुमहारा protest देखने आउनगा popcorn लेके
+Normalized [38]: tumhara protest dekhne aaunga popcorn leke 😂
+Mixed E-H [38]: तुमहारा protest देखने आउनगा popcorn लेके 😂
 
 Original [39]: agar hua toh
 Normalized [39]: agar hua toh
@@ -179,12 +179,12 @@ Normalized [45]: danger found here
 Mixed E-H [45]: दंगेर found here
 
 Original [46]: ay hindi national language FEELING PROWD INDIAN ARMY😡😡😡
-Normalized [46]: ay hindi national language feeling prowd indian army
-Mixed E-H [46]: ay hindi national language feeling prowd indian army
+Normalized [46]: ay hindi national language feeling prowd indian army😡😡😡
+Mixed E-H [46]: ay hindi national language feeling prowd indian army😡😡😡
 
 Original [47]: Whatever happened to tamil tiger 😔
-Normalized [47]: whatever happened to tamil tiger 
-Mixed E-H [47]: whatever happened तो तंइल tiger
+Normalized [47]: whatever happened to tamil tiger 😔
+Mixed E-H [47]: whatever happened तो तंइल tiger 😔
 
 Original [48]: oh fuck ya I forgor
 Normalized [48]: oh fuck ya i forgor
@@ -225,6 +225,10 @@ Mixed E-H [56]: i was so concerned without reading the above text
 Original [57]: wtf
 Normalized [57]: wtf
 Mixed E-H [57]: wtf
+
+Original [58]: 😭😭
+Normalized [58]: 😭😭
+Mixed E-H [58]: 😭😭
 
 Original [59]: which course is chopella teaching?
 Normalized [59]: which course is chopella teaching ??
@@ -271,8 +275,8 @@ Normalized [69]: +1
 Mixed E-H [69]: +1
 
 Original [70]: We telugu ppl are gonna lose privacy if u guys start understanding telugu☠️
-Normalized [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu
-Mixed E-H [70]: we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु
+Normalized [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu☠️
+Mixed E-H [70]: we तेलुगु ppl are गोन न lose privacy if you guys start understanding telugu☠️
 
 Original [71]: Bros asking us to ask questions like I have no idea what u said tf do u want me to ask? "Sir when will u start teaching python"
 Normalized [71]: bros asking us to ask questions like i have no idea what you said tf do you want main to ask ?? ```` sir when will you start teaching python ''''
@@ -311,8 +315,8 @@ Normalized [79]: tech guy
 Mixed E-H [79]: tech guy
 
 Original [80]: "Dot iiit dot" 🤓
-Normalized [80]: ```` dot it dot '''' 
-Mixed E-H [80]: `` `` dot it dot `` ''
+Normalized [80]: ```` dot it dot '''' 🤓
+Mixed E-H [80]: `` `` dot it dot `` '' 🤓
 
 Original [81]: how much is the weightage of slip tests
 Normalized [81]: how much is the weightage of slip tests
@@ -366,13 +370,17 @@ Original [93]: In few mins I'll LET LOOSE
 Normalized [93]: in few mins i will let loose
 Mixed E-H [93]: in few mins i will let loose
 
+Original [94]: 😱😱😱😱😱😱
+Normalized [94]: 😱😱😱😱😱😱
+Mixed E-H [94]: 😱😱😱😱😱😱
+
 Original [95]: crazy
 Normalized [95]: crazy
 Mixed E-H [95]: crazy
 
 Original [96]: veryy bad marketing strategy
 Normalized [96]: veryy bad marketing strategy
-Mixed E-H [96]: वेरयय bad marketing strategy
+Mixed E-H [96]: veryy bad marketing strategy
 
 Original [97]: his courses are POPL and Compilers i think
 Normalized [97]: his courses are popl and compilers i think

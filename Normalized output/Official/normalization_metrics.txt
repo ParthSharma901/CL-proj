@@ -1,6 +1,6 @@
 ### Normalization Metrics ###
-Average BLEU Score: 0.6477
-Average Edit Distance: 13.8600
+Average BLEU Score: 0.6678
+Average Edit Distance: 13.5100
 
 Individual Sentence Metrics:
 Sentence 1:
@@ -11,9 +11,9 @@ Sentence 1:
 
 Sentence 2:
   Original: Tomorrow u will realise whom to trust and whom to not 🤡
-  Normalized: tomorrow you will realise whom to trust and whom to not 
-  BLEU Score: 0.7369
-  Edit Distance: 4
+  Normalized: tomorrow you will realise whom to trust and whom to not 🤡
+  BLEU Score: 0.8265
+  Edit Distance: 3
 
 Sentence 3:
   Original: Anyways, Happy Holi guys! Have fun
@@ -35,15 +35,15 @@ Sentence 5:
 
 Sentence 6:
   Original: Hope u all had fun....nd had a safe Holi...♥️
-  Normalized: hope you all had fun ...... nd had a safe holi ...... 
-  BLEU Score: 0.4018
+  Normalized: hope you all had fun ...... nd had a safe holi ...... ♥️
+  BLEU Score: 0.4090
   Edit Distance: 13
 
 Sentence 7:
   Original: my exams also didn't go well and this helps a ton 🥺
-  Normalized: my exams also did not go well and this helps a ton 
-  BLEU Score: 0.6761
-  Edit Distance: 3
+  Normalized: my exams also did not go well and this helps a ton 🥺
+  BLEU Score: 0.7612
+  Edit Distance: 2
 
 Sentence 8:
   Original: Food is here
@@ -53,15 +53,15 @@ Sentence 8:
 
 Sentence 9:
   Original: Helloo All Navrang is going to start within the next 10 minutes. We request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers. Hoping to see you all sooooonnn⭐⭐⭐ ~The Dance Crew 💃
-  Normalized: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all son ~the dance crew 
-  BLEU Score: 0.7987
-  Edit Distance: 22
+  Normalized: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all sooooonnn⭐⭐⭐ ~the dance crew 💃
+  BLEU Score: 0.8820
+  Edit Distance: 12
 
 Sentence 10:
   Original: Hey guys our institute’s football team has a match rn in the inter college tournament. Please go to the football ground to support our team and your batchmates ☺️☺️
-  Normalized: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates 
-  BLEU Score: 0.7073
-  Edit Distance: 17
+  Normalized: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates ☺️☺️
+  BLEU Score: 0.7400
+  Edit Distance: 13
 
 Sentence 11:
   Original: Hi all, Today's football finals are starting rn. Please do come and support
@@ -71,15 +71,15 @@ Sentence 11:
 
 Sentence 12:
   Original: Happy Ugadi and Gudi padwa!♥️
-  Normalized: happy ugadi and gudi padwa !! 
-  BLEU Score: 0.8091
+  Normalized: happy ugadi and gudi padwa !! ♥️
+  BLEU Score: 0.7401
   Edit Distance: 6
 
 Sentence 13:
   Original: Eid Mubarak 🌙
-  Normalized: eid mubarak 
-  BLEU Score: 0.1918
-  Edit Distance: 3
+  Normalized: eid mubarak 🌙
+  BLEU Score: 0.5623
+  Edit Distance: 2
 
 Sentence 14:
   Original: atb for quiz 2 :)
@@ -107,9 +107,9 @@ Sentence 17:
 
 Sentence 18:
   Original: Also answer the question asked just write student😅
-  Normalized: also answer the question asked just write student
-  BLEU Score: 0.8409
-  Edit Distance: 2
+  Normalized: also answer the question asked just write student😅
+  BLEU Score: 1.0000
+  Edit Distance: 1
 
 Sentence 19:
   Original: send me friend req also tq :>
@@ -125,9 +125,9 @@ Sentence 20:
 
 Sentence 21:
   Original: Still old😅
-  Normalized: still old
-  BLEU Score: 0.1495
-  Edit Distance: 2
+  Normalized: still old😅
+  BLEU Score: 0.3162
+  Edit Distance: 1
 
 Sentence 22:
   Original: You want to be old that’s your prerogative
@@ -173,9 +173,9 @@ Sentence 28:
 
 Sentence 29:
   Original: Adding to that plss pls take note: 1. Initial symptoms include rashes (which may be accompanied by blister in later stage) 2. Fever (low or high either) 3. Fatigue and loss of appetite Also symptoms take a week or more to actually show up ... So ppl might b infected but themselves be unaware of the same So pls try to not b in crowded places at least. And people who have had it in the past or are vaccinated are less prone but can still get it . So pls be careful anyway ❤️❤️
-  Normalized: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway 
-  BLEU Score: 0.7703
-  Edit Distance: 38
+  Normalized: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️❤️
+  BLEU Score: 0.7726
+  Edit Distance: 34
 
 Sentence 30:
   Original: Reminder! Deadline 6PM.
@@ -245,9 +245,9 @@ Sentence 40:
 
 Sentence 41:
   Original: And also have fun with DSA 🤡
-  Normalized: and also have fun with dsa 
-  BLEU Score: 0.8465
-  Edit Distance: 5
+  Normalized: and also have fun with dsa 🤡
+  BLEU Score: 1.0000
+  Edit Distance: 4
 
 Sentence 42:
   Original: Nikki akka getting real
@@ -257,9 +257,9 @@ Sentence 42:
 
 Sentence 43:
   Original: Ya ya All comes with experience 🙏🏻
-  Normalized: ya ya all comes with experience 
-  BLEU Score: 0.8465
-  Edit Distance: 4
+  Normalized: ya ya all comes with experience 🙏🏻
+  BLEU Score: 1.0000
+  Edit Distance: 2
 
 Sentence 44:
   Original: Dear All, This is a reminder about the Goldman Sachs Possibilities Summit happening today at KRB from 7:00 PM to 9:00 PM. Senior leaders from Goldman Sachs will be sharing valuable insights into their corporate journey and discussing the dynamic culture of the finance industry. Your attendance is highly encouraged, as this event is not only a great learning opportunity but also crucial for maintaining a strong relationship with Goldman Sachs, which is vital for future recruitment opportunities. Please make sure to attend.
@@ -293,9 +293,9 @@ Sentence 48:
 
 Sentence 49:
   Original: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 😂
-  Normalized: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 
-  BLEU Score: 0.9260
-  Edit Distance: 1
+  Normalized: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 😂
+  BLEU Score: 1.0000
+  Edit Distance: 0
 
 Sentence 50:
   Original: Kids if anyone missed any endsems please do note this
@@ -305,9 +305,9 @@ Sentence 50:
 
 Sentence 51:
   Original: guys please cross roads safely 🙏
-  Normalized: guys please cross roads safely 
-  BLEU Score: 0.8187
-  Edit Distance: 1
+  Normalized: guys please cross roads safely 🙏
+  BLEU Score: 1.0000
+  Edit Distance: 0
 
 Sentence 52:
   Original: basically rule of thumb: only attempt crossing if you think you can cross it at a go, do not stop in the middle of the road.
@@ -317,15 +317,15 @@ Sentence 52:
 
 Sentence 53:
   Original: random question: does ug1 not prefer going to bbc? i generally have not noticed a lot of ug1s here! (react with 👍/👎)
-  Normalized: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with  ))
-  BLEU Score: 0.5749
-  Edit Distance: 28
+  Normalized: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with 👍/👎 ))
+  BLEU Score: 0.6133
+  Edit Distance: 27
 
 Sentence 54:
   Original: I think its coz BBC is very far from OBH 🤡
-  Normalized: i think its because bring beer and chips is very far from obh 
-  BLEU Score: 0.3868
-  Edit Distance: 31
+  Normalized: i think its because bring beer and chips is very far from obh 🤡
+  BLEU Score: 0.4453
+  Edit Distance: 30
 
 Sentence 55:
   Original: perhaps.
@@ -437,9 +437,9 @@ Sentence 72:
 
 Sentence 73:
   Original: TAs ki bhi halat kharab hai so let them cry also 😂
-  Normalized: tas ki bhi halat kharab hai so let them cry also 
-  BLEU Score: 0.9131
-  Edit Distance: 3
+  Normalized: tas ki bhi halat kharab hai so let them cry also 😂
+  BLEU Score: 1.0000
+  Edit Distance: 2
 
 Sentence 74:
   Original: Now that all your grades are out (Hopefully), Congratulations on finishing your first senester guys! Some of you must be really happy, some of u must be sad, irrespective, u ll did great in the semester. Now forget about what’s done, and think about what u can do guys! Look forward to the next semester. You ll can get a headstart with some DSA as mentioned by Soumil, or can do CP, or anythng. Anyways have fun guys! Party hard for NYE. P.S. If anyone wants to talk something about their grades, hit us up.
@@ -461,9 +461,9 @@ Sentence 76:
 
 Sentence 77:
   Original: Kyu yaad dilaayi tu 😭
-  Normalized: kyu yaad dilaayi tu 
-  BLEU Score: 0.7788
-  Edit Distance: 2
+  Normalized: kyu yaad dilaayi tu 😭
+  BLEU Score: 1.0000
+  Edit Distance: 1
 
 Sentence 78:
   Original: mei toh late aa raha hu more holidays yay
@@ -575,9 +575,9 @@ Sentence 95:
 
 Sentence 96:
   Original: guys if you have labs: welp, i am sorry, there's nothing i can do about it really. mei maafi mangta hu 🙏
-  Normalized: guys if you have labs :: welp ,, i am sorry ,, there 's nothing i can do about it really .. mei maafi mangta hu 
-  BLEU Score: 0.6970
-  Edit Distance: 10
+  Normalized: guys if you have labs :: welp ,, i am sorry ,, there 's nothing i can do about it really .. mei maafi mangta hu 🙏
+  BLEU Score: 0.7088
+  Edit Distance: 9
 
 Sentence 97:
   Original: Guys do come asap, ms Kanika is an excellent speaker and it's also a free event
@@ -599,7 +599,7 @@ Sentence 99:
 
 Sentence 100:
   Original: I would suggest get your own candles if possible ❤️
-  Normalized: i would suggest get your own candles if possible 
-  BLEU Score: 0.8948
-  Edit Distance: 3
+  Normalized: i would suggest get your own candles if possible ❤️
+  BLEU Score: 1.0000
+  Edit Distance: 1
 

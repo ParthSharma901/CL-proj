@@ -11,7 +11,7 @@ Original [4]: The reason is pretty obvious, we are all enraged about that, but h
 Normalized [4]: the reason is pretty obvious ,, we are all enraged about that ,, but having a protest without any clear idea of what you are even doing is just kinda stupid
 
 Original [5]: No😂
-Normalized [5]: no
+Normalized [5]: no😂
 
 Original [6]: Are wo to must hai
 Normalized [6]: are wo to must hai
@@ -23,7 +23,7 @@ Original [8]: We can think more till Monday, but what I thought is ki we will go
 Normalized [8]: we can think more till monday ,, but what i thought is ki we will go to girish office and talk directly ,, asking for a confirmation as to when things will change
 
 Original [9]: Tu akela bhi to ja skta hai fir to 😂
-Normalized [9]: tu akela bhi to ja skta hai fir to 
+Normalized [9]: tu akela bhi to ja skta hai fir to 😂
 
 Original [10]: Upto you, cpro ka grading ke liye toh Dena chahiye
 Normalized [10]: upto you ,, cpro ka grading ke liye toh dena chahiye
@@ -92,7 +92,7 @@ Original [31]: [LOST] Old mess policy [FOUND] Shitty Mess-y Policy + Girish
 Normalized [31]: [[ lost ]] old mess policy [[ found ]] shitty messy policy ++ girish
 
 Original [32]: karne kya vaale ho 😂😂
-Normalized [32]: karne kya vaale ho 
+Normalized [32]: karne kya vaale ho 😂😂
 
 Original [33]: Demolish the mess
 Normalized [33]: demolish the mess
@@ -101,16 +101,16 @@ Original [34]: Been saying this abt yuktahar but no one takes it seriously
 Normalized [34]: been saying this about yuktahar but no one takes it seriously
 
 Original [35]: Guruji aap protest nahi karoge??!🤯🤯🤯🤯
-Normalized [35]: guruji always a pleasure protest nahi karoge ?? !! 
+Normalized [35]: guruji always a pleasure protest nahi karoge ?? !! 🤯🤯🤯🤯
 
 Original [36]: Are u still alive🤯
-Normalized [36]: are you still alive
+Normalized [36]: are you still alive🤯
 
 Original [37]: mein actual kaam karra
 Normalized [37]: mein actual kaam karra
 
 Original [38]: tumhara protest dekhne aaunga popcorn leke 😂
-Normalized [38]: tumhara protest dekhne aaunga popcorn leke 
+Normalized [38]: tumhara protest dekhne aaunga popcorn leke 😂
 
 Original [39]: agar hua toh
 Normalized [39]: agar hua toh
@@ -134,10 +134,10 @@ Original [45]: Danger found here
 Normalized [45]: danger found here
 
 Original [46]: ay hindi national language FEELING PROWD INDIAN ARMY😡😡😡
-Normalized [46]: ay hindi national language feeling prowd indian army
+Normalized [46]: ay hindi national language feeling prowd indian army😡😡😡
 
 Original [47]: Whatever happened to tamil tiger 😔
-Normalized [47]: whatever happened to tamil tiger 
+Normalized [47]: whatever happened to tamil tiger 😔
 
 Original [48]: oh fuck ya I forgor
 Normalized [48]: oh fuck ya i forgor
@@ -170,7 +170,7 @@ Original [57]: wtf
 Normalized [57]: wtf
 
 Original [58]: 😭😭
-Normalized [58]: 
+Normalized [58]: 😭😭
 
 Original [59]: which course is chopella teaching?
 Normalized [59]: which course is chopella teaching ??
@@ -206,7 +206,7 @@ Original [69]: +1
 Normalized [69]: +1
 
 Original [70]: We telugu ppl are gonna lose privacy if u guys start understanding telugu☠️
-Normalized [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu
+Normalized [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu☠️
 
 Original [71]: Bros asking us to ask questions like I have no idea what u said tf do u want me to ask? "Sir when will u start teaching python"
 Normalized [71]: bros asking us to ask questions like i have no idea what you said tf do you want main to ask ?? ```` sir when will you start teaching python ''''
@@ -236,7 +236,7 @@ Original [79]: Tech guy
 Normalized [79]: tech guy
 
 Original [80]: "Dot iiit dot" 🤓
-Normalized [80]: ```` dot it dot '''' 
+Normalized [80]: ```` dot it dot '''' 🤓
 
 Original [81]: how much is the weightage of slip tests
 Normalized [81]: how much is the weightage of slip tests
@@ -278,7 +278,7 @@ Original [93]: In few mins I'll LET LOOSE
 Normalized [93]: in few mins i will let loose
 
 Original [94]: 😱😱😱😱😱😱
-Normalized [94]: 
+Normalized [94]: 😱😱😱😱😱😱
 
 Original [95]: crazy
 Normalized [95]: crazy

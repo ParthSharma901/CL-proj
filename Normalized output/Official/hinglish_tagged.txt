@@ -5,7 +5,7 @@ my	EN
 ass	EN
 off	EN
 
-Sentence [2]: tomorrow you will realise whom to trust and whom to not 
+Sentence [2]: tomorrow you will realise whom to trust and whom to not 🤡
 Word	Language
 tomorrow	EN
 you	EN
@@ -18,6 +18,7 @@ and	EN
 whom	EN
 to	HI
 not	EN
+🤡	EM
 
 Sentence [3]: anyways ,, happy holi guys !! have fun
 Word	Language
@@ -46,7 +47,7 @@ Word	Language
 chd	EN
 moment	EN
 
-Sentence [6]: hope you all had fun ...... nd had a safe holi ...... 
+Sentence [6]: hope you all had fun ...... nd had a safe holi ...... ♥️
 Word	Language
 hope	EN
 you	EN
@@ -60,8 +61,9 @@ a	EN
 safe	EN
 holi	HI
 ......	EN
+♥️	EM
 
-Sentence [7]: my exams also did not go well and this helps a ton 
+Sentence [7]: my exams also did not go well and this helps a ton 🥺
 Word	Language
 my	EN
 exams	EN
@@ -75,6 +77,7 @@ this	EN
 helps	EN
 a	EN
 ton	EN
+🥺	EM
 
 Sentence [8]: food is here
 Word	Language
@@ -82,7 +85,7 @@ food	EN
 is	EN
 here	EN
 
-Sentence [9]: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all son ~the dance crew 
+Sentence [9]: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all sooooonnn⭐⭐⭐ ~the dance crew 💃
 Word	Language
 helloo	EN
 all	EN
@@ -124,12 +127,13 @@ to	HI
 see	HI
 you	EN
 all	EN
-son	EN
+sooooonnn⭐⭐⭐	EM
 ~the	EN
 dance	EN
 crew	EN
+💃	EM
 
-Sentence [10]: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates 
+Sentence [10]: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates ☺️☺️
 Word	Language
 hey	EN
 guys	EN
@@ -162,6 +166,7 @@ team	EN
 and	EN
 your	EN
 batchmates	HI
+☺️☺️	EM
 
 Sentence [11]: hi all ,, today 's football finals are starting right now .. please do come and support
 Word	Language
@@ -184,7 +189,7 @@ come	EN
 and	EN
 support	EN
 
-Sentence [12]: happy ugadi and gudi padwa !! 
+Sentence [12]: happy ugadi and gudi padwa !! ♥️
 Word	Language
 happy	EN
 ugadi	HI
@@ -193,11 +198,13 @@ gudi	HI
 padwa	HI
 !	EN
 !	EN
+♥️	EM
 
-Sentence [13]: eid mubarak 
+Sentence [13]: eid mubarak 🌙
 Word	Language
 eid	EN
 mubarak	HI
+🌙	EM
 
 Sentence [14]: atb for quiz 2 :: ))
 Word	Language
@@ -326,7 +333,7 @@ old	EN
 generation	EN
 kids	EN
 
-Sentence [18]: also answer the question asked just write student
+Sentence [18]: also answer the question asked just write student😅
 Word	Language
 also	EN
 answer	EN
@@ -335,7 +342,7 @@ question	EN
 asked	EN
 just	EN
 write	EN
-student	EN
+student😅	EM
 
 Sentence [19]: send main friend req also tq :: >>
 Word	Language
@@ -359,16 +366,16 @@ be	EN
 asked	EN
 ques	EN
 like	EN
-purpose	HI
+purpose	EN
 of	EN
 joining	EN
 this	EN
 grp	HI
 
-Sentence [21]: still old
+Sentence [21]: still old😅
 Word	Language
 still	EN
-old	EN
+old😅	EM
 
 Sentence [22]: you want to be old that  s your prerogative
 Word	Language
@@ -558,7 +565,7 @@ projects	EN
 !	EN
 !	EN
 
-Sentence [29]: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway 
+Sentence [29]: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️❤️
 Word	Language
 adding	EN
 to	HI
@@ -665,6 +672,7 @@ please	EN
 be	EN
 careful	EN
 anyway	EN
+❤️❤️	EM
 
 Sentence [30]: reminder !! deadline 6pm ..
 Word	Language
@@ -820,7 +828,7 @@ us	EN
 !	EN
 !	EN
 
-Sentence [41]: and also have fun with dsa 
+Sentence [41]: and also have fun with dsa 🤡
 Word	Language
 and	EN
 also	EN
@@ -828,6 +836,7 @@ have	EN
 fun	EN
 with	EN
 dsa	HI
+🤡	EM
 
 Sentence [42]: nikki akka getting real
 Word	Language
@@ -836,7 +845,7 @@ akka	HI
 getting	EN
 real	EN
 
-Sentence [43]: ya ya all comes with experience 
+Sentence [43]: ya ya all comes with experience 🙏🏻
 Word	Language
 ya	HI
 ya	HI
@@ -844,6 +853,7 @@ all	EN
 comes	EN
 with	EN
 experience	EN
+🙏🏻	EM
 
 Sentence [44]: dear all ,, this is a reminder about the goldman sachs possibilities summit happening today at krb from 700 pm to 900 pm .. senior leaders from goldman sachs will be sharing valuable insights into their corporate journey and discussing the dynamic culture of the finance industry .. your attendance is highly encouraged ,, as this event is not only a great learning opportunity but also crucial for maintaining a strong relationship with goldman sachs ,, which is vital for future recruitment opportunities .. please make sure to attend ..
 Word	Language
@@ -894,7 +904,7 @@ culture	EN
 of	EN
 the	EN
 finance	EN
-industry	HI
+industry	EN
 ..	EN
 your	EN
 attendance	EN
@@ -1220,7 +1230,7 @@ again	EN
 )	EN
 )	EN
 
-Sentence [49]: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 
+Sentence [49]: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 😂
 Word	Language
 ghum	HI
 rahe	HI
@@ -1235,6 +1245,7 @@ nahi	HI
 ho	HI
 raha	HI
 inka	HI
+😂	EM
 
 Sentence [50]: kids if anyone missed any endsems please do note this
 Word	Language
@@ -1249,13 +1260,14 @@ do	EN
 note	EN
 this	EN
 
-Sentence [51]: guys please cross roads safely 
+Sentence [51]: guys please cross roads safely 🙏
 Word	Language
 guys	EN
 please	EN
 cross	EN
 roads	EN
 safely	EN
+🙏	EM
 
 Sentence [52]: basically rule of thumb :: only attempt crossing if you think you can cross it at a go ,, do not stop in the middle of the road ..
 Word	Language
@@ -1291,7 +1303,7 @@ the	EN
 road	EN
 ..	EN
 
-Sentence [53]: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with  ))
+Sentence [53]: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with 👍/👎 ))
 Word	Language
 random	EN
 question	EN
@@ -1325,10 +1337,11 @@ here	EN
 (	EN
 react	EN
 with	EN
+👍/👎	EM
 )	EN
 )	EN
 
-Sentence [54]: i think its because bring beer and chips is very far from obh 
+Sentence [54]: i think its because bring beer and chips is very far from obh 🤡
 Word	Language
 i	EN
 think	EN
@@ -1342,7 +1355,8 @@ is	EN
 very	EN
 far	HI
 from	EN
-obh	HI
+obh	EN
+🤡	EM
 
 Sentence [55]: perhaps ..
 Word	Language
@@ -1703,7 +1717,7 @@ your	EN
 final	EN
 grades	EN
 
-Sentence [73]: tas ki bhi halat kharab hai so let them cry also 
+Sentence [73]: tas ki bhi halat kharab hai so let them cry also 😂
 Word	Language
 tas	HI
 ki	HI
@@ -1716,6 +1730,7 @@ let	EN
 them	EN
 cry	EN
 also	EN
+😂	EM
 
 Sentence [74]: now that all your grades are out (( hopefully )) ,, congratulations on finishing your first senester guys !! some of you must be really happy ,, some of you must be sad ,, irrespective ,, you ll did great in the semester .. now forget about what  s done ,, and think about what you can do guys !! look forward to the next semester .. you ll can get a headstart with some dsa as mentioned by soumil ,, or can do cp ,, or anythng .. anyways have fun guys !! party hard for nye .. ps .. if anyone wants to talk something about their grades ,, hit us up ..
 Word	Language
@@ -1886,12 +1901,13 @@ karo	HI
 enjoi	EN
 holidays	HI
 
-Sentence [77]: kyu yaad dilaayi tu 
+Sentence [77]: kyu yaad dilaayi tu 😭
 Word	Language
 kyu	HI
 yaad	HI
 dilaayi	HI
 tu	HI
+😭	EM
 
 Sentence [78]: mei toh late aa raha hu more holidays yay
 Word	Language
@@ -2183,7 +2199,7 @@ gupta	HI
 (	EN
 (	EN
 +91	EN
-96911	HI
+96911	EN
 90017	EN
 )	EN
 )	EN
@@ -2336,7 +2352,7 @@ attendees	HI
 )	EN
 )	EN
 
-Sentence [96]: guys if you have labs :: welp ,, i am sorry ,, there 's nothing i can do about it really .. mei maafi mangta hu 
+Sentence [96]: guys if you have labs :: welp ,, i am sorry ,, there 's nothing i can do about it really .. mei maafi mangta hu 🙏
 Word	Language
 guys	EN
 if	EN
@@ -2367,6 +2383,7 @@ mei	HI
 maafi	HI
 mangta	HI
 hu	HI
+🙏	EM
 
 Sentence [97]: guys do come as soon as possible ,, ms kanika is an excellent speaker and it 's also a free event
 Word	Language
@@ -2488,7 +2505,7 @@ well	EN
 soon	EN
 ..	EN
 
-Sentence [100]: i would suggest get your own candles if possible 
+Sentence [100]: i would suggest get your own candles if possible ❤️
 Word	Language
 i	EN
 would	EN
@@ -2499,4 +2516,5 @@ own	EN
 candles	EN
 if	EN
 possible	EN
+❤️	EM
 

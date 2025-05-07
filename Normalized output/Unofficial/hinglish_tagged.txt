@@ -70,9 +70,9 @@ just	EN
 kinda	EN
 stupid	EN
 
-Sentence [5]: no
+Sentence [5]: no😂
 Word	Language
-no	EN
+no😂	EM
 
 Sentence [6]: are wo to must hai
 Word	Language
@@ -134,7 +134,7 @@ things	EN
 will	EN
 change	EN
 
-Sentence [9]: tu akela bhi to ja skta hai fir to 
+Sentence [9]: tu akela bhi to ja skta hai fir to 😂
 Word	Language
 tu	HI
 akela	HI
@@ -145,6 +145,7 @@ skta	HI
 hai	HI
 fir	HI
 to	HI
+😂	EM
 
 Sentence [10]: upto you ,, cpro ka grading ke liye toh dena chahiye
 Word	Language
@@ -383,12 +384,13 @@ policy	EN
 ++	EN
 girish	HI
 
-Sentence [32]: karne kya vaale ho 
+Sentence [32]: karne kya vaale ho 😂😂
 Word	Language
 karne	HI
 kya	HI
 vaale	HI
 ho	HI
+😂😂	EM
 
 Sentence [33]: demolish the mess
 Word	Language
@@ -410,7 +412,7 @@ takes	EN
 it	EN
 seriously	EN
 
-Sentence [35]: guruji always a pleasure protest nahi karoge ?? !! 
+Sentence [35]: guruji always a pleasure protest nahi karoge ?? !! 🤯🤯🤯🤯
 Word	Language
 guruji	HI
 always	EN
@@ -423,13 +425,14 @@ karoge	HI
 ?	EN
 !	EN
 !	EN
+🤯🤯🤯🤯	EM
 
-Sentence [36]: are you still alive
+Sentence [36]: are you still alive🤯
 Word	Language
 are	EN
 you	EN
 still	EN
-alive	EN
+alive🤯	EM
 
 Sentence [37]: mein actual kaam karra
 Word	Language
@@ -438,7 +441,7 @@ actual	EN
 kaam	HI
 karra	HI
 
-Sentence [38]: tumhara protest dekhne aaunga popcorn leke 
+Sentence [38]: tumhara protest dekhne aaunga popcorn leke 😂
 Word	Language
 tumhara	HI
 protest	EN
@@ -446,6 +449,7 @@ dekhne	HI
 aaunga	HI
 popcorn	EN
 leke	HI
+😂	EM
 
 Sentence [39]: agar hua toh
 Word	Language
@@ -509,7 +513,7 @@ danger	HI
 found	EN
 here	EN
 
-Sentence [46]: ay hindi national language feeling prowd indian army
+Sentence [46]: ay hindi national language feeling prowd indian army😡😡😡
 Word	Language
 ay	EN
 hindi	EN
@@ -518,15 +522,16 @@ language	EN
 feeling	EN
 prowd	EN
 indian	EN
-army	EN
+army😡😡😡	EM
 
-Sentence [47]: whatever happened to tamil tiger 
+Sentence [47]: whatever happened to tamil tiger 😔
 Word	Language
 whatever	EN
 happened	EN
 to	HI
 tamil	HI
 tiger	EN
+😔	EM
 
 Sentence [48]: oh fuck ya i forgor
 Word	Language
@@ -672,7 +677,10 @@ Sentence [57]: wtf
 Word	Language
 wtf	EN
 
-Sentence [58]: 
+Sentence [58]: 😭😭
+Word	Language
+😭😭	EM
+
 Sentence [59]: which course is chopella teaching ??
 Word	Language
 which	EN
@@ -764,7 +772,7 @@ Sentence [69]: +1
 Word	Language
 +1	EN
 
-Sentence [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu
+Sentence [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu☠️
 Word	Language
 we	EN
 telugu	HI
@@ -779,7 +787,7 @@ you	EN
 guys	EN
 start	EN
 understanding	EN
-telugu	HI
+telugu☠️	EM
 
 Sentence [71]: bros asking us to ask questions like i have no idea what you said tf do you want main to ask ?? ```` sir when will you start teaching python ''''
 Word	Language
@@ -890,7 +898,7 @@ Word	Language
 tech	EN
 guy	EN
 
-Sentence [80]: ```` dot it dot '''' 
+Sentence [80]: ```` dot it dot '''' 🤓
 Word	Language
 ``	EN
 ``	EN
@@ -899,6 +907,7 @@ it	EN
 dot	EN
 ``	EN
 ''	EN
+🤓	EM
 
 Sentence [81]: how much is the weightage of slip tests
 Word	Language
@@ -1013,14 +1022,17 @@ will	EN
 let	EN
 loose	EN
 
-Sentence [94]: 
+Sentence [94]: 😱😱😱😱😱😱
+Word	Language
+😱😱😱😱😱😱	EM
+
 Sentence [95]: crazy
 Word	Language
 crazy	EN
 
 Sentence [96]: veryy bad marketing strategy
 Word	Language
-veryy	HI
+veryy	EN
 bad	EN
 marketing	EN
 strategy	EN

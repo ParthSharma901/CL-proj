@@ -32,10 +32,10 @@
     "emoji_count": 0
   },
   {
-    "text": "no",
-    "sentiment_score": -0.08879999999999999,
+    "text": "no😂",
+    "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.08879999999999999,
+    "sentiment_strength": 0.0,
     "emojis_found": false,
     "emoji_count": 0
   },
@@ -64,7 +64,7 @@
     "emoji_count": 0
   },
   {
-    "text": "तु अकेल िभ तो ज सकता है फइर तो",
+    "text": "तु अकेल िभ तो ज सकता है फइर तो 😂",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -248,7 +248,7 @@
     "emoji_count": 0
   },
   {
-    "text": "करने कय वाले हो",
+    "text": "करने कय वाले हो 😂😂",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -272,7 +272,7 @@
     "emoji_count": 0
   },
   {
-    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! !",
+    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯🤯🤯🤯",
     "sentiment_score": 0.10804061538461537,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.10804061538461537,
@@ -280,10 +280,10 @@
     "emoji_count": 0
   },
   {
-    "text": "are you still alive",
-    "sentiment_score": 0.083316,
+    "text": "are you still alive🤯",
+    "sentiment_score": -0.03088235294117647,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.083316,
+    "sentiment_strength": 0.03088235294117647,
     "emojis_found": false,
     "emoji_count": 0
   },
@@ -296,7 +296,7 @@
     "emoji_count": 0
   },
   {
-    "text": "तुमहारा protest देखने आउनगा popcorn लेके",
+    "text": "तुमहारा protest देखने आउनगा popcorn लेके 😂",
     "sentiment_score": -0.03,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.03,
@@ -360,20 +360,20 @@
     "emoji_count": 0
   },
   {
-    "text": "ay hindi national language feeling prowd indian army",
-    "sentiment_score": 0.0200475,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.0200475,
-    "emojis_found": false,
-    "emoji_count": 0
+    "text": "ay hindi national language feeling prowd indian army😡😡😡",
+    "sentiment_score": -1,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 1,
+    "emojis_found": true,
+    "emoji_count": 3
   },
   {
-    "text": "whatever happened तो तंइल tiger",
-    "sentiment_score": -0.04285714285714285,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.04285714285714285,
-    "emojis_found": false,
-    "emoji_count": 0
+    "text": "whatever happened तो तंइल tiger 😔",
+    "sentiment_score": -0.3054545454545455,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.3054545454545455,
+    "emojis_found": true,
+    "emoji_count": 1
   },
   {
     "text": "oh fuck य i forgor",
@@ -454,6 +454,14 @@
     "sentiment_strength": 0.17576999999999998,
     "emojis_found": false,
     "emoji_count": 0
+  },
+  {
+    "text": "😭😭",
+    "sentiment_score": -1,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 1,
+    "emojis_found": true,
+    "emoji_count": 2
   },
   {
     "text": "which course is chopella teaching ? ?",
@@ -544,7 +552,7 @@
     "emoji_count": 0
   },
   {
-    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु",
+    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding telugu☠️",
     "sentiment_score": -0.06965657142857141,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.06965657142857141,
@@ -624,7 +632,7 @@
     "emoji_count": 0
   },
   {
-    "text": "`` `` dot it dot `` ''",
+    "text": "`` `` dot it dot `` '' 🤓",
     "sentiment_score": 0.01875,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.01875,
@@ -736,6 +744,14 @@
     "emoji_count": 0
   },
   {
+    "text": "😱😱😱😱😱😱",
+    "sentiment_score": 0.0,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.0,
+    "emojis_found": false,
+    "emoji_count": 0
+  },
+  {
     "text": "crazy",
     "sentiment_score": -0.2658,
     "sentiment_category": "Negative",
@@ -744,7 +760,7 @@
     "emoji_count": 0
   },
   {
-    "text": "वेरयय bad marketing strategy",
+    "text": "veryy bad marketing strategy",
     "sentiment_score": -0.58269,
     "sentiment_category": "Negative",
     "sentiment_strength": 0.58269,

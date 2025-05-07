@@ -17,9 +17,9 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.25
    Category: Negative (Strength: 0.25)
 
-5. Text: no
-   Sentiment Score: -0.09
-   Category: Neutral (Strength: 0.09)
+5. Text: no😂
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
 
 6. Text: are वओ तो must है
    Sentiment Score: 0.01
@@ -33,7 +33,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-9. Text: तु अकेल िभ तो ज सकता है फइर तो
+9. Text: तु अकेल िभ तो ज सकता है फइर तो 😂
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
@@ -125,7 +125,7 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.22
    Category: Negative (Strength: 0.22)
 
-32. Text: करने कय वाले हो
+32. Text: करने कय वाले हो 😂😂
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
@@ -137,19 +137,19 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.07
    Category: Neutral (Strength: 0.07)
 
-35. Text: गुरुिज always a pleasure protest नःइ करोगे ? ? ! !
+35. Text: गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯🤯🤯🤯
    Sentiment Score: 0.11
    Category: Neutral (Strength: 0.11)
 
-36. Text: are you still alive
-   Sentiment Score: 0.08
-   Category: Neutral (Strength: 0.08)
+36. Text: are you still alive🤯
+   Sentiment Score: -0.03
+   Category: Neutral (Strength: 0.03)
 
 37. Text: मेइन actual काम कररा
    Sentiment Score: 0.04
    Category: Neutral (Strength: 0.04)
 
-38. Text: तुमहारा protest देखने आउनगा popcorn लेके
+38. Text: तुमहारा protest देखने आउनगा popcorn लेके 😂
    Sentiment Score: -0.03
    Category: Neutral (Strength: 0.03)
 
@@ -181,13 +181,15 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-46. Text: ay hindi national language feeling prowd indian army
-   Sentiment Score: 0.02
-   Category: Neutral (Strength: 0.02)
+46. Text: ay hindi national language feeling prowd indian army😡😡😡
+   Sentiment Score: -1.00
+   Category: Negative (Strength: 1.00)
+   Emojis found: Yes (Count: 3)
 
-47. Text: whatever happened तो तंइल tiger
-   Sentiment Score: -0.04
-   Category: Neutral (Strength: 0.04)
+47. Text: whatever happened तो तंइल tiger 😔
+   Sentiment Score: -0.31
+   Category: Negative (Strength: 0.31)
+   Emojis found: Yes (Count: 1)
 
 48. Text: oh fuck य i forgor
    Sentiment Score: -0.07
@@ -229,167 +231,176 @@ Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
    Sentiment Score: -0.18
    Category: Neutral (Strength: 0.18)
 
-58. Text: which course is chopella teaching ? ?
+58. Text: 😭😭
+   Sentiment Score: -1.00
+   Category: Negative (Strength: 1.00)
+   Emojis found: Yes (Count: 2)
+
+59. Text: which course is chopella teaching ? ?
    Sentiment Score: 0.03
    Category: Neutral (Strength: 0.03)
 
-59. Text: i think हे 's teaching रा
+60. Text: i think हे 's teaching रा
    Sentiment Score: 0.10
    Category: Neutral (Strength: 0.10)
 
-60. Text: no ds
+61. Text: no ds
    Sentiment Score: -0.09
    Category: Neutral (Strength: 0.09)
 
-61. Text: but like genuinely what is this guy yapping
+62. Text: but like genuinely what is this guy yapping
    Sentiment Score: 0.12
    Category: Neutral (Strength: 0.12)
 
-62. Text: yapping with an accent * *
+63. Text: yapping with an accent * *
    Sentiment Score: 0.09
    Category: Neutral (Strength: 0.09)
 
-63. Text: दसा prof
+64. Text: दसा prof
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-64. Text: bro सतायेद in the us for about 4yrs and caught enough accent तो last a lifetime ......
+65. Text: bro सतायेद in the us for about 4yrs and caught enough accent तो last a lifetime ......
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-65. Text: same
+66. Text: same
    Sentiment Score: -0.02
    Category: Neutral (Strength: 0.02)
 
-66. Text: shush
+67. Text: shush
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-67. Text: िरझझलयिवक सार please teach मैन तेलुगु सार
+68. Text: िरझझलयिवक सार please teach मैन तेलुगु सार
    Sentiment Score: 0.07
    Category: Neutral (Strength: 0.07)
 
-68. Text: +1
+69. Text: +1
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-69. Text: we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु
+70. Text: we तेलुगु ppl are गोन न lose privacy if you guys start understanding telugu☠️
    Sentiment Score: -0.07
    Category: Neutral (Strength: 0.07)
 
-70. Text: bros asking us तो ask questions like i have no idea what you said tf do you want मैन तो ask ? ? `` `` sir when will you start teaching पयथोन `` ''
+71. Text: bros asking us तो ask questions like i have no idea what you said tf do you want मैन तो ask ? ? `` `` sir when will you start teaching पयथोन `` ''
    Sentiment Score: 0.03
    Category: Neutral (Strength: 0.03)
 
-71. Text: rare bird गेइस
+72. Text: rare bird गेइस
    Sentiment Score: -0.03
    Category: Neutral (Strength: 0.03)
 
-72. Text: हेहे
+73. Text: हेहे
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-73. Text: तो be honest i will ask next time हे stares at मैन
+74. Text: तो be honest i will ask next time हे stares at मैन
    Sentiment Score: 0.11
    Category: Neutral (Strength: 0.11)
 
-74. Text: let 's sell that rare bird on the black market and उसे the money तो have a party
+75. Text: let 's sell that rare bird on the black market and उसे the money तो have a party
    Sentiment Score: -0.02
    Category: Neutral (Strength: 0.02)
 
-75. Text: computer science prof
+76. Text: computer science prof
    Sentiment Score: 0.01
    Category: Neutral (Strength: 0.01)
 
-76. Text: हे 's a computer science prof ? ?
+77. Text: हे 's a computer science prof ? ?
    Sentiment Score: 0.01
    Category: Neutral (Strength: 0.01)
 
-77. Text: whatever
+78. Text: whatever
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-78. Text: tech guy
+79. Text: tech guy
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-79. Text: `` `` dot it dot `` ''
+80. Text: `` `` dot it dot `` '' 🤓
    Sentiment Score: 0.02
    Category: Neutral (Strength: 0.02)
 
-80. Text: how much is the weightage of सिलप tests
+81. Text: how much is the weightage of सिलप tests
    Sentiment Score: 0.02
    Category: Neutral (Strength: 0.02)
 
-81. Text: did she tell
+82. Text: did she tell
    Sentiment Score: -0.02
    Category: Neutral (Strength: 0.02)
 
-82. Text: 3 ig
+83. Text: 3 ig
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-83. Text: mfs will do anything else except study
+84. Text: mfs will do anything else except study
    Sentiment Score: 0.02
    Category: Neutral (Strength: 0.02)
 
-84. Text: yes
+85. Text: yes
    Sentiment Score: 0.20
    Category: Neutral (Strength: 0.20)
 
-85. Text: यू @ @ 919356351244
+86. Text: यू @ @ 919356351244
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-86. Text: super excited ! !
+87. Text: super excited ! !
    Sentiment Score: 0.24
    Category: Positive (Strength: 0.24)
 
-87. Text: if you are excited you should kys
+88. Text: if you are excited you should kys
    Sentiment Score: 0.03
    Category: Neutral (Strength: 0.03)
 
-88. Text: guys we are super excited तो run तो our computers and code this
+89. Text: guys we are super excited तो run तो our computers and code this
    Sentiment Score: 0.22
    Category: Positive (Strength: 0.22)
 
-89. Text: say that तो him laughing my ass off
+90. Text: say that तो him laughing my ass off
    Sentiment Score: -0.01
    Category: Neutral (Strength: 0.01)
 
-90. Text: हे threatened तो let loose
+91. Text: हे threatened तो let loose
    Sentiment Score: -0.19
    Category: Neutral (Strength: 0.19)
 
-91. Text: * * keep yourself safe
+92. Text: * * keep yourself safe
    Sentiment Score: 0.06
    Category: Neutral (Strength: 0.06)
 
-92. Text: in few mins i will let loose
+93. Text: in few mins i will let loose
    Sentiment Score: -0.13
    Category: Neutral (Strength: 0.13)
 
-93. Text: crazy
-   Sentiment Score: -0.27
-   Category: Negative (Strength: 0.27)
-
-94. Text: वेरयय bad marketing strategy
-   Sentiment Score: -0.58
-   Category: Negative (Strength: 0.58)
-
-95. Text: his courses are popl and compilers i think
+94. Text: 😱😱😱😱😱😱
    Sentiment Score: 0.00
    Category: Neutral (Strength: 0.00)
 
-96. Text: like they did not want तो deal with this bs and quit because even the तास had no idea what this guy was on
+95. Text: crazy
+   Sentiment Score: -0.27
+   Category: Negative (Strength: 0.27)
+
+96. Text: veryy bad marketing strategy
+   Sentiment Score: -0.58
+   Category: Negative (Strength: 0.58)
+
+97. Text: his courses are popl and compilers i think
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+98. Text: like they did not want तो deal with this bs and quit because even the तास had no idea what this guy was on
    Sentiment Score: -0.01
    Category: Neutral (Strength: 0.01)
 
-97. Text: yes , , this comes in popl
+99. Text: yes , , this comes in popl
    Sentiment Score: 0.07
    Category: Neutral (Strength: 0.07)
 
-98. Text: अः interesting
+100. Text: अः interesting
    Sentiment Score: 0.25
    Category: Positive (Strength: 0.25)
 

@@ -36,10 +36,10 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "no",
-    "sentiment_score": -0.08879999999999999,
+    "text": "no😂",
+    "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.08879999999999999,
+    "sentiment_strength": 0.0,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Unofficial"
@@ -72,7 +72,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "तु अकेल िभ तो ज सकता है फइर तो",
+    "text": "तु अकेल िभ तो ज सकता है फइर तो 😂",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -279,7 +279,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "करने कय वाले हो",
+    "text": "करने कय वाले हो 😂😂",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -306,7 +306,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! !",
+    "text": "गुरुिज always a pleasure protest नःइ करोगे ? ? ! ! 🤯🤯🤯🤯",
     "sentiment_score": 0.10804061538461537,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.10804061538461537,
@@ -315,10 +315,10 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "are you still alive",
-    "sentiment_score": 0.083316,
+    "text": "are you still alive🤯",
+    "sentiment_score": -0.03088235294117647,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.083316,
+    "sentiment_strength": 0.03088235294117647,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Unofficial"
@@ -333,7 +333,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "तुमहारा protest देखने आउनगा popcorn लेके",
+    "text": "तुमहारा protest देखने आउनगा popcorn लेके 😂",
     "sentiment_score": -0.03,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.03,
@@ -405,21 +405,21 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "ay hindi national language feeling prowd indian army",
-    "sentiment_score": 0.0200475,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.0200475,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "text": "ay hindi national language feeling prowd indian army😡😡😡",
+    "sentiment_score": -1,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 1,
+    "emojis_found": true,
+    "emoji_count": 3,
     "dataset": "Unofficial"
   },
   {
-    "text": "whatever happened तो तंइल tiger",
-    "sentiment_score": -0.04285714285714285,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.04285714285714285,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "text": "whatever happened तो तंइल tiger 😔",
+    "sentiment_score": -0.3054545454545455,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.3054545454545455,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Unofficial"
   },
   {
@@ -510,6 +510,15 @@
     "sentiment_strength": 0.17576999999999998,
     "emojis_found": false,
     "emoji_count": 0,
+    "dataset": "Unofficial"
+  },
+  {
+    "text": "😭😭",
+    "sentiment_score": -1,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 1,
+    "emojis_found": true,
+    "emoji_count": 2,
     "dataset": "Unofficial"
   },
   {
@@ -612,7 +621,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु",
+    "text": "we तेलुगु ppl are गोन न lose privacy if you guys start understanding telugu☠️",
     "sentiment_score": -0.06965657142857141,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.06965657142857141,
@@ -702,7 +711,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "`` `` dot it dot `` ''",
+    "text": "`` `` dot it dot `` '' 🤓",
     "sentiment_score": 0.01875,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.01875,
@@ -828,6 +837,15 @@
     "dataset": "Unofficial"
   },
   {
+    "text": "😱😱😱😱😱😱",
+    "sentiment_score": 0.0,
+    "sentiment_category": "Neutral",
+    "sentiment_strength": 0.0,
+    "emojis_found": false,
+    "emoji_count": 0,
+    "dataset": "Unofficial"
+  },
+  {
     "text": "crazy",
     "sentiment_score": -0.2658,
     "sentiment_category": "Negative",
@@ -837,7 +855,7 @@
     "dataset": "Unofficial"
   },
   {
-    "text": "वेरयय bad marketing strategy",
+    "text": "veryy bad marketing strategy",
     "sentiment_score": -0.58269,
     "sentiment_category": "Negative",
     "sentiment_strength": 0.58269,
@@ -891,12 +909,12 @@
     "dataset": "Official"
   },
   {
-    "text": "tomorrow you will realise whom तो trust and whom तो not",
-    "sentiment_score": 0.07793866666666667,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.07793866666666667,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "text": "tomorrow you will realise whom तो trust and whom तो not 🤡",
+    "sentiment_score": -0.21092347826086952,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.21092347826086952,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Official"
   },
   {
@@ -927,7 +945,7 @@
     "dataset": "Official"
   },
   {
-    "text": "hope you all had fun ...... nd had a safe होिल ......",
+    "text": "hope you all had fun ...... nd had a safe होिल ...... ♥️",
     "sentiment_score": 0.25326,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.25326,
@@ -936,7 +954,7 @@
     "dataset": "Official"
   },
   {
-    "text": "my exams also did not go well and this helps a ton",
+    "text": "my exams also did not go well and this helps a ton 🥺",
     "sentiment_score": 0.100308,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.100308,
@@ -954,7 +972,7 @@
     "dataset": "Official"
   },
   {
-    "text": "helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all son ~the dance crew",
+    "text": "helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all sooooonnn⭐⭐⭐ ~the dance crew 💃",
     "sentiment_score": 0.40337,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.40337,
@@ -963,7 +981,7 @@
     "dataset": "Official"
   },
   {
-    "text": "hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस",
+    "text": "hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस ☺️☺️",
     "sentiment_score": 0.29572,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.29572,
@@ -981,16 +999,16 @@
     "dataset": "Official"
   },
   {
-    "text": "happy उगािद and गुिद पदव ! !",
-    "sentiment_score": 0.49401,
+    "text": "happy उगािद and गुिद पदव ! ! ♥️",
+    "sentiment_score": 0.45650999999999997,
     "sentiment_category": "Positive",
-    "sentiment_strength": 0.49401,
+    "sentiment_strength": 0.45650999999999997,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
   },
   {
-    "text": "eid मुबराक",
+    "text": "eid मुबराक 🌙",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -1035,10 +1053,10 @@
     "dataset": "Official"
   },
   {
-    "text": "also answer the question asked just write student",
-    "sentiment_score": 0.016666666666666666,
+    "text": "also answer the question asked just write student😅",
+    "sentiment_score": 0.018,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.016666666666666666,
+    "sentiment_strength": 0.018,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
@@ -1053,19 +1071,19 @@
     "dataset": "Official"
   },
   {
-    "text": "basically you will be asked ques like पुरपोसे of joining this गरप",
-    "sentiment_score": 0.07219015384615385,
+    "text": "basically you will be asked ques like purpose of joining this गरप",
+    "sentiment_score": 0.062093999999999996,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.07219015384615385,
+    "sentiment_strength": 0.062093999999999996,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
   },
   {
-    "text": "still old",
-    "sentiment_score": -0.012499999999999999,
+    "text": "still old😅",
+    "sentiment_score": -0.15,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.012499999999999999,
+    "sentiment_strength": 0.15,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
@@ -1134,7 +1152,7 @@
     "dataset": "Official"
   },
   {
-    "text": "adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway",
+    "text": "adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway ❤️❤️",
     "sentiment_score": 0.30635999999999997,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.30635999999999997,
@@ -1242,12 +1260,12 @@
     "dataset": "Official"
   },
   {
-    "text": "and also have fun with दसा",
-    "sentiment_score": 0.042522000000000004,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.042522000000000004,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "text": "and also have fun with दसा 🤡",
+    "sentiment_score": -0.451726153846154,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.451726153846154,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Official"
   },
   {
@@ -1260,16 +1278,16 @@
     "dataset": "Official"
   },
   {
-    "text": "य य all comes with experience",
-    "sentiment_score": 0.015625,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.015625,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "text": "य य all comes with experience 🙏🏻",
+    "sentiment_score": 0.33230769230769236,
+    "sentiment_category": "Positive",
+    "sentiment_strength": 0.33230769230769236,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Official"
   },
   {
-    "text": "dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance इनदुसत्रय .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..",
+    "text": "dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance industry .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..",
     "sentiment_score": 0.5004,
     "sentiment_category": "Positive",
     "sentiment_strength": 0.5004,
@@ -1314,7 +1332,7 @@
     "dataset": "Official"
   },
   {
-    "text": "घुम रःए है sir येह लोग कबसे कःतं िह नःइ हो रःअ इनक",
+    "text": "घुम रःए है sir येह लोग कबसे कःतं िह नःइ हो रःअ इनक 😂",
     "sentiment_score": 0.0,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0,
@@ -1332,12 +1350,12 @@
     "dataset": "Official"
   },
   {
-    "text": "guys please cross roads safely",
-    "sentiment_score": 0.32715,
+    "text": "guys please cross roads safely 🙏",
+    "sentiment_score": 0.6577363636363637,
     "sentiment_category": "Positive",
-    "sentiment_strength": 0.32715,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "sentiment_strength": 0.6577363636363637,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Official"
   },
   {
@@ -1350,21 +1368,21 @@
     "dataset": "Official"
   },
   {
-    "text": "random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with ) )",
+    "text": "random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with 👍/👎 ) )",
     "sentiment_score": -0.0196969696969697,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.0196969696969697,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "emojis_found": true,
+    "emoji_count": 2,
     "dataset": "Official"
   },
   {
-    "text": "i think its because bring beer and chips is very फर from ओभ",
-    "sentiment_score": 0.005357142857142856,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.005357142857142856,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "text": "i think its because bring beer and chips is very फर from obh 🤡",
+    "sentiment_score": -0.26666666666666666,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.26666666666666666,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Official"
   },
   {
@@ -1530,10 +1548,10 @@
     "dataset": "Official"
   },
   {
-    "text": "तास िक िभ हालत खराब है so let them cry also",
-    "sentiment_score": -0.30899727272727273,
+    "text": "तास िक िभ हालत खराब है so let them cry also 😂",
+    "sentiment_score": -0.29627,
     "sentiment_category": "Negative",
-    "sentiment_strength": 0.30899727272727273,
+    "sentiment_strength": 0.29627,
     "emojis_found": false,
     "emoji_count": 0,
     "dataset": "Official"
@@ -1566,12 +1584,12 @@
     "dataset": "Official"
   },
   {
-    "text": "कयु याद िदलािय तु",
-    "sentiment_score": 0.0,
-    "sentiment_category": "Neutral",
-    "sentiment_strength": 0.0,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "text": "कयु याद िदलािय तु 😭",
+    "sentiment_score": -0.6933333333333334,
+    "sentiment_category": "Negative",
+    "sentiment_strength": 0.6933333333333334,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Official"
   },
   {
@@ -1737,12 +1755,12 @@
     "dataset": "Official"
   },
   {
-    "text": "guys if you have labs : : welp , , i am sorry , , there 's nothing i can do about it really .. मेइ माफइ मंगता हु",
-    "sentiment_score": -0.02592851612903226,
+    "text": "guys if you have labs : : welp , , i am sorry , , there 's nothing i can do about it really .. मेइ माफइ मंगता हु 🙏",
+    "sentiment_score": 0.029959483870967744,
     "sentiment_category": "Neutral",
-    "sentiment_strength": 0.02592851612903226,
-    "emojis_found": false,
-    "emoji_count": 0,
+    "sentiment_strength": 0.029959483870967744,
+    "emojis_found": true,
+    "emoji_count": 1,
     "dataset": "Official"
   },
   {
@@ -1773,7 +1791,7 @@
     "dataset": "Official"
   },
   {
-    "text": "i would suggest get your own candles if possible",
+    "text": "i would suggest get your own candles if possible ❤️",
     "sentiment_score": 0.009146341463414634,
     "sentiment_category": "Neutral",
     "sentiment_strength": 0.009146341463414634,
