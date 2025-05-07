@@ -38,7 +38,6 @@ class HinglishWordClassifier:
         self.vectorizer = None
         self.model = None
 
-        # Initialize NLTK components
         self.lemmatizer = WordNetLemmatizer()
         self.stemmer = PorterStemmer()
         self.stop_words = set(stopwords.words('english'))
@@ -50,7 +49,6 @@ class HinglishWordClassifier:
 
         # Initialize normalization dictionary for English abbreviations and contractions
         self.english_norm_dict = {
-            # Original abbreviations
             "pls": "please", "plz": "please", "u": "you", "r": "are", "ur": "your", "thx": "thanks",
             "wud": "would", "wht": "what", "abt": "about", "bcoz": "because", "cuz": "because", "b4": "before",
             "gr8": "great", "btw": "by the way", "ty": "thank you", "gn": "good night", "gm": "good morning",
@@ -88,11 +86,7 @@ class HinglishWordClassifier:
             "dk": "don't know", "dkdc": "don't know don't care", "dmi": "don't mention it",
             "dnbl8": "do not be late", "dnc": "does not compute", "doa": "dead on arrival",
             "doc": "drug of choice", "doe": "depends on experience", "doei": "goodbye",
-
-            # Additional abbreviations
             "sem": "semester", "ts": "this shit", "pmo": "pissing me off",
-
-            # Slang words from ANNEXURE B
             "2mrw": "tomorrow", "h/o": "hold on", "2d4": "to die for", "h/p": "hold please",
             "2day": "today", "h2cus": "hope to see you soon", "2dloo": "toodle oo", "h2s": "here to stay",
             "2g2b4g": "too good to be forgotten", "h4u": "hot for you", "2g2bt": "too good to be true",
@@ -152,8 +146,7 @@ class HinglishWordClassifier:
         }
 
     def init_transliteration_mapping(self):
-        """Initialize the Hindi to Devanagari transliteration mapping from ANNEXURE D and E."""
-        # From ANNEXURE D (Barakhadi for Transliteration)
+        # mapping of english words to the devnagari script for transliteration of hindi tagged words
         self.hindi_to_dev_map = {
             "a": "अ", "aa": "आ", "i": "इ", "ee": "ई", "u": "उ", "oo": "ऊ", "e": "ए", "ea": "ए",
             "ai": "ऐ", "ei": "ऐ", "o": "ओ", "ou": "औ", "au": "औ", "an": "अं", "am": "अं",
@@ -211,17 +204,14 @@ class HinglishWordClassifier:
             "ksh": "क्ष", "ksha": "क्ष", "kshaa": "क्षा", "kshi": "िक्ष", "kshee": "क्षी", "kshu": "क्षु",
             "kshoo": "क्षू", "kshe": "क्षे", "kshai": "क्षै", "ksho": "क्षो", "kshau": "क्षौ", "kshan": "क्षं",
             "ksham": "क्षं", "kshah": "क्षः",
-            # Add more complex combinations as needed
             "tr": "त्र", "tra": "त्र", "traa": "त्रा", "tri": "ित्र", "tree": "त्री", "tru": "त्रु",
             "troo": "त्रू", "tre": "त्रे", "trai": "त्रै", "tro": "त्रो", "trau": "त्रौ", "tran": "त्रं",
             "tram": "त्रं", "trah": "त्रः",
-            "w": "व", "wa": "व", "waa": "वा",  # w is treated as v in Hindi
-            "shw": "श्व", "shwaa": "श्वा",  # Consonant clusters
+            "w": "व", "wa": "व", "waa": "वा","shw": "श्व", "shwaa": "श्वा",
             "mba": "म्ब", "dm": "द्म", "phi": "िफ़", "phee": "फी", "phu": "फु", "phoo": "फू",
             "phe": "फे", "phai": "फै", "pho": "फो", "phau": "फौ"
         }
-
-        # From ANNEXURE E (Maatra for Transliteration)
+        # for mantras
         self.hindi_matra_map = {
             "a": "\u093E",  # ा
             "i": "\u093F",  # ि
@@ -236,7 +226,7 @@ class HinglishWordClassifier:
             "n": "\u0902",  # ं
         }
 
-        # Common Hindi consonants (without vowel sounds)
+        # Common Hindi consonants
         self.hindi_consonants = {
             "k": "क्", "kh": "ख्", "g": "ग्", "gh": "घ्", "ch": "च्", "chh": "छ्", "j": "ज्", "jh": "झ्",
             "t": "ट्", "th": "ठ्", "d": "ड्", "dh": "ढ्", "n": "न्", "p": "प्", "ph": "फ्", "b": "ब्",
@@ -248,7 +238,6 @@ class HinglishWordClassifier:
         self.transliteration_cache = {}
 
     def is_emoji(self, text):
-        """Check if a text is an emoji or emoticon"""
         # Check for Unicode emoji
         if emoji.emoji_count(text) > 0:
             return True
@@ -265,9 +254,6 @@ class HinglishWordClassifier:
         return False
 
     def preprocess_text_with_emojis(self, text):
-        """
-        Preprocess text to separate emojis from words, adding spaces around them
-        """
 
         # Function to add spaces around emoji
         def add_spaces_around_emoji(match):
@@ -290,9 +276,7 @@ class HinglishWordClassifier:
         return result
 
     def load_english_dictionary(self):
-        """Load English dictionary from NLTK or create a minimal one."""
         try:
-            # Try to use NLTK's words corpus
             from nltk.corpus import words
             self.english_words = set(w.lower() for w in words.words())
             print(f"Loaded {len(self.english_words)} words from NLTK dictionary.")
@@ -308,16 +292,6 @@ class HinglishWordClassifier:
             print(f"Using minimal dictionary with {len(self.english_words)} words.")
 
     def normalize_repeated_chars(self, word):
-        """
-        Normalize a word with repeated characters by checking against a dictionary.
-        Skip normalization for emojis.
-
-        Args:
-            word (str): Word to normalize
-
-        Returns:
-            str: Normalized word
-        """
         # Skip emoji normalization
         if self.is_emoji(word):
             return word
@@ -344,16 +318,6 @@ class HinglishWordClassifier:
         return single_char
 
     def transliterate_to_devanagari(self, text):
-        """
-        Transliterate Hindi/Hinglish text in Latin script to Devanagari script
-        using character-by-character mapping. Skip transliteration for emojis.
-
-        Args:
-            text (str): Hindi/Hinglish text in Latin script
-
-        Returns:
-            str: Text in Devanagari script
-        """
         # Skip emoji transliteration
         if self.is_emoji(text):
             return text
@@ -370,17 +334,14 @@ class HinglishWordClassifier:
             self.transliteration_cache[text] = self.hindi_to_dev_map[text]
             return self.hindi_to_dev_map[text]
 
-        # Sort keys by length (descending) to match longer patterns first
         sorted_keys = sorted(self.hindi_to_dev_map.keys(), key=len, reverse=True)
 
-        # Greedy approach: iteratively match and replace longest sequences first
         result = text
         i = 0
         transliterated = ""
 
         while i < len(text):
             matched = False
-            # Try to match the longest possible sequence
             for key_length in range(min(5, len(text) - i), 0, -1):
                 substr = text[i:i + key_length]
                 if substr in self.hindi_to_dev_map:
@@ -399,12 +360,11 @@ class HinglishWordClassifier:
         return transliterated
 
     def load_data(self, file_path):
-        """Load data from a file with word-label pairs."""
         data = []
         with open(file_path, 'r', encoding='utf-8') as file:
             for line in file:
                 line = line.strip()
-                if not line:  # Skip empty lines
+                if not line:
                     continue
                 parts = line.split('\t')
                 if len(parts) == 2:
@@ -425,11 +385,6 @@ class HinglishWordClassifier:
         return pd.DataFrame(data, columns=['word', 'language'])
 
     def extract_features(self, X, fit=False):
-        """
-        Extract character n-gram features from words.
-        Uses lemmatization for feature extraction only, not for normalization.
-        """
-        # Apply lemmatization for feature extraction purposes
         if isinstance(X, np.ndarray):
             X_lemmatized = [self.lemmatize_for_classification(word) for word in X]
         else:
@@ -438,19 +393,15 @@ class HinglishWordClassifier:
         if fit:
             self.vectorizer = TfidfVectorizer(
                 analyzer='char',
-                ngram_range=(1, 4),  # Use character 1-4 grams
-                min_df=2,  # Minimum document frequency
-                max_features=3000  # Limit features to prevent overfitting
+                ngram_range=(1, 4),
+                min_df=2,
+                max_features=3000
             )
             return self.vectorizer.fit_transform(X_lemmatized)
         else:
             return self.vectorizer.transform(X_lemmatized)
 
     def lemmatize_for_classification(self, word):
-        """
-        Apply lemmatization for classification purposes only.
-        Skip for emojis.
-        """
         # Skip lemmatization for emojis
         if self.is_emoji(word):
             return word
@@ -461,15 +412,12 @@ class HinglishWordClassifier:
             return word.lower()
 
     def train(self, data_file, test_size=0.2):
-        """Train the model using the data from the specified file."""
         # Load data
         df = self.load_data(data_file)
 
-        # Split into features and target
         X = df['word'].values
         y = df['language'].values
 
-        # Split into training and test sets
         X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size=test_size, random_state=42, stratify=y
         )
@@ -478,16 +426,13 @@ class HinglishWordClassifier:
         X_train_features = self.extract_features(X_train, fit=True)
         X_test_features = self.extract_features(X_test)
 
-        # Train the model
         self.model = LogisticRegression(max_iter=1000, C=10.0)
         self.model.fit(X_train_features, y_train)
 
-        # Evaluate
         y_pred = self.model.predict(X_test_features)
         accuracy = accuracy_score(y_test, y_pred)
         print(f"Model trained with accuracy: {accuracy:.4f}")
 
-        # Update confusion matrix for three classes: EN, HI, EM
         cm = confusion_matrix(y_test, y_pred, labels=["EN", "HI", "EM"])
         labels = ["EN", "HI", "EM"]
         plt.figure(figsize=(8, 6))
@@ -501,7 +446,6 @@ class HinglishWordClassifier:
         return accuracy
 
     def save_model(self, file_path="hinglish_model.pkl"):
-        """Save the trained model and vectorizer."""
         if self.model is None or self.vectorizer is None:
             raise ValueError("Model not trained yet. Call train() first.")
 
@@ -514,7 +458,6 @@ class HinglishWordClassifier:
         print(f"Model saved to {file_path}")
 
     def load_model(self, file_path="hinglish_model.pkl"):
-        """Load a pre-trained model and vectorizer."""
         with open(file_path, 'rb') as f:
             saved_data = pickle.load(f)
 
@@ -523,10 +466,6 @@ class HinglishWordClassifier:
         print(f"Model loaded from {file_path}")
 
     def normalize_word(self, word):
-        """
-        Normalize a single word using custom rules.
-        Skip normalization for emojis.
-        """
         # Skip emoji normalization
         if self.is_emoji(word):
             return word
@@ -540,16 +479,14 @@ class HinglishWordClassifier:
         if word.endswith(punctuation):
             punct_positions.append('end')
 
-        # Step 1: Handle wordplay and intentional misspelling (repeated characters)
+        # Handles wordplay and intentional misspelling (repeated characters)
         word_clean = self.normalize_repeated_chars(word_clean)
 
-        # Step 2: Handle abbreviations and slang words
-        # Check if word is in the English normalization dictionary
+        # Handles abbreviations and slang words
         normalized = self.english_norm_dict.get(word_clean, word_clean)
 
-        # Step 3: Handle Hindi normalization if it appears to be a Hindi word
-        # Very simple heuristic - if it's not in the English dictionary but is in the Hindi one
-        if normalized == word_clean:  # If not found in English dictionary
+        #  Handles Hindi normalization if it appears to be a Hindi word
+        if normalized == word_clean:
             if word_clean in self.hindi_norm_dict:
                 normalized = self.hindi_norm_dict[word_clean]
 
@@ -562,10 +499,6 @@ class HinglishWordClassifier:
         return normalized
 
     def normalize_text(self, text):
-        """
-        Apply comprehensive text normalization following the flowchart.
-        Preserves emojis and separates them from text.
-        """
         # First preprocess to separate emojis from words
         text = self.preprocess_text_with_emojis(text)
 
@@ -612,9 +545,6 @@ class HinglishWordClassifier:
         return normalized_text
 
     def custom_tokenize(self, text):
-        """
-        Custom tokenization that keeps emojis as separate tokens
-        """
         # First, get baseline tokens from NLTK
         base_tokens = word_tokenize(text)
 
@@ -649,27 +579,11 @@ class HinglishWordClassifier:
         return final_tokens
 
     def tokenize(self, text):
-        """Tokenize text into words while preserving emojis as separate tokens."""
         return self.custom_tokenize(text)
 
     def process_file(self, input_file, output_dir=None,
                      normalized_file=None, tagged_file=None,
                      metrics_file=None, devanagari_file=None):
-        """
-        Process input file in four steps:
-        1. Normalize text and save to normalized_file
-        2. Classify normalized text and save to tagged_file
-        3. Transliterate Hindi words to Devanagari script and save to devanagari_file
-        4. Calculate metrics between original and normalized text
-
-        Args:
-            input_file (str): Path to input file
-            output_dir (str, optional): Directory to save output files. If provided, other file paths will be joined with this.
-            normalized_file (str, optional): Path to save normalized text. Defaults to "normalized_hinglish.txt".
-            tagged_file (str, optional): Path to save tagged text. Defaults to "hinglish_tagged.txt".
-            metrics_file (str, optional): Path to save metrics. Defaults to "normalization_metrics.txt".
-            devanagari_file (str, optional): Path to save transliterated text. Defaults to "devanagari_output.txt".
-        """
         if not os.path.exists(input_file):
             raise FileNotFoundError(f"Input file not found: {input_file}")
 
@@ -699,7 +613,7 @@ class HinglishWordClassifier:
                 if line:  # Skip empty lines
                     original_sentences.append(line)
 
-        # Step 1: Normalize sentences
+        # Normalizes sentences
         normalized_sentences = []
         for sentence in original_sentences:
             # Use our custom normalization which handles Hinglish better
@@ -712,7 +626,7 @@ class HinglishWordClassifier:
                 norm_file.write(f"Original [{i + 1}]: {original}\n")
                 norm_file.write(f"Normalized [{i + 1}]: {normalized}\n\n")
 
-        # Step 2 & 3: Classify, tag normalized text, and transliterate Hindi words
+        # Classify, tag normalized text, and transliterate Hindi words
         final_outputs = []
         with open(tagged_file, 'w', encoding='utf-8') as tag_file, open(devanagari_file, 'w',
                                                                         encoding='utf-8') as dev_file:
@@ -753,7 +667,7 @@ class HinglishWordClassifier:
                 dev_file.write(f"Normalized [{i + 1}]: {normalized}\n")
                 dev_file.write(f"Mixed E-H [{i + 1}]: {final_output}\n\n")
 
-        # Step 4: Calculate metrics between original and normalized
+        #  Calculate metrics between original and normalized
         total_bleu_scores = []
         total_edit_distances = []
         smooth_fn = SmoothingFunction().method1
@@ -815,10 +729,6 @@ class HinglishWordClassifier:
         return normalized_sentences, final_outputs, avg_bleu, avg_edit_distance
 
     def predict(self, words):
-        """
-        Predict language for a list of words.
-        Emojis are automatically labeled as "EM".
-        """
         if self.model is None or self.vectorizer is None:
             raise ValueError("Model not trained yet. Call train() first or load a model.")
 

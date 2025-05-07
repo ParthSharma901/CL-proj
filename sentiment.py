@@ -23,7 +23,6 @@ import platform
 
 warnings.filterwarnings('ignore')
 
-# Download required NLTK data
 try:
     nltk.data.find('tokenizers/punkt')
     nltk.data.find('vader_lexicon')
@@ -39,7 +38,6 @@ except LookupError:
 
 
 def penn_to_wn(tag):
-    """Convert Penn Treebank tags to WordNet tags"""
     if tag.startswith('J'):
         return wn.ADJ
     elif tag.startswith('N'):
@@ -52,16 +50,13 @@ def penn_to_wn(tag):
 
 
 def get_wordnet_pos(word):
-    """Get the part-of-speech tag for a word"""
     tag = nltk.pos_tag([word])[0][1]
     tag = penn_to_wn(tag)
     return tag
 
 
 def polarity(a, b):
-    """Calculate the SentiWordNet polarity of a word with its part of speech tag"""
     score = 0
-    # FIX: Convert filter objects to list before checking length
     if ((b == 'VB')):
         synsets = list(swn.senti_synsets(a, 'v'))
         if len(synsets) > 0:
@@ -101,10 +96,7 @@ class HinglishSentimentAnalyzer:
     def __init__(self):
         self.vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1, 3))
 
-        # Initialize NLTK's Vader sentiment analyzer
         self.vader = SentimentIntensityAnalyzer()
-
-        # Set up proper fonts for Hindi text and emoji rendering
         self.setup_fonts()
 
         # Dictionary of emoticons and their sentiments (positive/negative)
@@ -142,6 +134,9 @@ class HinglishSentimentAnalyzer:
             '😩': -1.1,  # Weary face
             '😫': -1.2,  # Tired face
             '🙄': -0.6,  # Face with rolling eyes
+            '😱':-0.4,  #scared emoji
+            '☠️': -0.5, #skull emoji
+            '🤡':-1.3, # clown emoji
 
             # Neutral/ambiguous emojis
             '😐': 0.0,  # Neutral face
@@ -212,7 +207,6 @@ class HinglishSentimentAnalyzer:
         self.neutral_threshold = 0.2
 
     def setup_fonts(self):
-        """Set up font support for Hindi/Devanagari and emojis"""
         # Determine the best font to use based on operating system
         self.best_font = self.get_unicode_font()
 
@@ -225,7 +219,6 @@ class HinglishSentimentAnalyzer:
         print(f"Using font: {self.best_font['family']} for Unicode text rendering")
 
     def get_unicode_font(self):
-        """Find a font that supports both Devanagari and emoji characters"""
         # Default fallback
         default_font = {'family': 'DejaVu Sans', 'weight': 'normal'}
 
@@ -233,9 +226,9 @@ class HinglishSentimentAnalyzer:
         system = platform.system()
         if system == 'Windows':
             fonts_to_try = ['Arial Unicode MS', 'Nirmala UI', 'Mangal', 'Arial']
-        elif system == 'Darwin':  # macOS
+        elif system == 'Darwin':
             fonts_to_try = ['Apple Color Emoji', 'Arial Unicode MS', 'Noto Sans']
-        else:  # Linux and others
+        else:
             fonts_to_try = ['Noto Sans', 'Noto Color Emoji', 'DejaVu Sans', 'FreeSans']
 
         # Check which fonts are available
@@ -250,13 +243,9 @@ class HinglishSentimentAnalyzer:
         return default_font
 
     def truncate_text_properly(self, text, max_length=40):
-        """
-        Properly truncate text, respecting Unicode characters and preserving emojis
-        """
         if len(text) <= max_length:
             return text
 
-        # Count characters, not bytes
         char_count = 0
         truncated_text = ""
 
@@ -272,14 +261,10 @@ class HinglishSentimentAnalyzer:
         return truncated_text + "…"
 
     def contains_hindi(self, text):
-        """Check if text contains Hindi/Devanagari characters"""
         devanagari_range = range(0x0900, 0x097F + 1)  # Devanagari Unicode range
         return any(ord(char) in devanagari_range for char in text)
 
     def detect_emojis(self, text):
-        """
-        Detect emojis in text and return their sentiment scores
-        """
         emoji_scores = []
 
         # Extract all emojis from the text
@@ -292,9 +277,6 @@ class HinglishSentimentAnalyzer:
         return emoji_scores
 
     def preprocess(self, text):
-        """
-        Preprocessing for mixed English-Devanagari text
-        """
         # Remove URLs, mentions, and hashtags
         text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
         text = re.sub(r'@\w+', '', text)
@@ -306,7 +288,6 @@ class HinglishSentimentAnalyzer:
         return text, tokens
 
     def get_sentiwordnet_scores(self, tokens):
-        """Get SentiWordNet scores for tokens with appropriate POS tags"""
         # Filter out Devanagari tokens (only apply to English tokens)
         english_tokens = [token for token in tokens if all(ord(char) < 2304 for char in token)]
 
@@ -327,9 +308,6 @@ class HinglishSentimentAnalyzer:
         return swn_scores
 
     def reclassify_with_wordnet(self, text, base_score):
-        """
-        Reclassify neutral sentiments using WordNet for deeper analysis
-        """
         if abs(base_score) >= self.neutral_threshold:
             # If already clearly positive or negative, no need to reclassify
             return base_score
@@ -373,10 +351,6 @@ class HinglishSentimentAnalyzer:
             return base_score
 
     def analyze_sentiment(self, text):
-        """
-        Analyze sentiment of mixed English-Devanagari text using lexicon-based approach
-        with WordNet reclassification for neutral texts, now also accounting for emojis
-        """
         # Preprocess text and get tokens
         processed_text, tokens = self.preprocess(text)
 
@@ -400,9 +374,8 @@ class HinglishSentimentAnalyzer:
             if word_lower in self.sentiment_dict:
                 lexicon_score += self.sentiment_dict[word_lower]
 
-        # Use VADER for additional English sentiment analysis
         vader_scores = self.vader.polarity_scores(processed_text)
-        vader_compound = vader_scores['compound']  # Range: -1 to 1
+        vader_compound = vader_scores['compound']
 
         # Calculate average score from lexicon and VADER
         if len(tokens) > 0:
@@ -445,7 +418,6 @@ class HinglishSentimentAnalyzer:
         }
 
     def analyze_multiple(self, sentences):
-        """Analyze multiple sentences and return scores for each"""
         results = []
         for sentence in sentences:
             sentiment_result = self.analyze_sentiment(sentence)
@@ -461,10 +433,6 @@ class HinglishSentimentAnalyzer:
         return results
 
     def plot_sentiment_histogram(self, results, save_path=None):
-        """
-        Plot sentiment analysis results as a horizontal bar chart
-        with improved emoji handling but no HTML output
-        """
         # Extract data from results
         sentiment_scores = [r['sentiment_score'] for r in results]
         categories = [r['sentiment_category'] for r in results]
@@ -475,13 +443,11 @@ class HinglishSentimentAnalyzer:
         for r in results:
             text = r['text']
             if len(text) > 40:
-                # Find emoji positions in text
                 emoji_positions = []
                 for i, char in enumerate(text):
                     if char in emoji.EMOJI_DATA:
                         emoji_positions.append((i, char))
 
-                # If emojis exist, ensure they're included in truncated text
                 if emoji_positions:
                     # Basic truncation first
                     trunc_text = self.truncate_text_properly(text[:35], max_length=35)
@@ -498,15 +464,12 @@ class HinglishSentimentAnalyzer:
             else:
                 processed_texts.append(text)
 
-        # Calculate appropriate figure height
         contains_hindi_text = any(self.contains_hindi(text) for text in processed_texts)
         row_height = 0.6 if contains_hindi_text else 0.5
         fig_height = max(6, len(processed_texts) * row_height)
 
-        # Create figure with higher DPI for better emoji rendering
         fig, ax = plt.subplots(figsize=(12, fig_height), dpi=300)
 
-        # Create horizontal bar chart
         colors = {
             'Positive': '#4CAF50',
             'Negative': '#F44336',
@@ -515,28 +478,24 @@ class HinglishSentimentAnalyzer:
         bar_colors = [colors[category] for category in categories]
         bars = ax.barh(range(len(processed_texts)), sentiment_scores, height=0.7, color=bar_colors)
 
-        # Add a vertical line at x=0
         ax.axvline(x=0, color='black', linestyle='-', alpha=0.5)
 
-        # Set up the y-axis with text labels
         ax.set_yticks(range(len(processed_texts)))
 
-        # Try to enhance emoji font support while keeping Hindi support
         try:
             system = platform.system()
-            if system == 'Darwin':  # macOS
+            if system == 'Darwin':
                 emoji_hindi_font = self.hindi_font.copy()
                 emoji_hindi_font.set_family(['Apple Color Emoji', *self.hindi_font.get_family()])
             elif system == 'Windows':
                 emoji_hindi_font = self.hindi_font.copy()
                 emoji_hindi_font.set_family(['Segoe UI Emoji', *self.hindi_font.get_family()])
-            else:  # Linux
+            else:
                 emoji_hindi_font = self.hindi_font.copy()
                 emoji_hindi_font.set_family(['Noto Color Emoji', *self.hindi_font.get_family()])
 
             labels = ax.set_yticklabels(processed_texts, fontproperties=emoji_hindi_font)
         except:
-            # Fall back to standard hindi_font
             labels = ax.set_yticklabels(processed_texts, fontproperties=self.hindi_font)
 
         # Adjust font size for Hindi text
@@ -551,7 +510,6 @@ class HinglishSentimentAnalyzer:
         ax.set_xlim(-1.1, 1.1)
         ax.grid(True, axis='x', linestyle='--', alpha=0.6)
 
-        # Add value labels on bars
         for i, bar in enumerate(bars):
             score = sentiment_scores[i]
 
@@ -580,7 +538,6 @@ class HinglishSentimentAnalyzer:
                 fontproperties=self.hindi_font
             )
 
-        # Add legend
         legend_handles = [
             plt.Rectangle((0, 0), 1, 1, color=colors['Positive']),
             plt.Rectangle((0, 0), 1, 1, color=colors['Neutral']),
@@ -589,12 +546,9 @@ class HinglishSentimentAnalyzer:
         ]
         ax.legend(legend_handles, ['Positive', 'Neutral', 'Negative', 'Emojis Found'],
                   loc='lower right', frameon=True, prop=self.hindi_font)
-
-        # Layout adjustments
         plt.tight_layout()
         fig.subplots_adjust(left=0.2)
 
-        # Save with high quality
         if save_path:
             plt.savefig(save_path, dpi=300, bbox_inches='tight')
             print(f"Plot saved to {save_path}")
@@ -603,13 +557,6 @@ class HinglishSentimentAnalyzer:
 
 
 def read_mixed_sentences(devanagari_file):
-    """
-    Read mixed English-Devanagari sentences from our output file
-    Format expected:
-    Original [1]: original text
-    Normalized [1]: normalized text
-    Mixed E-H [1]: mixed text with Devanagari
-    """
     mixed_sentences = []
 
     if not os.path.exists(devanagari_file):
@@ -631,18 +578,6 @@ def read_mixed_sentences(devanagari_file):
 
 
 def read_sentences_from_file(input_file):
-    """Read sentences from a text file, one per line (fallback)"""
-    if not os.path.exists(input_file):
-        print(f"Error: Input file {input_file} not found!")
-        # Use default sentences if file not found
-        return [
-            "मेरा din bahut अच्छा था 😊",
-            "kya बकवास hai yeh 😡",
-            "mujhe yeh joke bahut फनी laga 😂",
-            "ye exam bahut मुश्किल hai 😩",
-            "aaj main bahut खुश hu because मेरा birthday hai 🎉🎂"
-        ]
-
     with open(input_file, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file if line.strip()]
 
@@ -650,7 +585,6 @@ def read_sentences_from_file(input_file):
 
 
 def write_results_to_file(results, output_file):
-    """Write sentiment analysis results to a text file"""
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write("Hinglish-Devanagari Sentiment Analysis Results with Emoji Support\n")
         file.write("==========================================================\n\n")
@@ -668,20 +602,11 @@ def write_results_to_file(results, output_file):
 
 
 def save_results_as_json(results, json_file):
-    """Save sentiment analysis results as JSON for potential further processing"""
     with open(json_file, 'w', encoding='utf-8') as file:
         json.dump(results, file, indent=2, ensure_ascii=False)
 
 
 def process_dataset(input_dir, output_dir, dataset_name):
-    """
-    Process a dataset: read mixed sentences, analyze sentiment, and save results
-
-    Args:
-        input_dir: Directory containing the normalized output files
-        output_dir: Directory where to save sentiment analysis results
-        dataset_name: Name of the dataset (e.g., 'Official' or 'Unofficial')
-    """
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 

@@ -3,14 +3,12 @@ import os
 
 
 def clean_whatsapp_chat(chat_text):
-    # First split the entire text by timestamp pattern
     # This pattern matches different WhatsApp timestamp formats
     timestamp_pattern = r'\d{1,2}/\d{1,2}/\d{2,4},\s+\d{1,2}:\d{2}(?::\d{2})?\s+(?:AM|PM)\s+-\s+'
 
     # Split by timestamp but keep the timestamp
     chunks = re.split(f'({timestamp_pattern})', chat_text)
 
-    # Skip first element if it's empty
     if chunks and not chunks[0].strip():
         chunks.pop(0)
 
@@ -23,7 +21,6 @@ def clean_whatsapp_chat(chat_text):
         message_text = chunks[i + 1]
         i += 2
 
-        # Skip if not a proper pair
         if not re.match(timestamp_pattern, timestamp):
             continue
 
@@ -31,13 +28,11 @@ def clean_whatsapp_chat(chat_text):
         sender_message_match = re.match(r'(.+?):\s+(.*)', message_text, re.DOTALL)
 
         if not sender_message_match:
-            # This is likely a system message, skip it
             continue
 
         sender = sender_message_match.group(1).strip()
         content = sender_message_match.group(2).strip()
 
-        # Skip system messages and unwanted content
         if (any(skip_text in content for skip_text in [
             '<Media omitted>',
             'This message was deleted',
@@ -59,7 +54,6 @@ def clean_whatsapp_chat(chat_text):
                 ])):
             continue
 
-        # Skip messages from phone numbers (they're usually system messages)
         if re.match(r'\+\d{1,3}\s+\d+', sender):
             continue
 
@@ -70,7 +64,7 @@ def clean_whatsapp_chat(chat_text):
         # Clean up the content - replace multiple spaces and newlines
         content = re.sub(r'\s+', ' ', content).strip()
 
-        if content:  # Only add non-empty messages
+        if content:
             messages.append(content)
 
     return '\n'.join(messages)
