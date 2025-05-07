@@ -1,0 +1,392 @@
+Original [1]: sounds fun fuck yeah
+Normalized [1]: sounds fun fuck yeah
+Mixed E-H [1]: sounds fun fuck yeah
+
+Original [2]: We can to go girish's office, abhi toh wahi soche hai, otherwise suggest something
+Normalized [2]: we can to go girish 's office ,, abhi toh wahi soche hai ,, otherwise suggest something
+Mixed E-H [2]: we can तो go िगिरश 's office , , अिभ तोह विह सोचे है , , otherwise suggest something
+
+Original [3]: gaali allowed?
+Normalized [3]: gaali allowed ??
+Mixed E-H [3]: गािल allowed ? ?
+
+Original [4]: The reason is pretty obvious, we are all enraged about that, but having a protest without any clear idea of what u r even doing is just kinda stupid
+Normalized [4]: the reason is pretty obvious ,, we are all enraged about that ,, but having a protest without any clear idea of what you are even doing is just kinda stupid
+Mixed E-H [4]: the reason is pretty obvious , , we are all enraged about that , , but having a protest without any clear idea of what you are even doing is just kinda stupid
+
+Original [5]: No😂
+Normalized [5]: no
+Mixed E-H [5]: no
+
+Original [6]: Are wo to must hai
+Normalized [6]: are wo to must hai
+Mixed E-H [6]: are वओ तो must है
+
+Original [7]: what about unkind and non polite words in english?
+Normalized [7]: what about unkind and non polite words in english ??
+Mixed E-H [7]: what about उनिकनद and non polite words in english ? ?
+
+Original [8]: We can think more till Monday, but what I thought is ki we will go to girish office and talk directly, asking for a confirmation as to when things will change
+Normalized [8]: we can think more till monday ,, but what i thought is ki we will go to girish office and talk directly ,, asking for a confirmation as to when things will change
+Mixed E-H [8]: we can think more till monday , , but what i thought is िक we will go तो िगिरश office and talk directly , , asking for a confirmation as तो when things will change
+
+Original [9]: Tu akela bhi to ja skta hai fir to 😂
+Normalized [9]: tu akela bhi to ja skta hai fir to 
+Mixed E-H [9]: तु अकेल िभ तो ज सकता है फइर तो
+
+Original [10]: Upto you, cpro ka grading ke liye toh Dena chahiye
+Normalized [10]: upto you ,, cpro ka grading ke liye toh dena chahiye
+Mixed E-H [10]: उपतो you , , cpro क grading के िलये तोह देन चःइये
+
+Original [11]: Things will not change
+Normalized [11]: things will not change
+Mixed E-H [11]: things will not change
+
+Original [12]: I'm pretty sure he's said that things will change once we can come up with our own website for mess registration
+Normalized [12]: i am pretty sure he 's said that things will change once we can come up with our own website for mess registration
+Mixed E-H [12]: i am pretty sure हे 's said that things will change once we can come up with our own website for mess registration
+
+Original [13]: If less people are there, he can easily send us back
+Normalized [13]: if less people are there ,, he can easily send us back
+Mixed E-H [13]: if less people are there , , हे can easily send us back
+
+Original [14]: We can try still
+Normalized [14]: we can try still
+Mixed E-H [14]: we can try still
+
+Original [15]: If there is no protest
+Normalized [15]: if there is no protest
+Mixed E-H [15]: if there is no protest
+
+Original [16]: Point hai bhai ...
+Normalized [16]: point hai bhai ......
+Mixed E-H [16]: point है भै ......
+
+Original [17]: We call ug 2also
+Normalized [17]: we call ug 2also
+Mixed E-H [17]: we call ug 2also
+
+Original [18]: Shi baat h bhai
+Normalized [18]: shi baat hai bhai
+Mixed E-H [18]: शइ बात है भै
+
+Original [19]: And ug3
+Normalized [19]: and ug3
+Mixed E-H [19]: and ug3
+
+Original [20]: And pg
+Normalized [20]: and pg
+Mixed E-H [20]: and pg
+
+Original [21]: Ye bhi point hai bhai
+Normalized [21]: ye bhi point hai bhai
+Mixed E-H [21]: ये िभ point है भै
+
+Original [22]: Phd
+Normalized [22]: phd
+Mixed E-H [22]: phd
+
+Original [23]: Where? And by when will things change? Did he say anything regarding that
+Normalized [23]: where ?? and by when will things change ?? did he say anything regarding that
+Mixed E-H [23]: where ? ? and by when will things change ? ? did हे say anything regarding that
+
+Original [24]: Haa bhai naya group bana IIIT Unofficial
+Normalized [24]: haan bhai naya group bana it unofficial
+Mixed E-H [24]: हान भै नय group बंअ it unofficial
+
+Original [25]: Tumhare bapuji baithe hai na unme ???
+Normalized [25]: tumhare bapuji baithe hai na unme ??
+Mixed E-H [25]: तुमहारे बपुिज बैथे है न उनमे ? ?
+
+Original [26]: Spam
+Normalized [26]: spam
+Mixed E-H [26]: spam
+
+Original [27]: IIITH SPAM ftw
+Normalized [27]: ith spam ftw
+Mixed E-H [27]: ith spam ftw
+
+Original [28]: Lost found
+Normalized [28]: lost found
+Mixed E-H [28]: lost found
+
+Original [29]: Buy sell rent
+Normalized [29]: buy sell rent
+Mixed E-H [29]: buy sell rent
+
+Original [30]: It's literally what I said, he will not be changing the system until we can create a better one for him. Source: mps
+Normalized [30]: it 's literally what i said ,, he will not be changing the system until we can create a better one for him .. source :: mps
+Mixed E-H [30]: it 's literally what i said , , हे will not be changing the system until we can create a better one for him .. source : : mps
+
+Original [31]: [LOST] Old mess policy [FOUND] Shitty Mess-y Policy + Girish
+Normalized [31]: [[ lost ]] old mess policy [[ found ]] shitty messy policy ++ girish
+Mixed E-H [31]: [ [ lost ] ] old mess policy [ [ found ] ] शइततय messy policy ++ िगिरश
+
+Original [32]: karne kya vaale ho 😂😂
+Normalized [32]: karne kya vaale ho 
+Mixed E-H [32]: करने कय वाले हो
+
+Original [33]: Demolish the mess
+Normalized [33]: demolish the mess
+Mixed E-H [33]: demolish the mess
+
+Original [34]: Been saying this abt yuktahar but no one takes it seriously
+Normalized [34]: been saying this about yuktahar but no one takes it seriously
+Mixed E-H [34]: been saying this about युकतःअर but no one takes it seriously
+
+Original [35]: Guruji aap protest nahi karoge??!🤯🤯🤯🤯
+Normalized [35]: guruji always a pleasure protest nahi karoge ?? !! 
+Mixed E-H [35]: गुरुिज always a pleasure protest नःइ करोगे ? ? ! !
+
+Original [36]: Are u still alive🤯
+Normalized [36]: are you still alive
+Mixed E-H [36]: are you still alive
+
+Original [37]: mein actual kaam karra
+Normalized [37]: mein actual kaam karra
+Mixed E-H [37]: मेइन actual काम कररा
+
+Original [38]: tumhara protest dekhne aaunga popcorn leke 😂
+Normalized [38]: tumhara protest dekhne aaunga popcorn leke 
+Mixed E-H [38]: तुमहारा protest देखने आउनगा popcorn लेके
+
+Original [39]: agar hua toh
+Normalized [39]: agar hua toh
+Mixed E-H [39]: अगार हुअ तोह
+
+Original [40]: Bohot maza ayega parrr protest haww
+Normalized [40]: bohot maza ayega par protest haww
+Mixed E-H [40]: बोहोत मझ अयेगा पर protest haww
+
+Original [41]: Ande tamatar phek sakte hai kya
+Normalized [41]: ande tamatar phek sakte hai kya
+Mixed E-H [41]: अंदे तंअतार फेक साकते है कय
+
+Original [42]: WALL PE GAALI LIKH DE KYA
+Normalized [42]: wall pe gaali likh de kya
+Mixed E-H [42]: wall पे गािल िलख दे कय
+
+Original [43]: prof quarter me ghus ke girish ke ghar to tp karde kya
+Normalized [43]: prof quarter main ghus ke girish ke ghar to tp karde kya
+Mixed E-H [43]: prof quarter मैन घुस के िगिरश के घार तो tp करदे कय
+
+Original [44]: The messes got me resurrected
+Normalized [44]: the messes got main resurrected
+Mixed E-H [44]: the messes got मैन resurrected
+
+Original [45]: Danger found here
+Normalized [45]: danger found here
+Mixed E-H [45]: दंगेर found here
+
+Original [46]: ay hindi national language FEELING PROWD INDIAN ARMY😡😡😡
+Normalized [46]: ay hindi national language feeling prowd indian army
+Mixed E-H [46]: ay hindi national language feeling prowd indian army
+
+Original [47]: Whatever happened to tamil tiger 😔
+Normalized [47]: whatever happened to tamil tiger 
+Mixed E-H [47]: whatever happened तो तंइल tiger
+
+Original [48]: oh fuck ya I forgor
+Normalized [48]: oh fuck ya i forgor
+Mixed E-H [48]: oh fuck य i forgor
+
+Original [49]: LTTE vaazhga ig
+Normalized [49]: ltte vaazhga ig
+Mixed E-H [49]: लतते वाझहगा ig
+
+Original [50]: First csc class of 11th was crazy
+Normalized [50]: first csc class of 11th was crazy
+Mixed E-H [50]: first csc class of 11th was crazy
+
+Original [51]: fair enough, I was waiting for Dutch to finally have a good plan
+Normalized [51]: fair enough ,, i was waiting for dutch to finally have a good plan
+Mixed E-H [51]: fair enough , , i was waiting for dutch तो finally have a good plan
+
+Original [52]: NAHHHHHH WHATVTHE FUCK KCK
+Normalized [52]: nah whatvthe fuck kck
+Mixed E-H [52]: नः whatvthe fuck kck
+
+Original [53]: I'm already bored
+Normalized [53]: i am already bored
+Mixed E-H [53]: i am already bored
+
+Original [54]: Guys why is my old maths professor posting AI generated video of a girl walking and slowly becoming woman, then pregnant, then having baby then both women growing up further 1/10/25, 2:14 PM - Inesh Roy: Need to see this!!
+Normalized [54]: guys why is my old maths professor posting ai generated video of a girl walking and slowly becoming woman ,, then pregnant ,, then having baby then both women growing up further 11025 ,, 214 pm -- inesh roy :: need to see this !!
+Mixed E-H [54]: guys why is my old maths professor posting ऐ generated video of a girl walking and slowly becoming woman , , then परेगनंत , , then having baby then both women growing up further 11025 , , 214 pm -- inesh roy : : need तो सी this ! !
+
+Original [55]: Thats the same prof I told about in the blue room that day btw
+Normalized [55]: thats the same prof i told about in the blue room that day by the way
+Mixed E-H [55]: thats the same prof i told about in the blue room that day by the way
+
+Original [56]: I was so concerned without reading the above text
+Normalized [56]: i was so concerned without reading the above text
+Mixed E-H [56]: i was so concerned without reading the above text
+
+Original [57]: wtf
+Normalized [57]: wtf
+Mixed E-H [57]: wtf
+
+Original [59]: which course is chopella teaching?
+Normalized [59]: which course is chopella teaching ??
+Mixed E-H [59]: which course is chopella teaching ? ?
+
+Original [60]: I think he's teaching ra
+Normalized [60]: i think he 's teaching ra
+Mixed E-H [60]: i think हे 's teaching रा
+
+Original [61]: No ds
+Normalized [61]: no ds
+Mixed E-H [61]: no ds
+
+Original [62]: But like genuinely what is this guy yapping
+Normalized [62]: but like genuinely what is this guy yapping
+Mixed E-H [62]: but like genuinely what is this guy yapping
+
+Original [63]: Yapping with an accent*
+Normalized [63]: yapping with an accent **
+Mixed E-H [63]: yapping with an accent * *
+
+Original [64]: dasa prof
+Normalized [64]: dasa prof
+Mixed E-H [64]: दसा prof
+
+Original [65]: Bro stayed in the US for abt 4yrs and caught enough accent to last a lifetime..
+Normalized [65]: bro stayed in the us for about 4yrs and caught enough accent to last a lifetime ......
+Mixed E-H [65]: bro सतायेद in the us for about 4yrs and caught enough accent तो last a lifetime ......
+
+Original [66]: same
+Normalized [66]: same
+Mixed E-H [66]: same
+
+Original [67]: Shush
+Normalized [67]: shush
+Mixed E-H [67]: shush
+
+Original [68]: Rizzlyvik sar pls teach me telugu sar
+Normalized [68]: rizzlyvik sar please teach main telugu sar
+Mixed E-H [68]: िरझझलयिवक सार please teach मैन तेलुगु सार
+
+Original [69]: +1
+Normalized [69]: +1
+Mixed E-H [69]: +1
+
+Original [70]: We telugu ppl are gonna lose privacy if u guys start understanding telugu☠️
+Normalized [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu
+Mixed E-H [70]: we तेलुगु ppl are गोन न lose privacy if you guys start understanding तेलुगु
+
+Original [71]: Bros asking us to ask questions like I have no idea what u said tf do u want me to ask? "Sir when will u start teaching python"
+Normalized [71]: bros asking us to ask questions like i have no idea what you said tf do you want main to ask ?? ```` sir when will you start teaching python ''''
+Mixed E-H [71]: bros asking us तो ask questions like i have no idea what you said tf do you want मैन तो ask ? ? `` `` sir when will you start teaching पयथोन `` ''
+
+Original [72]: rare bird geis
+Normalized [72]: rare bird geis
+Mixed E-H [72]: rare bird गेइस
+
+Original [73]: hehe
+Normalized [73]: hehe
+Mixed E-H [73]: हेहे
+
+Original [74]: to be honest I'll ask next time he stares at me
+Normalized [74]: to be honest i will ask next time he stares at main
+Mixed E-H [74]: तो be honest i will ask next time हे stares at मैन
+
+Original [75]: Let's sell that rare bird on the black market and use the money to have a party
+Normalized [75]: let 's sell that rare bird on the black market and use the money to have a party
+Mixed E-H [75]: let 's sell that rare bird on the black market and उसे the money तो have a party
+
+Original [76]: Computer science prof
+Normalized [76]: computer science prof
+Mixed E-H [76]: computer science prof
+
+Original [77]: He's a computer science prof?
+Normalized [77]: he 's a computer science prof ??
+Mixed E-H [77]: हे 's a computer science prof ? ?
+
+Original [78]: Whatever
+Normalized [78]: whatever
+Mixed E-H [78]: whatever
+
+Original [79]: Tech guy
+Normalized [79]: tech guy
+Mixed E-H [79]: tech guy
+
+Original [80]: "Dot iiit dot" 🤓
+Normalized [80]: ```` dot it dot '''' 
+Mixed E-H [80]: `` `` dot it dot `` ''
+
+Original [81]: how much is the weightage of slip tests
+Normalized [81]: how much is the weightage of slip tests
+Mixed E-H [81]: how much is the weightage of सिलप tests
+
+Original [82]: did she tell
+Normalized [82]: did she tell
+Mixed E-H [82]: did she tell
+
+Original [83]: 3 ig
+Normalized [83]: 3 ig
+Mixed E-H [83]: 3 ig
+
+Original [84]: mfs will do anything else except study
+Normalized [84]: mfs will do anything else except study
+Mixed E-H [84]: mfs will do anything else except study
+
+Original [85]: yes
+Normalized [85]: yes
+Mixed E-H [85]: yes
+
+Original [86]: YOO @919356351244
+Normalized [86]: yoo @@ 919356351244
+Mixed E-H [86]: यू @ @ 919356351244
+
+Original [87]: “Super excited!”
+Normalized [87]:  super excited !! 
+Mixed E-H [87]: super excited ! !
+
+Original [88]: If you're excited you should kys
+Normalized [88]: if you are excited you should kys
+Mixed E-H [88]: if you are excited you should kys
+
+Original [89]: GUYS WE'RE SUPER EXCITED TO RUN TO OUR COMPUTERS AND CODE THIS
+Normalized [89]: guys we are super excited to run to our computers and code this
+Mixed E-H [89]: guys we are super excited तो run तो our computers and code this
+
+Original [90]: say that to him lmao
+Normalized [90]: say that to him laughing my ass off
+Mixed E-H [90]: say that तो him laughing my ass off
+
+Original [91]: He threatened to let loose
+Normalized [91]: he threatened to let loose
+Mixed E-H [91]: हे threatened तो let loose
+
+Original [92]: *keep yourself safe
+Normalized [92]: ** keep yourself safe
+Mixed E-H [92]: * * keep yourself safe
+
+Original [93]: In few mins I'll LET LOOSE
+Normalized [93]: in few mins i will let loose
+Mixed E-H [93]: in few mins i will let loose
+
+Original [95]: crazy
+Normalized [95]: crazy
+Mixed E-H [95]: crazy
+
+Original [96]: veryy bad marketing strategy
+Normalized [96]: veryy bad marketing strategy
+Mixed E-H [96]: वेरयय bad marketing strategy
+
+Original [97]: his courses are POPL and Compilers i think
+Normalized [97]: his courses are popl and compilers i think
+Mixed E-H [97]: his courses are popl and compilers i think
+
+Original [98]: Like they didn't want to deal with this bs and quit coz even the tas had no idea what this guy was on
+Normalized [98]: like they did not want to deal with this bs and quit because even the tas had no idea what this guy was on
+Mixed E-H [98]: like they did not want तो deal with this bs and quit because even the तास had no idea what this guy was on
+
+Original [99]: Yes, this comes in popl
+Normalized [99]: yes ,, this comes in popl
+Mixed E-H [99]: yes , , this comes in popl
+
+Original [100]: ah interesting
+Normalized [100]: ah interesting
+Mixed E-H [100]: अः interesting
+

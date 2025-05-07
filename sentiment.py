@@ -472,22 +472,18 @@ class HinglishSentimentAnalyzer:
         return fig, ax
 
 
-def read_mixed_sentences(devanagari_file='devanagari_output.txt'):
+def read_mixed_sentences(devanagari_file):
     """
     Read mixed English-Devanagari sentences from our output file
     Format expected:
     Original [1]: original text
     Normalized [1]: normalized text
     Mixed E-H [1]: mixed text with Devanagari
-
-    Original [2]: original text
-    ...
     """
     mixed_sentences = []
 
     if not os.path.exists(devanagari_file):
         print(f"Error: Mixed text file {devanagari_file} not found!")
-        print("Please run hinglish_norm.py first to generate the mixed English-Devanagari text.")
         return []
 
     with open(devanagari_file, 'r', encoding='utf-8') as file:
@@ -547,44 +543,54 @@ def save_results_as_json(results, json_file):
         json.dump(results, file, indent=2, ensure_ascii=False)
 
 
-def main():
+def process_dataset(input_dir, output_dir, dataset_name):
+    """
+    Process a dataset: read mixed sentences, analyze sentiment, and save results
+
+    Args:
+        input_dir: Directory containing the normalized output files
+        output_dir: Directory where to save sentiment analysis results
+        dataset_name: Name of the dataset (e.g., 'Official' or 'Unofficial')
+    """
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+
     # Define file paths
-    devanagari_file = "devanagari_output.txt"  # Output from hinglish_norm.py with mixed E-H
-    input_file = "hinglish_sentences.txt"  # Original input, used as fallback
-    output_file = "sentiment_analysis_results.txt"
-    json_output = "sentiment_analysis_results.json"
-    histogram_file = "hinglish_sentiment_histogram.png"
+    devanagari_file = os.path.join(input_dir, "devanagari_output.txt")
+    output_text_file = os.path.join(output_dir, f"sentiment_results_{dataset_name.lower()}.txt")
+    json_output = os.path.join(output_dir, f"sentiment_results_{dataset_name.lower()}.json")
+    histogram_file = os.path.join(output_dir, f"sentiment_histogram_{dataset_name.lower()}.png")
 
     # Create analyzer instance
     analyzer = HinglishSentimentAnalyzer()
 
     # Read mixed English-Devanagari sentences
-    print(f"Reading mixed English-Devanagari sentences from {devanagari_file}...")
+    print(f"Reading mixed English-Devanagari sentences from {dataset_name} dataset...")
     sentences = read_mixed_sentences(devanagari_file)
 
     if not sentences:
-        print(f"Falling back to reading original sentences from {input_file}...")
-        sentences = read_sentences_from_file(input_file)
+        print(f"No sentences found in {devanagari_file}!")
+        return
 
-    print(f"Found {len(sentences)} sentences to analyze.")
+    print(f"Found {len(sentences)} sentences to analyze in {dataset_name} dataset.")
 
     # Analyze sentences
-    print("Analyzing mixed English-Devanagari sentences (with emoji support)...")
+    print(f"Analyzing {dataset_name} mixed sentences (with emoji support)...")
     results = analyzer.analyze_multiple(sentences)
 
     # Write results to output file
-    write_results_to_file(results, output_file)
-    print(f"Analysis results written to {output_file}")
+    write_results_to_file(results, output_text_file)
+    print(f"{dataset_name} analysis results written to {output_text_file}")
 
     # Save results as JSON for potential further processing
     save_results_as_json(results, json_output)
-    print(f"Results also saved as JSON at {json_output}")
+    print(f"{dataset_name} results also saved as JSON at {json_output}")
 
     # Create histogram visualization
-    print("Generating sentiment histogram...")
+    print(f"Generating {dataset_name} sentiment histogram...")
     analyzer.plot_sentiment_histogram(results, save_path=histogram_file)
 
-    print(f"Analysis complete! Histogram saved to: {histogram_file}")
+    print(f"{dataset_name} analysis complete! Histogram saved to: {histogram_file}")
 
     # Display summary of results
     categories = [r['sentiment_category'] for r in results]
@@ -594,12 +600,88 @@ def main():
 
     emoji_texts = [r for r in results if r['emojis_found']]
 
-    print("\nSummary of Results:")
+    print(f"\nSummary of {dataset_name} Results:")
     print(f"Total sentences analyzed: {len(results)}")
     print(f"Positive: {pos_count} ({pos_count / len(results) * 100:.1f}%)")
     print(f"Negative: {neg_count} ({neg_count / len(results) * 100:.1f}%)")
     print(f"Neutral: {neu_count} ({neu_count / len(results) * 100:.1f}%)")
     print(f"Sentences with emojis: {len(emoji_texts)} ({len(emoji_texts) / len(results) * 100:.1f}%)")
+
+    return results
+
+
+def main():
+    # Define directories
+    normalized_dir_unofficial = "Normalized output/Unofficial"
+    normalized_dir_official = "Normalized output/Official"
+
+    sentiment_dir_unofficial = "Sentiment Analysis/Unofficial"
+    sentiment_dir_official = "Sentiment Analysis/Official"
+
+    # Process unofficial dataset
+    print("\n===== Processing Unofficial Dataset =====")
+    unofficial_results = process_dataset(
+        normalized_dir_unofficial,
+        sentiment_dir_unofficial,
+        "Unofficial"
+    )
+
+    # Process official dataset
+    print("\n===== Processing Official Dataset =====")
+    official_results = process_dataset(
+        normalized_dir_official,
+        sentiment_dir_official,
+        "Official"
+    )
+
+    # Create combined output directory
+    combined_dir = "Sentiment Analysis/Combined"
+    os.makedirs(combined_dir, exist_ok=True)
+
+    # Create combined visualization if both datasets were processed successfully
+    if unofficial_results and official_results:
+        print("\n===== Creating Combined Analysis =====")
+
+        # Merge results
+        all_results = []
+        for result in unofficial_results:
+            result['dataset'] = 'Unofficial'
+            all_results.append(result)
+        for result in official_results:
+            result['dataset'] = 'Official'
+            all_results.append(result)
+
+        # Save combined results
+        combined_json = os.path.join(combined_dir, "sentiment_results_combined.json")
+        save_results_as_json(all_results, combined_json)
+
+        # Create combined summary file
+        combined_text = os.path.join(combined_dir, "sentiment_results_combined.txt")
+        with open(combined_text, 'w', encoding='utf-8') as file:
+            file.write("Combined Hinglish-Devanagari Sentiment Analysis Results\n")
+            file.write("===========================================\n\n")
+
+            file.write("Unofficial Dataset Summary:\n")
+            file.write(f"- Total sentences: {len(unofficial_results)}\n")
+            file.write(f"- Positive: {sum(1 for r in unofficial_results if r['sentiment_category'] == 'Positive')}\n")
+            file.write(f"- Negative: {sum(1 for r in unofficial_results if r['sentiment_category'] == 'Negative')}\n")
+            file.write(f"- Neutral: {sum(1 for r in unofficial_results if r['sentiment_category'] == 'Neutral')}\n\n")
+
+            file.write("Official Dataset Summary:\n")
+            file.write(f"- Total sentences: {len(official_results)}\n")
+            file.write(f"- Positive: {sum(1 for r in official_results if r['sentiment_category'] == 'Positive')}\n")
+            file.write(f"- Negative: {sum(1 for r in official_results if r['sentiment_category'] == 'Negative')}\n")
+            file.write(f"- Neutral: {sum(1 for r in official_results if r['sentiment_category'] == 'Neutral')}\n\n")
+
+            file.write("Combined Analysis:\n")
+            file.write(f"- Total sentences: {len(all_results)}\n")
+            file.write(f"- Positive: {sum(1 for r in all_results if r['sentiment_category'] == 'Positive')}\n")
+            file.write(f"- Negative: {sum(1 for r in all_results if r['sentiment_category'] == 'Negative')}\n")
+            file.write(f"- Neutral: {sum(1 for r in all_results if r['sentiment_category'] == 'Neutral')}\n")
+
+        print(f"Combined analysis saved to {combined_dir}")
+
+    print("\nAll sentiment analysis processes completed!")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1080 @@
+Sentence [1]: sounds fun fuck yeah
+Word	Language
+sounds	EN
+fun	EN
+fuck	EN
+yeah	EN
+
+Sentence [2]: we can to go girish 's office ,, abhi toh wahi soche hai ,, otherwise suggest something
+Word	Language
+we	EN
+can	EN
+to	HI
+go	EN
+girish	HI
+'s	EN
+office	EN
+,	EN
+,	EN
+abhi	HI
+toh	HI
+wahi	HI
+soche	HI
+hai	HI
+,	EN
+,	EN
+otherwise	EN
+suggest	EN
+something	EN
+
+Sentence [3]: gaali allowed ??
+Word	Language
+gaali	HI
+allowed	EN
+?	EN
+?	EN
+
+Sentence [4]: the reason is pretty obvious ,, we are all enraged about that ,, but having a protest without any clear idea of what you are even doing is just kinda stupid
+Word	Language
+the	EN
+reason	EN
+is	EN
+pretty	EN
+obvious	EN
+,	EN
+,	EN
+we	EN
+are	EN
+all	EN
+enraged	EN
+about	EN
+that	EN
+,	EN
+,	EN
+but	EN
+having	EN
+a	EN
+protest	EN
+without	EN
+any	EN
+clear	EN
+idea	EN
+of	EN
+what	EN
+you	EN
+are	EN
+even	EN
+doing	EN
+is	EN
+just	EN
+kinda	EN
+stupid	EN
+
+Sentence [5]: no
+Word	Language
+no	EN
+
+Sentence [6]: are wo to must hai
+Word	Language
+are	EN
+wo	HI
+to	HI
+must	EN
+hai	HI
+
+Sentence [7]: what about unkind and non polite words in english ??
+Word	Language
+what	EN
+about	EN
+unkind	HI
+and	EN
+non	EN
+polite	EN
+words	EN
+in	EN
+english	EN
+?	EN
+?	EN
+
+Sentence [8]: we can think more till monday ,, but what i thought is ki we will go to girish office and talk directly ,, asking for a confirmation as to when things will change
+Word	Language
+we	EN
+can	EN
+think	EN
+more	EN
+till	EN
+monday	EN
+,	EN
+,	EN
+but	EN
+what	EN
+i	EN
+thought	EN
+is	EN
+ki	HI
+we	EN
+will	EN
+go	EN
+to	HI
+girish	HI
+office	EN
+and	EN
+talk	EN
+directly	EN
+,	EN
+,	EN
+asking	EN
+for	EN
+a	EN
+confirmation	EN
+as	EN
+to	HI
+when	EN
+things	EN
+will	EN
+change	EN
+
+Sentence [9]: tu akela bhi to ja skta hai fir to 
+Word	Language
+tu	HI
+akela	HI
+bhi	HI
+to	HI
+ja	HI
+skta	HI
+hai	HI
+fir	HI
+to	HI
+
+Sentence [10]: upto you ,, cpro ka grading ke liye toh dena chahiye
+Word	Language
+upto	HI
+you	EN
+,	EN
+,	EN
+cpro	EN
+ka	HI
+grading	EN
+ke	HI
+liye	HI
+toh	HI
+dena	HI
+chahiye	HI
+
+Sentence [11]: things will not change
+Word	Language
+things	EN
+will	EN
+not	EN
+change	EN
+
+Sentence [12]: i am pretty sure he 's said that things will change once we can come up with our own website for mess registration
+Word	Language
+i	EN
+am	EN
+pretty	EN
+sure	EN
+he	HI
+'s	EN
+said	EN
+that	EN
+things	EN
+will	EN
+change	EN
+once	EN
+we	EN
+can	EN
+come	EN
+up	EN
+with	EN
+our	EN
+own	EN
+website	EN
+for	EN
+mess	EN
+registration	EN
+
+Sentence [13]: if less people are there ,, he can easily send us back
+Word	Language
+if	EN
+less	EN
+people	EN
+are	EN
+there	EN
+,	EN
+,	EN
+he	HI
+can	EN
+easily	EN
+send	EN
+us	EN
+back	EN
+
+Sentence [14]: we can try still
+Word	Language
+we	EN
+can	EN
+try	EN
+still	EN
+
+Sentence [15]: if there is no protest
+Word	Language
+if	EN
+there	EN
+is	EN
+no	EN
+protest	EN
+
+Sentence [16]: point hai bhai ......
+Word	Language
+point	EN
+hai	HI
+bhai	HI
+......	EN
+
+Sentence [17]: we call ug 2also
+Word	Language
+we	EN
+call	EN
+ug	EN
+2also	EN
+
+Sentence [18]: shi baat hai bhai
+Word	Language
+shi	HI
+baat	HI
+hai	HI
+bhai	HI
+
+Sentence [19]: and ug3
+Word	Language
+and	EN
+ug3	EN
+
+Sentence [20]: and pg
+Word	Language
+and	EN
+pg	EN
+
+Sentence [21]: ye bhi point hai bhai
+Word	Language
+ye	HI
+bhi	HI
+point	EN
+hai	HI
+bhai	HI
+
+Sentence [22]: phd
+Word	Language
+phd	EN
+
+Sentence [23]: where ?? and by when will things change ?? did he say anything regarding that
+Word	Language
+where	EN
+?	EN
+?	EN
+and	EN
+by	EN
+when	EN
+will	EN
+things	EN
+change	EN
+?	EN
+?	EN
+did	EN
+he	HI
+say	EN
+anything	EN
+regarding	EN
+that	EN
+
+Sentence [24]: haan bhai naya group bana it unofficial
+Word	Language
+haan	HI
+bhai	HI
+naya	HI
+group	EN
+bana	HI
+it	EN
+unofficial	EN
+
+Sentence [25]: tumhare bapuji baithe hai na unme ??
+Word	Language
+tumhare	HI
+bapuji	HI
+baithe	HI
+hai	HI
+na	HI
+unme	HI
+?	EN
+?	EN
+
+Sentence [26]: spam
+Word	Language
+spam	EN
+
+Sentence [27]: ith spam ftw
+Word	Language
+ith	EN
+spam	EN
+ftw	EN
+
+Sentence [28]: lost found
+Word	Language
+lost	EN
+found	EN
+
+Sentence [29]: buy sell rent
+Word	Language
+buy	EN
+sell	EN
+rent	EN
+
+Sentence [30]: it 's literally what i said ,, he will not be changing the system until we can create a better one for him .. source :: mps
+Word	Language
+it	EN
+'s	EN
+literally	EN
+what	EN
+i	EN
+said	EN
+,	EN
+,	EN
+he	HI
+will	EN
+not	EN
+be	EN
+changing	EN
+the	EN
+system	EN
+until	EN
+we	EN
+can	EN
+create	EN
+a	EN
+better	EN
+one	EN
+for	EN
+him	EN
+..	EN
+source	EN
+:	EN
+:	EN
+mps	EN
+
+Sentence [31]: [[ lost ]] old mess policy [[ found ]] shitty messy policy ++ girish
+Word	Language
+[	EN
+[	EN
+lost	EN
+]	EN
+]	EN
+old	EN
+mess	EN
+policy	EN
+[	EN
+[	EN
+found	EN
+]	EN
+]	EN
+shitty	HI
+messy	EN
+policy	EN
+++	EN
+girish	HI
+
+Sentence [32]: karne kya vaale ho 
+Word	Language
+karne	HI
+kya	HI
+vaale	HI
+ho	HI
+
+Sentence [33]: demolish the mess
+Word	Language
+demolish	EN
+the	EN
+mess	EN
+
+Sentence [34]: been saying this about yuktahar but no one takes it seriously
+Word	Language
+been	EN
+saying	EN
+this	EN
+about	EN
+yuktahar	HI
+but	EN
+no	EN
+one	EN
+takes	EN
+it	EN
+seriously	EN
+
+Sentence [35]: guruji always a pleasure protest nahi karoge ?? !! 
+Word	Language
+guruji	HI
+always	EN
+a	EN
+pleasure	EN
+protest	EN
+nahi	HI
+karoge	HI
+?	EN
+?	EN
+!	EN
+!	EN
+
+Sentence [36]: are you still alive
+Word	Language
+are	EN
+you	EN
+still	EN
+alive	EN
+
+Sentence [37]: mein actual kaam karra
+Word	Language
+mein	HI
+actual	EN
+kaam	HI
+karra	HI
+
+Sentence [38]: tumhara protest dekhne aaunga popcorn leke 
+Word	Language
+tumhara	HI
+protest	EN
+dekhne	HI
+aaunga	HI
+popcorn	EN
+leke	HI
+
+Sentence [39]: agar hua toh
+Word	Language
+agar	HI
+hua	HI
+toh	HI
+
+Sentence [40]: bohot maza ayega par protest haww
+Word	Language
+bohot	HI
+maza	HI
+ayega	HI
+par	HI
+protest	EN
+haww	EN
+
+Sentence [41]: ande tamatar phek sakte hai kya
+Word	Language
+ande	HI
+tamatar	HI
+phek	HI
+sakte	HI
+hai	HI
+kya	HI
+
+Sentence [42]: wall pe gaali likh de kya
+Word	Language
+wall	EN
+pe	HI
+gaali	HI
+likh	HI
+de	HI
+kya	HI
+
+Sentence [43]: prof quarter main ghus ke girish ke ghar to tp karde kya
+Word	Language
+prof	EN
+quarter	EN
+main	HI
+ghus	HI
+ke	HI
+girish	HI
+ke	HI
+ghar	HI
+to	HI
+tp	EN
+karde	HI
+kya	HI
+
+Sentence [44]: the messes got main resurrected
+Word	Language
+the	EN
+messes	EN
+got	EN
+main	HI
+resurrected	EN
+
+Sentence [45]: danger found here
+Word	Language
+danger	HI
+found	EN
+here	EN
+
+Sentence [46]: ay hindi national language feeling prowd indian army
+Word	Language
+ay	EN
+hindi	EN
+national	EN
+language	EN
+feeling	EN
+prowd	EN
+indian	EN
+army	EN
+
+Sentence [47]: whatever happened to tamil tiger 
+Word	Language
+whatever	EN
+happened	EN
+to	HI
+tamil	HI
+tiger	EN
+
+Sentence [48]: oh fuck ya i forgor
+Word	Language
+oh	EN
+fuck	EN
+ya	HI
+i	EN
+forgor	EN
+
+Sentence [49]: ltte vaazhga ig
+Word	Language
+ltte	HI
+vaazhga	HI
+ig	EN
+
+Sentence [50]: first csc class of 11th was crazy
+Word	Language
+first	EN
+csc	EN
+class	EN
+of	EN
+11th	EN
+was	EN
+crazy	EN
+
+Sentence [51]: fair enough ,, i was waiting for dutch to finally have a good plan
+Word	Language
+fair	EN
+enough	EN
+,	EN
+,	EN
+i	EN
+was	EN
+waiting	EN
+for	EN
+dutch	EN
+to	HI
+finally	EN
+have	EN
+a	EN
+good	EN
+plan	EN
+
+Sentence [52]: nah whatvthe fuck kck
+Word	Language
+nah	HI
+whatvthe	EN
+fuck	EN
+kck	EN
+
+Sentence [53]: i am already bored
+Word	Language
+i	EN
+am	EN
+already	EN
+bored	EN
+
+Sentence [54]: guys why is my old maths professor posting ai generated video of a girl walking and slowly becoming woman ,, then pregnant ,, then having baby then both women growing up further 11025 ,, 214 pm -- inesh roy :: need to see this !!
+Word	Language
+guys	EN
+why	EN
+is	EN
+my	EN
+old	EN
+maths	EN
+professor	EN
+posting	EN
+ai	HI
+generated	EN
+video	EN
+of	EN
+a	EN
+girl	EN
+walking	EN
+and	EN
+slowly	EN
+becoming	EN
+woman	EN
+,	EN
+,	EN
+then	EN
+pregnant	HI
+,	EN
+,	EN
+then	EN
+having	EN
+baby	EN
+then	EN
+both	EN
+women	EN
+growing	EN
+up	EN
+further	EN
+11025	EN
+,	EN
+,	EN
+214	EN
+pm	EN
+--	EN
+inesh	EN
+roy	EN
+:	EN
+:	EN
+need	EN
+to	HI
+see	HI
+this	EN
+!	EN
+!	EN
+
+Sentence [55]: thats the same prof i told about in the blue room that day by the way
+Word	Language
+thats	EN
+the	EN
+same	EN
+prof	EN
+i	EN
+told	EN
+about	EN
+in	EN
+the	EN
+blue	EN
+room	EN
+that	EN
+day	EN
+by	EN
+the	EN
+way	EN
+
+Sentence [56]: i was so concerned without reading the above text
+Word	Language
+i	EN
+was	EN
+so	EN
+concerned	EN
+without	EN
+reading	EN
+the	EN
+above	EN
+text	EN
+
+Sentence [57]: wtf
+Word	Language
+wtf	EN
+
+Sentence [58]: 
+Sentence [59]: which course is chopella teaching ??
+Word	Language
+which	EN
+course	EN
+is	EN
+chopella	EN
+teaching	EN
+?	EN
+?	EN
+
+Sentence [60]: i think he 's teaching ra
+Word	Language
+i	EN
+think	EN
+he	HI
+'s	EN
+teaching	EN
+ra	HI
+
+Sentence [61]: no ds
+Word	Language
+no	EN
+ds	EN
+
+Sentence [62]: but like genuinely what is this guy yapping
+Word	Language
+but	EN
+like	EN
+genuinely	EN
+what	EN
+is	EN
+this	EN
+guy	EN
+yapping	EN
+
+Sentence [63]: yapping with an accent **
+Word	Language
+yapping	EN
+with	EN
+an	EN
+accent	EN
+*	EN
+*	EN
+
+Sentence [64]: dasa prof
+Word	Language
+dasa	HI
+prof	EN
+
+Sentence [65]: bro stayed in the us for about 4yrs and caught enough accent to last a lifetime ......
+Word	Language
+bro	EN
+stayed	HI
+in	EN
+the	EN
+us	EN
+for	EN
+about	EN
+4yrs	EN
+and	EN
+caught	EN
+enough	EN
+accent	EN
+to	HI
+last	EN
+a	EN
+lifetime	EN
+......	EN
+
+Sentence [66]: same
+Word	Language
+same	EN
+
+Sentence [67]: shush
+Word	Language
+shush	EN
+
+Sentence [68]: rizzlyvik sar please teach main telugu sar
+Word	Language
+rizzlyvik	HI
+sar	HI
+please	EN
+teach	EN
+main	HI
+telugu	HI
+sar	HI
+
+Sentence [69]: +1
+Word	Language
++1	EN
+
+Sentence [70]: we telugu ppl are gon na lose privacy if you guys start understanding telugu
+Word	Language
+we	EN
+telugu	HI
+ppl	EN
+are	EN
+gon	HI
+na	HI
+lose	EN
+privacy	EN
+if	EN
+you	EN
+guys	EN
+start	EN
+understanding	EN
+telugu	HI
+
+Sentence [71]: bros asking us to ask questions like i have no idea what you said tf do you want main to ask ?? ```` sir when will you start teaching python ''''
+Word	Language
+bros	EN
+asking	EN
+us	EN
+to	HI
+ask	EN
+questions	EN
+like	EN
+i	EN
+have	EN
+no	EN
+idea	EN
+what	EN
+you	EN
+said	EN
+tf	EN
+do	EN
+you	EN
+want	EN
+main	HI
+to	HI
+ask	EN
+?	EN
+?	EN
+``	EN
+``	EN
+sir	EN
+when	EN
+will	EN
+you	EN
+start	EN
+teaching	EN
+python	HI
+``	EN
+''	EN
+
+Sentence [72]: rare bird geis
+Word	Language
+rare	EN
+bird	EN
+geis	HI
+
+Sentence [73]: hehe
+Word	Language
+hehe	HI
+
+Sentence [74]: to be honest i will ask next time he stares at main
+Word	Language
+to	HI
+be	EN
+honest	EN
+i	EN
+will	EN
+ask	EN
+next	EN
+time	EN
+he	HI
+stares	EN
+at	EN
+main	HI
+
+Sentence [75]: let 's sell that rare bird on the black market and use the money to have a party
+Word	Language
+let	EN
+'s	EN
+sell	EN
+that	EN
+rare	EN
+bird	EN
+on	EN
+the	EN
+black	EN
+market	EN
+and	EN
+use	HI
+the	EN
+money	EN
+to	HI
+have	EN
+a	EN
+party	EN
+
+Sentence [76]: computer science prof
+Word	Language
+computer	EN
+science	EN
+prof	EN
+
+Sentence [77]: he 's a computer science prof ??
+Word	Language
+he	HI
+'s	EN
+a	EN
+computer	EN
+science	EN
+prof	EN
+?	EN
+?	EN
+
+Sentence [78]: whatever
+Word	Language
+whatever	EN
+
+Sentence [79]: tech guy
+Word	Language
+tech	EN
+guy	EN
+
+Sentence [80]: ```` dot it dot '''' 
+Word	Language
+``	EN
+``	EN
+dot	EN
+it	EN
+dot	EN
+``	EN
+''	EN
+
+Sentence [81]: how much is the weightage of slip tests
+Word	Language
+how	EN
+much	EN
+is	EN
+the	EN
+weightage	EN
+of	EN
+slip	HI
+tests	EN
+
+Sentence [82]: did she tell
+Word	Language
+did	EN
+she	EN
+tell	EN
+
+Sentence [83]: 3 ig
+Word	Language
+3	EN
+ig	EN
+
+Sentence [84]: mfs will do anything else except study
+Word	Language
+mfs	EN
+will	EN
+do	EN
+anything	EN
+else	EN
+except	EN
+study	EN
+
+Sentence [85]: yes
+Word	Language
+yes	EN
+
+Sentence [86]: yoo @@ 919356351244
+Word	Language
+yoo	HI
+@	EN
+@	EN
+919356351244	EN
+
+Sentence [87]:  super excited !! 
+Word	Language
+super	EN
+excited	EN
+!	EN
+!	EN
+
+Sentence [88]: if you are excited you should kys
+Word	Language
+if	EN
+you	EN
+are	EN
+excited	EN
+you	EN
+should	EN
+kys	EN
+
+Sentence [89]: guys we are super excited to run to our computers and code this
+Word	Language
+guys	EN
+we	EN
+are	EN
+super	EN
+excited	EN
+to	HI
+run	EN
+to	HI
+our	EN
+computers	EN
+and	EN
+code	EN
+this	EN
+
+Sentence [90]: say that to him laughing my ass off
+Word	Language
+say	EN
+that	EN
+to	HI
+him	EN
+laughing	EN
+my	EN
+ass	EN
+off	EN
+
+Sentence [91]: he threatened to let loose
+Word	Language
+he	HI
+threatened	EN
+to	HI
+let	EN
+loose	EN
+
+Sentence [92]: ** keep yourself safe
+Word	Language
+*	EN
+*	EN
+keep	EN
+yourself	EN
+safe	EN
+
+Sentence [93]: in few mins i will let loose
+Word	Language
+in	EN
+few	EN
+mins	EN
+i	EN
+will	EN
+let	EN
+loose	EN
+
+Sentence [94]: 
+Sentence [95]: crazy
+Word	Language
+crazy	EN
+
+Sentence [96]: veryy bad marketing strategy
+Word	Language
+veryy	HI
+bad	EN
+marketing	EN
+strategy	EN
+
+Sentence [97]: his courses are popl and compilers i think
+Word	Language
+his	EN
+courses	EN
+are	EN
+popl	EN
+and	EN
+compilers	EN
+i	EN
+think	EN
+
+Sentence [98]: like they did not want to deal with this bs and quit because even the tas had no idea what this guy was on
+Word	Language
+like	EN
+they	EN
+did	EN
+not	EN
+want	EN
+to	HI
+deal	EN
+with	EN
+this	EN
+bs	EN
+and	EN
+quit	EN
+because	EN
+even	EN
+the	EN
+tas	HI
+had	EN
+no	EN
+idea	EN
+what	EN
+this	EN
+guy	EN
+was	EN
+on	EN
+
+Sentence [99]: yes ,, this comes in popl
+Word	Language
+yes	EN
+,	EN
+,	EN
+this	EN
+comes	EN
+in	EN
+popl	EN
+
+Sentence [100]: ah interesting
+Word	Language
+ah	HI
+interesting	EN
+

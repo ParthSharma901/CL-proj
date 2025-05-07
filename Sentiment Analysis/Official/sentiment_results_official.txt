@@ -1,0 +1,403 @@
+Hinglish-Devanagari Sentiment Analysis Results with Emoji Support
+==========================================================
+
+1. Text: laughing my ass off
+   Sentiment Score: -0.01
+   Category: Neutral (Strength: 0.01)
+
+2. Text: tomorrow you will realise whom तो trust and whom तो not
+   Sentiment Score: 0.08
+   Category: Neutral (Strength: 0.08)
+
+3. Text: anyways , , happy होिल guys ! ! have fun
+   Sentiment Score: 0.46
+   Category: Positive (Strength: 0.46)
+
+4. Text: also , , happy pi day
+   Sentiment Score: 0.52
+   Category: Positive (Strength: 0.52)
+
+5. Text: chd moment
+   Sentiment Score: 0.02
+   Category: Neutral (Strength: 0.02)
+
+6. Text: hope you all had fun ...... nd had a safe होिल ......
+   Sentiment Score: 0.25
+   Category: Positive (Strength: 0.25)
+
+7. Text: my exams also did not go well and this helps a ton
+   Sentiment Score: 0.10
+   Category: Neutral (Strength: 0.10)
+
+8. Text: food is here
+   Sentiment Score: -0.01
+   Category: Neutral (Strength: 0.01)
+
+9. Text: helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all son ~the dance crew
+   Sentiment Score: 0.40
+   Category: Positive (Strength: 0.40)
+
+10. Text: hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस
+   Sentiment Score: 0.30
+   Category: Positive (Strength: 0.30)
+
+11. Text: िह all , , today 's football finals are starting right now .. please do come and support
+   Sentiment Score: 0.30
+   Category: Positive (Strength: 0.30)
+
+12. Text: happy उगािद and गुिद पदव ! !
+   Sentiment Score: 0.49
+   Category: Positive (Strength: 0.49)
+
+13. Text: eid मुबराक
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+14. Text: atb for quiz 2 : : ) )
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+15. Text: हलो hope your exams are gng great i just wanted तो share smtg quickly .. with the next admission cycle starting , , many students appearing for उगी , , spec , , जी etc . , , will hv a lot of questions about admissions , , cutoffs , , branch selection , , prep , , and more .. all these queries will be posted in the ith counseling forum on facebook .. it would be great तो सी many of you join in and help out our future peers
+   Sentiment Score: 0.62
+   Category: Positive (Strength: 0.62)
+
+16. Text: is this generation even on facebook ? ?
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+17. Text: कय करे we are old generation kids
+   Sentiment Score: 0.02
+   Category: Neutral (Strength: 0.02)
+
+18. Text: also answer the question asked just write student
+   Sentiment Score: 0.02
+   Category: Neutral (Strength: 0.02)
+
+19. Text: send मैन friend req also tq : : > >
+   Sentiment Score: 0.10
+   Category: Neutral (Strength: 0.10)
+
+20. Text: basically you will be asked ques like पुरपोसे of joining this गरप
+   Sentiment Score: 0.07
+   Category: Neutral (Strength: 0.07)
+
+21. Text: still old
+   Sentiment Score: -0.01
+   Category: Neutral (Strength: 0.01)
+
+22. Text: you want तो be old that s your prerogative
+   Sentiment Score: 0.06
+   Category: Neutral (Strength: 0.06)
+
+23. Text: lem मैन google nd come back
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+
+24. Text: hey ug1s , , the institute is conducting an फिसस ( ( faculty student interaction session ) ) with the ug1s today , , you would have recieved the mail for the same .. we उरगे you तो please go and participate in this session and it helps you answer your questions तो the institute and improving studentfaculty interaction and understanding ..
+   Sentiment Score: 0.27
+   Category: Positive (Strength: 0.27)
+
+25. Text: plis do attend
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+26. Text: hey guys ! ! cult night is about तो start ...... it 's the last time ug4 will be dancing on stage .. please come and चीर ! !
+   Sentiment Score: 0.20
+   Category: Positive (Strength: 0.20)
+
+27. Text: thank god
+   Sentiment Score: 0.73
+   Category: Positive (Strength: 0.73)
+
+28. Text: guys , , as you know , , chicken pox is spreading .. so be a little more careful about your हयिगएने and try तो अवोइद close contact with people for some time .. and inform the parliament if you happen तो have any symptoms .. stay safe and atb for endsems and projects ! !
+   Sentiment Score: 0.08
+   Category: Neutral (Strength: 0.08)
+
+29. Text: adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway
+   Sentiment Score: 0.31
+   Category: Positive (Strength: 0.31)
+
+30. Text: reminder ! ! deadline 6pm ..
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+31. Text: for single degree students ! ! do रेिगसतेर : : ) )
+   Sentiment Score: -0.07
+   Category: Neutral (Strength: 0.07)
+
+32. Text: ith students only eligible for cs हाcकथोन , , not quant ..
+   Sentiment Score: -0.02
+   Category: Neutral (Strength: 0.02)
+
+33. Text: they broke a honey comb
+   Sentiment Score: -0.04
+   Category: Neutral (Strength: 0.04)
+
+34. Text: what did duals do तो you ? ?
+   Sentiment Score: -0.02
+   Category: Neutral (Strength: 0.02)
+
+35. Text: 20 % % /25 % % of college done
+   Sentiment Score: -0.01
+   Category: Neutral (Strength: 0.01)
+
+36. Text: ohh wait i forgot about the chds
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+37. Text: what did duals who plan on graduating after 5 years do तो you ? ?
+   Sentiment Score: -0.00
+   Category: Neutral (Strength: 0.00)
+
+38. Text: wait रा i put follow up
+   Sentiment Score: 0.03
+   Category: Neutral (Strength: 0.03)
+
+39. Text: cnd and cgd
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+40. Text: anyways guys ! ! congrats , , party हारद ...... but please be careful ...... and if anyone is upset or smthng because of how this year went , , you can always reach out us ! !
+   Sentiment Score: 0.03
+   Category: Neutral (Strength: 0.03)
+
+41. Text: and also have fun with दसा
+   Sentiment Score: 0.04
+   Category: Neutral (Strength: 0.04)
+
+42. Text: िनकिक अकक getting real
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+
+43. Text: य य all comes with experience
+   Sentiment Score: 0.02
+   Category: Neutral (Strength: 0.02)
+
+44. Text: dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance इनदुसत्रय .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..
+   Sentiment Score: 0.50
+   Category: Positive (Strength: 0.50)
+
+45. Text: reminder : : a gentle reminder for the गस event .. please do attend ! ! time : : 79pm venue : : krb
+   Sentiment Score: 0.25
+   Category: Positive (Strength: 0.25)
+
+46. Text: तो all those who अततेनदेद : : thank you so much ! ! < < 3
+   Sentiment Score: 0.25
+   Category: Positive (Strength: 0.25)
+
+47. Text: hey everyone , , hope you are doing well , , now that exams are over .. we expect civil बेहािवओर from you all in and around the labs ( ( थुब , , कcइस , , िवनधय ) ) .. you are free तो roam around and do your मसित anywhere in the campus as long as its safe , , but kindly understand that labs are supposed तो be quiet places as there are हुनदरेद of students focusing on their studies , , research , , etc- .. moreover , , a lot of profs have their offices as well .. take this as a reminder and ensure there is a certain decorum मैनतैनेद in these places .. more so because you are not even allowed here in the first place .. do not make us call you out ..
+   Sentiment Score: 0.29
+   Category: Positive (Strength: 0.29)
+
+48. Text: please guys , , you are ideally not allowed तो enter lab spaces .. do not take advantage over our लेिनएनcय .. research students are working at various times in their labs and before they start complaining about you guys , , try तो control your बेहािवओर .. there are a lot lot more places in campus तो have fun , , lab spaces aint them .. anyways happy होिलदयस , , अब तोह बाहार घूम लो before semester starts again : : ) )
+   Sentiment Score: 0.44
+   Category: Positive (Strength: 0.44)
+
+49. Text: घुम रःए है sir येह लोग कबसे कःतं िह नःइ हो रःअ इनक
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+50. Text: kids if anyone missed any endsems please do note this
+   Sentiment Score: 0.03
+   Category: Neutral (Strength: 0.03)
+
+51. Text: guys please cross roads safely
+   Sentiment Score: 0.33
+   Category: Positive (Strength: 0.33)
+
+52. Text: basically rule of थुमब : : only attempt crossing if you think you can cross it at a go , , do not stop in the िमददले of the road ..
+   Sentiment Score: 0.02
+   Category: Neutral (Strength: 0.02)
+
+53. Text: random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with ) )
+   Sentiment Score: -0.02
+   Category: Neutral (Strength: 0.02)
+
+54. Text: i think its because bring beer and chips is very फर from ओभ
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+
+55. Text: पेरहापस ..
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+56. Text: थुमबस up means you generally go तो bring beer and chips ..
+   Sentiment Score: -0.03
+   Category: Neutral (Strength: 0.03)
+
+57. Text: by the time they wake up , , they have classess ...... so automatically vc > > bring beer and chips
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+
+58. Text: damn imagine not eating the better दोसा
+   Sentiment Score: 0.16
+   Category: Neutral (Strength: 0.16)
+
+59. Text: bring beer and chips दोसा not better
+   Sentiment Score: 0.16
+   Category: Neutral (Strength: 0.16)
+
+60. Text: happy vacas and safe journey ! !
+   Sentiment Score: 0.54
+   Category: Positive (Strength: 0.54)
+
+61. Text: hello please suggest movies ( ( direct message ) ) thanks ! !
+   Sentiment Score: 0.39
+   Category: Positive (Strength: 0.39)
+
+62. Text: : : ) )
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+63. Text: ok cutie
+   Sentiment Score: 0.45
+   Category: Positive (Strength: 0.45)
+
+64. Text: हेय ! ! hope you are doing well .. since i do this everytime , , and i am bored ( ( __plus , , a few people asked__ ) ) , , here is the set of resources for the next semester : : took some time and effort but there you go : : ) ) enjoy ig .. [ [ note ] ] do go through the readme ..
+   Sentiment Score: 0.37
+   Category: Positive (Strength: 0.37)
+
+65. Text: भै छुतित enjoy करने दे
+   Sentiment Score: 0.57
+   Category: Positive (Strength: 0.57)
+
+66. Text: ok ..
+   Sentiment Score: 0.37
+   Category: Positive (Strength: 0.37)
+
+67. Text: grades are being released subject wise please do check you are transcript
+   Sentiment Score: 0.25
+   Category: Positive (Strength: 0.25)
+
+68. Text: whatever the grades might be , , you ll did great guys ! ! be proud of yourselves .. this was your first semester , , and do not expect उरसेलवेस तो get a perfect 10. do not be disappointed .. just have fun during the vacation , , and put more efforts next semester : : ) )
+   Sentiment Score: 0.54
+   Category: Positive (Strength: 0.54)
+
+69. Text: and if anyone wants तो talk about it .. feel free तो reach out तो us
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+
+70. Text: also hv fun njoy your vacation come back double stronger
+   Sentiment Score: 0.21
+   Category: Positive (Strength: 0.21)
+
+71. Text: yes guys please don t worry your grades .. you worked हारद so please be proud of the effort
+   Sentiment Score: 0.32
+   Category: Positive (Strength: 0.32)
+
+72. Text: and also one thing , , after grades are out , , please do not call out any तास laughing my ass off ...... its not in their hands .. those are your final grades
+   Sentiment Score: 0.04
+   Category: Neutral (Strength: 0.04)
+
+73. Text: तास िक िभ हालत खराब है so let them cry also
+   Sentiment Score: -0.31
+   Category: Negative (Strength: 0.31)
+
+74. Text: now that all your grades are out ( ( hopefully ) ) , , congratulations on finishing your first senester guys ! ! some of you must be really happy , , some of you must be sad , , irrespective , , you ll did great in the semester .. now forget about what s done , , and think about what you can do guys ! ! look forward तो the next semester .. you ll can get a headstart with some दसा as mentioned by सोउिमल , , or can do cp , , or anythng .. anyways have fun guys ! ! party हारद for नये .. ps .. if anyone wants तो talk something about their grades , , hit us up ..
+   Sentiment Score: 0.46
+   Category: Positive (Strength: 0.46)
+
+75. Text: like we वे said before , , you वे worked हारद .. be proud of what you have achieved : : ) )
+   Sentiment Score: 0.20
+   Category: Positive (Strength: 0.20)
+
+76. Text: 15 िदन बचे हैन यार chill करो enjoi होिलदयस
+   Sentiment Score: -0.09
+   Category: Neutral (Strength: 0.09)
+
+77. Text: कयु याद िदलािय तु
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+78. Text: मेइ तोह late आ रःअ हु more होिलदयस यय
+   Sentiment Score: -0.01
+   Category: Neutral (Strength: 0.01)
+
+79. Text: go sleep you will forget again
+   Sentiment Score: -0.03
+   Category: Neutral (Strength: 0.03)
+
+80. Text: please hv you are dinner
+   Sentiment Score: 0.22
+   Category: Positive (Strength: 0.22)
+
+81. Text: if someone is injured or sick please let us know
+   Sentiment Score: -0.04
+   Category: Neutral (Strength: 0.04)
+
+82. Text: do not wait for tomorrow
+   Sentiment Score: -0.09
+   Category: Neutral (Strength: 0.09)
+
+83. Text: curfew still exists please be back into rooms by 1230pm
+   Sentiment Score: 0.05
+   Category: Neutral (Strength: 0.05)
+
+84. Text: if you guys need any help or wan न talk or literally anything we are here direct message करलो
+   Sentiment Score: 0.05
+   Category: Neutral (Strength: 0.05)
+
+85. Text: * * one shoutout for mentors also * * ( ( just react तो message तो give shoutout ) )
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+
+86. Text: also guys हुगे shoutout तो @ @ 918106925340 for organising the trip and coordinating with all the teams ...... and most importantly every apex member for the batch trip today ! ! hope you ll had fun ! !
+   Sentiment Score: 0.26
+   Category: Positive (Strength: 0.26)
+
+87. Text: िह guys ! ! hope everyone is fine and have rested enough ...... if anyone हास a sprained ankle or anything after yest , , let us know
+   Sentiment Score: 0.08
+   Category: Neutral (Strength: 0.08)
+
+88. Text: the batch photo guyz ! !
+   Sentiment Score: 0.00
+   Category: Neutral (Strength: 0.00)
+
+89. Text: सूगुउद ! ! now time तो keep it the group pfp ? ?
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+
+90. Text: credits : : िचनमय पतेिरअ , , रोशं
+   Sentiment Score: 0.06
+   Category: Neutral (Strength: 0.06)
+
+91. Text: if it 's yours please lem मैन know
+   Sentiment Score: 0.13
+   Category: Neutral (Strength: 0.13)
+
+92. Text: कल books will be near library exhibition please collect
+   Sentiment Score: 0.07
+   Category: Neutral (Strength: 0.07)
+
+93. Text: hello everyone ! ! for the independence day celebrations tomorrow , , if you would like तो perform a dance , , sing , , play an instrument , , or even recite a poem , , please direct message your name तो पराखर गुपता ( ( +91 96911 90017 ) ) ..
+   Sentiment Score: 0.28
+   Category: Positive (Strength: 0.28)
+
+94. Text: hello everyone ! ! * * join us today in h105 at 2 pm as ecell hosts an inspiring guest talk by the accomplished entrepreneur कंइक अगारवल , , cofounder & & ceo of mindpeers .. * * कंइक was featured on शरकतंक india , , recognized in अिसअओने s 40 under 40 , , and is an active angel investor in startups like बोब भै and लेअप club ...... this session is a unique opportunity तो gain insights into her entrepreneurial journey , , from building a मुलितिमलिलओनदोललर startup while managing anxiety तो scaling globally and exploring the intersection of mental health and business .. don t miss out on this chance तो learn from one of the leading voices in mental wellbeing and एनत्रेपरेनेउरशइप .. सी you there ! !
+   Sentiment Score: 0.29
+   Category: Positive (Strength: 0.29)
+
+95. Text: free redbull for the अततेनदीस : : ) )
+   Sentiment Score: -0.11
+   Category: Neutral (Strength: 0.11)
+
+96. Text: guys if you have labs : : welp , , i am sorry , , there 's nothing i can do about it really .. मेइ माफइ मंगता हु
+   Sentiment Score: -0.03
+   Category: Neutral (Strength: 0.03)
+
+97. Text: guys do come as soon as possible , , ms कंइक is an excellent speaker and it 's also a free event
+   Sentiment Score: 0.45
+   Category: Positive (Strength: 0.45)
+
+98. Text: +free redbulls , , if you are still not convinced
+   Sentiment Score: -0.08
+   Category: Neutral (Strength: 0.08)
+
+99. Text: a lot of people have been falling sick lately .. if you need medicines urgently , , please ask your रूममतेस , , or friends if they have the common ones with them .. also , , you can पुरचसे medicines on नेतमेदस , , apollo , , पहारमेअसय etc- and then deliver it तो your hostel .. you can buy a good amount of them तो उसे later on also .. take care and get well soon ..
+   Sentiment Score: 0.40
+   Category: Positive (Strength: 0.40)
+
+100. Text: i would suggest get your own candles if possible
+   Sentiment Score: 0.01
+   Category: Neutral (Strength: 0.01)
+

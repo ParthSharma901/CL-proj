@@ -1,0 +1,400 @@
+Original [1]: lmao
+Normalized [1]: laughing my ass off
+Mixed E-H [1]: laughing my ass off
+
+Original [2]: Tomorrow u will realise whom to trust and whom to not 🤡
+Normalized [2]: tomorrow you will realise whom to trust and whom to not 
+Mixed E-H [2]: tomorrow you will realise whom तो trust and whom तो not
+
+Original [3]: Anyways, Happy Holi guys! Have fun
+Normalized [3]: anyways ,, happy holi guys !! have fun
+Mixed E-H [3]: anyways , , happy होिल guys ! ! have fun
+
+Original [4]: also, happy pi day
+Normalized [4]: also ,, happy pi day
+Mixed E-H [4]: also , , happy pi day
+
+Original [5]: chd moment
+Normalized [5]: chd moment
+Mixed E-H [5]: chd moment
+
+Original [6]: Hope u all had fun....nd had a safe Holi...♥️
+Normalized [6]: hope you all had fun ...... nd had a safe holi ...... 
+Mixed E-H [6]: hope you all had fun ...... nd had a safe होिल ......
+
+Original [7]: my exams also didn't go well and this helps a ton 🥺
+Normalized [7]: my exams also did not go well and this helps a ton 
+Mixed E-H [7]: my exams also did not go well and this helps a ton
+
+Original [8]: Food is here
+Normalized [8]: food is here
+Mixed E-H [8]: food is here
+
+Original [9]: Helloo All Navrang is going to start within the next 10 minutes. We request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers. Hoping to see you all sooooonnn⭐⭐⭐ ~The Dance Crew 💃
+Normalized [9]: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all son ~the dance crew 
+Mixed E-H [9]: helloo all navrang is going तो start within the next 10 minutes .. we request you all तो gather in अंिफ़ as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping तो सी you all son ~the dance crew
+
+Original [10]: Hey guys our institute’s football team has a match rn in the inter college tournament. Please go to the football ground to support our team and your batchmates ☺️☺️
+Normalized [10]: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates 
+Mixed E-H [10]: hey guys our institute s football team हास a match right now in the inter college tournament .. please go तो the football ground तो support our team and your बतचमतेस
+
+Original [11]: Hi all, Today's football finals are starting rn. Please do come and support
+Normalized [11]: hi all ,, today 's football finals are starting right now .. please do come and support
+Mixed E-H [11]: िह all , , today 's football finals are starting right now .. please do come and support
+
+Original [12]: Happy Ugadi and Gudi padwa!♥️
+Normalized [12]: happy ugadi and gudi padwa !! 
+Mixed E-H [12]: happy उगािद and गुिद पदव ! !
+
+Original [13]: Eid Mubarak 🌙
+Normalized [13]: eid mubarak 
+Mixed E-H [13]: eid मुबराक
+
+Original [14]: atb for quiz 2 :)
+Normalized [14]: atb for quiz 2 :: ))
+Mixed E-H [14]: atb for quiz 2 : : ) )
+
+Original [15]: Hloooo Hope your exams are gng gr8 I just wanted to share smtg quickly. With the next admission cycle starting, many students appearing for UGEE, SPEC, JEE etc., will hv a lot of questions about admissions, cutoffs, branch selection, prep,and more. All these queries will be posted in the IIITH Counseling Forum on Facebook. It would be great to see many of you join in and help out our future peers
+Normalized [15]: hlo hope your exams are gng great i just wanted to share smtg quickly .. with the next admission cycle starting ,, many students appearing for ugee ,, spec ,, jee etc. ,, will hv a lot of questions about admissions ,, cutoffs ,, branch selection ,, prep ,, and more .. all these queries will be posted in the ith counseling forum on facebook .. it would be great to see many of you join in and help out our future peers
+Mixed E-H [15]: हलो hope your exams are gng great i just wanted तो share smtg quickly .. with the next admission cycle starting , , many students appearing for उगी , , spec , , जी etc . , , will hv a lot of questions about admissions , , cutoffs , , branch selection , , prep , , and more .. all these queries will be posted in the ith counseling forum on facebook .. it would be great तो सी many of you join in and help out our future peers
+
+Original [16]: is this generation even on facebook?
+Normalized [16]: is this generation even on facebook ??
+Mixed E-H [16]: is this generation even on facebook ? ?
+
+Original [17]: Kya kare we are old generation kids
+Normalized [17]: kya kare we are old generation kids
+Mixed E-H [17]: कय करे we are old generation kids
+
+Original [18]: Also answer the question asked just write student😅
+Normalized [18]: also answer the question asked just write student
+Mixed E-H [18]: also answer the question asked just write student
+
+Original [19]: send me friend req also tq :>
+Normalized [19]: send main friend req also tq :: >>
+Mixed E-H [19]: send मैन friend req also tq : : > >
+
+Original [20]: Basically u will be asked ques like purpose of joining this grp
+Normalized [20]: basically you will be asked ques like purpose of joining this grp
+Mixed E-H [20]: basically you will be asked ques like पुरपोसे of joining this गरप
+
+Original [21]: Still old😅
+Normalized [21]: still old
+Mixed E-H [21]: still old
+
+Original [22]: You want to be old that’s your prerogative
+Normalized [22]: you want to be old that  s your prerogative
+Mixed E-H [22]: you want तो be old that s your prerogative
+
+Original [23]: Lemme google nd come back
+Normalized [23]: lem main google nd come back
+Mixed E-H [23]: lem मैन google nd come back
+
+Original [24]: Hey UG1s, The institute is conducting an FSIS (Faculty Student Interaction Session) with the UG1s today, you would've recieved the mail for the same. We urge you to please go and participate in this session and it helps you answer your questions to the institute and improving student-faculty interaction and understanding.
+Normalized [24]: hey ug1s ,, the institute is conducting an fsis (( faculty student interaction session )) with the ug1s today ,, you would have recieved the mail for the same .. we urge you to please go and participate in this session and it helps you answer your questions to the institute and improving studentfaculty interaction and understanding ..
+Mixed E-H [24]: hey ug1s , , the institute is conducting an फिसस ( ( faculty student interaction session ) ) with the ug1s today , , you would have recieved the mail for the same .. we उरगे you तो please go and participate in this session and it helps you answer your questions तो the institute and improving studentfaculty interaction and understanding ..
+
+Original [25]: Plis do attend
+Normalized [25]: plis do attend
+Mixed E-H [25]: plis do attend
+
+Original [26]: Hey guys! Cult night is about to start... It's the last time UG4 will be dancing on stage. Please come and cheer!!
+Normalized [26]: hey guys !! cult night is about to start ...... it 's the last time ug4 will be dancing on stage .. please come and cheer !!
+Mixed E-H [26]: hey guys ! ! cult night is about तो start ...... it 's the last time ug4 will be dancing on stage .. please come and चीर ! !
+
+Original [27]: Thank god
+Normalized [27]: thank god
+Mixed E-H [27]: thank god
+
+Original [28]: Guys, as you know, Chicken Pox is spreading. So be a little more careful about your hygiene and try to avoid close contact with people for some time. And inform the Parliament if you happen to have any symptoms. Stay Safe and atb for endsems and projects!
+Normalized [28]: guys ,, as you know ,, chicken pox is spreading .. so be a little more careful about your hygiene and try to avoid close contact with people for some time .. and inform the parliament if you happen to have any symptoms .. stay safe and atb for endsems and projects !!
+Mixed E-H [28]: guys , , as you know , , chicken pox is spreading .. so be a little more careful about your हयिगएने and try तो अवोइद close contact with people for some time .. and inform the parliament if you happen तो have any symptoms .. stay safe and atb for endsems and projects ! !
+
+Original [29]: Adding to that plss pls take note: 1. Initial symptoms include rashes (which may be accompanied by blister in later stage) 2. Fever (low or high either) 3. Fatigue and loss of appetite Also symptoms take a week or more to actually show up ... So ppl might b infected but themselves be unaware of the same So pls try to not b in crowded places at least. And people who have had it in the past or are vaccinated are less prone but can still get it . So pls be careful anyway ❤️❤️
+Normalized [29]: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway 
+Mixed E-H [29]: adding तो that plss please take note : : 1. initial symptoms include राशेस ( ( which may be accompanied by blister in later stage ) ) 2. fever ( ( low or high either ) ) 3. fatigue and loss of appetite also symptoms take a week or more तो actually show up ...... so ppl might b infected but themselves be उनवरे of the same so please try तो not b in cरोवदेद places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway
+
+Original [30]: Reminder! Deadline 6PM.
+Normalized [30]: reminder !! deadline 6pm ..
+Mixed E-H [30]: reminder ! ! deadline 6pm ..
+
+Original [31]: https://www.goldmansachs.com/careers/students/programs-and-internships/india/hackathon For Single Degree Students! Do Register :)
+Normalized [31]: for single degree students !! do register :: ))
+Mixed E-H [31]: for single degree students ! ! do रेिगसतेर : : ) )
+
+Original [32]: IIITH students only eligible for CS Hackathon, not Quant.
+Normalized [32]: ith students only eligible for cs hackathon ,, not quant ..
+Mixed E-H [32]: ith students only eligible for cs हाcकथोन , , not quant ..
+
+Original [33]: They broke a honey comb
+Normalized [33]: they broke a honey comb
+Mixed E-H [33]: they broke a honey comb
+
+Original [34]: What did Duals do to you?
+Normalized [34]: what did duals do to you ??
+Mixed E-H [34]: what did duals do तो you ? ?
+
+Original [35]: 20%/25% of college done
+Normalized [35]: 20 %% /25 %% of college done
+Mixed E-H [35]: 20 % % /25 % % of college done
+
+Original [36]: Ohh wait I forgot about the chds
+Normalized [36]: ohh wait i forgot about the chds
+Mixed E-H [36]: ohh wait i forgot about the chds
+
+Original [37]: What did Duals who plan on graduating after 5 years do to you?
+Normalized [37]: what did duals who plan on graduating after 5 years do to you ??
+Mixed E-H [37]: what did duals who plan on graduating after 5 years do तो you ? ?
+
+Original [38]: Wait ra I put follow up
+Normalized [38]: wait ra i put follow up
+Mixed E-H [38]: wait रा i put follow up
+
+Original [39]: Cnd and cgd
+Normalized [39]: cnd and cgd
+Mixed E-H [39]: cnd and cgd
+
+Original [40]: Anyways guys! Congrats, Party hard.. But please be careful.. And if anyone is upset or smthng because of how this year went, u can always reach out us!
+Normalized [40]: anyways guys !! congrats ,, party hard ...... but please be careful ...... and if anyone is upset or smthng because of how this year went ,, you can always reach out us !!
+Mixed E-H [40]: anyways guys ! ! congrats , , party हारद ...... but please be careful ...... and if anyone is upset or smthng because of how this year went , , you can always reach out us ! !
+
+Original [41]: And also have fun with DSA 🤡
+Normalized [41]: and also have fun with dsa 
+Mixed E-H [41]: and also have fun with दसा
+
+Original [42]: Nikki akka getting real
+Normalized [42]: nikki akka getting real
+Mixed E-H [42]: िनकिक अकक getting real
+
+Original [43]: Ya ya All comes with experience 🙏🏻
+Normalized [43]: ya ya all comes with experience 
+Mixed E-H [43]: य य all comes with experience
+
+Original [44]: Dear All, This is a reminder about the Goldman Sachs Possibilities Summit happening today at KRB from 7:00 PM to 9:00 PM. Senior leaders from Goldman Sachs will be sharing valuable insights into their corporate journey and discussing the dynamic culture of the finance industry. Your attendance is highly encouraged, as this event is not only a great learning opportunity but also crucial for maintaining a strong relationship with Goldman Sachs, which is vital for future recruitment opportunities. Please make sure to attend.
+Normalized [44]: dear all ,, this is a reminder about the goldman sachs possibilities summit happening today at krb from 700 pm to 900 pm .. senior leaders from goldman sachs will be sharing valuable insights into their corporate journey and discussing the dynamic culture of the finance industry .. your attendance is highly encouraged ,, as this event is not only a great learning opportunity but also crucial for maintaining a strong relationship with goldman sachs ,, which is vital for future recruitment opportunities .. please make sure to attend ..
+Mixed E-H [44]: dear all , , this is a reminder about the goldman साचस possibilities सुमिमत happening today at krb from 700 pm तो 900 pm .. senior leaders from goldman साचस will be sharing valuable insights into their corporate journey and discussing the दयनंइc culture of the finance इनदुसत्रय .. your attendance is highly encouraged , , as this event is not only a great learning opportunity but also crucial for मैनतैिननग a strong relationship with goldman साचस , , which is vital for future recruitment opportunities .. please make sure तो attend ..
+
+Original [45]: Reminder: A gentle reminder for the GS event. Please do attend! Time: 7-9PM Venue: KRB
+Normalized [45]: reminder :: a gentle reminder for the gs event .. please do attend !! time :: 79pm venue :: krb
+Mixed E-H [45]: reminder : : a gentle reminder for the गस event .. please do attend ! ! time : : 79pm venue : : krb
+
+Original [46]: To all those who attended: thank you so much! <3
+Normalized [46]: to all those who attended :: thank you so much !! << 3
+Mixed E-H [46]: तो all those who अततेनदेद : : thank you so much ! ! < < 3
+
+Original [47]: Hey everyone, hope you are doing well, now that exams are over. We expect civil behavior from you all in and around the labs (T-Hub, KCIS, Vindhya). You are free to roam around and do your masti anywhere in the campus as long as its safe, but kindly understand that labs are supposed to be quiet places as there are hundred of students focusing on their studies, research, etc-. Moreover, a lot of profs have their offices as well. Take this as a reminder and ensure there is a certain decorum maintained in these places. More so because you are not even allowed here in the first place. Don't make us call you out.
+Normalized [47]: hey everyone ,, hope you are doing well ,, now that exams are over .. we expect civil behavior from you all in and around the labs (( thub ,, kcis ,, vindhya )) .. you are free to roam around and do your masti anywhere in the campus as long as its safe ,, but kindly understand that labs are supposed to be quiet places as there are hundred of students focusing on their studies ,, research ,, etc- .. moreover ,, a lot of profs have their offices as well .. take this as a reminder and ensure there is a certain decorum maintained in these places .. more so because you are not even allowed here in the first place .. do not make us call you out ..
+Mixed E-H [47]: hey everyone , , hope you are doing well , , now that exams are over .. we expect civil बेहािवओर from you all in and around the labs ( ( थुब , , कcइस , , िवनधय ) ) .. you are free तो roam around and do your मसित anywhere in the campus as long as its safe , , but kindly understand that labs are supposed तो be quiet places as there are हुनदरेद of students focusing on their studies , , research , , etc- .. moreover , , a lot of profs have their offices as well .. take this as a reminder and ensure there is a certain decorum मैनतैनेद in these places .. more so because you are not even allowed here in the first place .. do not make us call you out ..
+
+Original [48]: Please guys, you are ideally not allowed to enter lab spaces. Do not take advantage over our leniency. Research students are working at various times in their labs and before they start complaining about you guys, try to control your behavior. There are a lot lot more places in campus to have fun, lab spaces aint them. Anyways Happy holidays, ab toh baahar ghoom lo before sem starts again :)
+Normalized [48]: please guys ,, you are ideally not allowed to enter lab spaces .. do not take advantage over our leniency .. research students are working at various times in their labs and before they start complaining about you guys ,, try to control your behavior .. there are a lot lot more places in campus to have fun ,, lab spaces aint them .. anyways happy holidays ,, ab toh baahar ghoom lo before semester starts again :: ))
+Mixed E-H [48]: please guys , , you are ideally not allowed तो enter lab spaces .. do not take advantage over our लेिनएनcय .. research students are working at various times in their labs and before they start complaining about you guys , , try तो control your बेहािवओर .. there are a lot lot more places in campus तो have fun , , lab spaces aint them .. anyways happy होिलदयस , , अब तोह बाहार घूम लो before semester starts again : : ) )
+
+Original [49]: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 😂
+Normalized [49]: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 
+Mixed E-H [49]: घुम रःए है sir येह लोग कबसे कःतं िह नःइ हो रःअ इनक
+
+Original [50]: Kids if anyone missed any endsems please do note this
+Normalized [50]: kids if anyone missed any endsems please do note this
+Mixed E-H [50]: kids if anyone missed any endsems please do note this
+
+Original [51]: guys please cross roads safely 🙏
+Normalized [51]: guys please cross roads safely 
+Mixed E-H [51]: guys please cross roads safely
+
+Original [52]: basically rule of thumb: only attempt crossing if you think you can cross it at a go, do not stop in the middle of the road.
+Normalized [52]: basically rule of thumb :: only attempt crossing if you think you can cross it at a go ,, do not stop in the middle of the road ..
+Mixed E-H [52]: basically rule of थुमब : : only attempt crossing if you think you can cross it at a go , , do not stop in the िमददले of the road ..
+
+Original [53]: random question: does ug1 not prefer going to bbc? i generally have not noticed a lot of ug1s here! (react with 👍/👎)
+Normalized [53]: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with  ))
+Mixed E-H [53]: random question : : does ug1 not prefer going तो bring beer and chips ? ? i generally have not noticed a lot of ug1s here ! ! ( ( react with ) )
+
+Original [54]: I think its coz BBC is very far from OBH 🤡
+Normalized [54]: i think its because bring beer and chips is very far from obh 
+Mixed E-H [54]: i think its because bring beer and chips is very फर from ओभ
+
+Original [55]: perhaps.
+Normalized [55]: perhaps ..
+Mixed E-H [55]: पेरहापस ..
+
+Original [56]: thumbs up means you generally go to BBC.
+Normalized [56]: thumbs up means you generally go to bring beer and chips ..
+Mixed E-H [56]: थुमबस up means you generally go तो bring beer and chips ..
+
+Original [57]: By the time they wake up, they have classess.. so automatically VC > BBC
+Normalized [57]: by the time they wake up ,, they have classess ...... so automatically vc >> bring beer and chips
+Mixed E-H [57]: by the time they wake up , , they have classess ...... so automatically vc > > bring beer and chips
+
+Original [58]: damn imagine not eating the better dosa
+Normalized [58]: damn imagine not eating the better dosa
+Mixed E-H [58]: damn imagine not eating the better दोसा
+
+Original [59]: Bbc dosa not better
+Normalized [59]: bring beer and chips dosa not better
+Mixed E-H [59]: bring beer and chips दोसा not better
+
+Original [60]: Happy Vacas and Safe Journey!
+Normalized [60]: happy vacas and safe journey !!
+Mixed E-H [60]: happy vacas and safe journey ! !
+
+Original [61]: hello please suggest movies (dm) thanks!
+Normalized [61]: hello please suggest movies (( direct message )) thanks !!
+Mixed E-H [61]: hello please suggest movies ( ( direct message ) ) thanks ! !
+
+Original [62]: :)
+Normalized [62]: :: ))
+Mixed E-H [62]: : : ) )
+
+Original [63]: Ok cutie
+Normalized [63]: ok cutie
+Mixed E-H [63]: ok cutie
+
+Original [64]: heya! hope you're doing well. since i do this everytime, and i am bored (_plus, a few people asked_), here is the set of resources for the next semester: https://github.com/zyx7k/Semester-2-Resources.git took some time and effort but there you go :) enjoy ig. [NOTE] do go through the README.
+Normalized [64]: heya !! hope you are doing well .. since i do this everytime ,, and i am bored (( __plus ,, a few people asked__ )) ,, here is the set of resources for the next semester :: took some time and effort but there you go :: )) enjoy ig .. [[ note ]] do go through the readme ..
+Mixed E-H [64]: हेय ! ! hope you are doing well .. since i do this everytime , , and i am bored ( ( __plus , , a few people asked__ ) ) , , here is the set of resources for the next semester : : took some time and effort but there you go : : ) ) enjoy ig .. [ [ note ] ] do go through the readme ..
+
+Original [65]: Bhai chhutti enjoy karne de
+Normalized [65]: bhai chhutti enjoy karne de
+Mixed E-H [65]: भै छुतित enjoy करने दे
+
+Original [66]: ok.
+Normalized [66]: ok ..
+Mixed E-H [66]: ok ..
+
+Original [67]: Grades are being released subject wise please do check u r transcript
+Normalized [67]: grades are being released subject wise please do check you are transcript
+Mixed E-H [67]: grades are being released subject wise please do check you are transcript
+
+Original [68]: Whatever the grades might be, u ll did great guys! Be proud of yourselves. This was your first semester, and do not expect urselves to get a perfect 10. Do not be disappointed. Just have fun during the vacation, and put more efforts next semester :)
+Normalized [68]: whatever the grades might be ,, you ll did great guys !! be proud of yourselves .. this was your first semester ,, and do not expect urselves to get a perfect 10. do not be disappointed .. just have fun during the vacation ,, and put more efforts next semester :: ))
+Mixed E-H [68]: whatever the grades might be , , you ll did great guys ! ! be proud of yourselves .. this was your first semester , , and do not expect उरसेलवेस तो get a perfect 10. do not be disappointed .. just have fun during the vacation , , and put more efforts next semester : : ) )
+
+Original [69]: And if anyone wants to talk about it. Feel free to reach out to us
+Normalized [69]: and if anyone wants to talk about it .. feel free to reach out to us
+Mixed E-H [69]: and if anyone wants तो talk about it .. feel free तो reach out तो us
+
+Original [70]: Also hv fun njoy your vacation Come back double stronger
+Normalized [70]: also hv fun njoy your vacation come back double stronger
+Mixed E-H [70]: also hv fun njoy your vacation come back double stronger
+
+Original [71]: Yes guys please don’t worry your grades. You worked hard so please be proud of the effort
+Normalized [71]: yes guys please don  t worry your grades .. you worked hard so please be proud of the effort
+Mixed E-H [71]: yes guys please don t worry your grades .. you worked हारद so please be proud of the effort
+
+Original [72]: And also one thing, after grades are out, please do not call out any TAs lmao.. its not in their hands. Those are your final grades
+Normalized [72]: and also one thing ,, after grades are out ,, please do not call out any tas laughing my ass off ...... its not in their hands .. those are your final grades
+Mixed E-H [72]: and also one thing , , after grades are out , , please do not call out any तास laughing my ass off ...... its not in their hands .. those are your final grades
+
+Original [73]: TAs ki bhi halat kharab hai so let them cry also 😂
+Normalized [73]: tas ki bhi halat kharab hai so let them cry also 
+Mixed E-H [73]: तास िक िभ हालत खराब है so let them cry also
+
+Original [74]: Now that all your grades are out (Hopefully), Congratulations on finishing your first senester guys! Some of you must be really happy, some of u must be sad, irrespective, u ll did great in the semester. Now forget about what’s done, and think about what u can do guys! Look forward to the next semester. You ll can get a headstart with some DSA as mentioned by Soumil, or can do CP, or anythng. Anyways have fun guys! Party hard for NYE. P.S. If anyone wants to talk something about their grades, hit us up.
+Normalized [74]: now that all your grades are out (( hopefully )) ,, congratulations on finishing your first senester guys !! some of you must be really happy ,, some of you must be sad ,, irrespective ,, you ll did great in the semester .. now forget about what  s done ,, and think about what you can do guys !! look forward to the next semester .. you ll can get a headstart with some dsa as mentioned by soumil ,, or can do cp ,, or anythng .. anyways have fun guys !! party hard for nye .. ps .. if anyone wants to talk something about their grades ,, hit us up ..
+Mixed E-H [74]: now that all your grades are out ( ( hopefully ) ) , , congratulations on finishing your first senester guys ! ! some of you must be really happy , , some of you must be sad , , irrespective , , you ll did great in the semester .. now forget about what s done , , and think about what you can do guys ! ! look forward तो the next semester .. you ll can get a headstart with some दसा as mentioned by सोउिमल , , or can do cp , , or anythng .. anyways have fun guys ! ! party हारद for नये .. ps .. if anyone wants तो talk something about their grades , , hit us up ..
+
+Original [75]: Like we’ve said before, you’ve worked hard. Be proud of what you have achieved :)
+Normalized [75]: like we  ve said before ,, you  ve worked hard .. be proud of what you have achieved :: ))
+Mixed E-H [75]: like we वे said before , , you वे worked हारद .. be proud of what you have achieved : : ) )
+
+Original [76]: 15 din bache hain yr chill kro Enjoi holidays
+Normalized [76]: 15 din bache hain yaar chill karo enjoi holidays
+Mixed E-H [76]: 15 िदन बचे हैन यार chill करो enjoi होिलदयस
+
+Original [77]: Kyu yaad dilaayi tu 😭
+Normalized [77]: kyu yaad dilaayi tu 
+Mixed E-H [77]: कयु याद िदलािय तु
+
+Original [78]: mei toh late aa raha hu more holidays yay
+Normalized [78]: mei toh late aa raha hu more holidays yay
+Mixed E-H [78]: मेइ तोह late आ रःअ हु more होिलदयस यय
+
+Original [79]: Go sleep You will forget again
+Normalized [79]: go sleep you will forget again
+Mixed E-H [79]: go sleep you will forget again
+
+Original [80]: Please hv u r dinner
+Normalized [80]: please hv you are dinner
+Mixed E-H [80]: please hv you are dinner
+
+Original [81]: If someone is injured or sick please let us know
+Normalized [81]: if someone is injured or sick please let us know
+Mixed E-H [81]: if someone is injured or sick please let us know
+
+Original [82]: Don't wait for tmrw
+Normalized [82]: do not wait for tomorrow
+Mixed E-H [82]: do not wait for tomorrow
+
+Original [83]: CURFEW STILL EXISTS PLEASE BE BACK INTO ROOMS BY 12:30PM
+Normalized [83]: curfew still exists please be back into rooms by 1230pm
+Mixed E-H [83]: curfew still exists please be back into rooms by 1230pm
+
+Original [84]: If u guys need any help or wanna talk or literally anything We r here Dm karlo
+Normalized [84]: if you guys need any help or wan na talk or literally anything we are here direct message karlo
+Mixed E-H [84]: if you guys need any help or wan न talk or literally anything we are here direct message करलो
+
+Original [85]: *ONE SHOUTOUT FOR MENTORS ALSO* (Just react to msg to give shoutout)
+Normalized [85]: ** one shoutout for mentors also ** (( just react to message to give shoutout ))
+Mixed E-H [85]: * * one shoutout for mentors also * * ( ( just react तो message तो give shoutout ) )
+
+Original [86]: Also guys huge shoutout to @918106925340 for organising the trip and coordinating with all the teams.. And most importantly every apex member for the batch trip today!! Hope you’ll had fun!!
+Normalized [86]: also guys huge shoutout to @@ 918106925340 for organising the trip and coordinating with all the teams ...... and most importantly every apex member for the batch trip today !! hope you  ll had fun !!
+Mixed E-H [86]: also guys हुगे shoutout तो @ @ 918106925340 for organising the trip and coordinating with all the teams ...... and most importantly every apex member for the batch trip today ! ! hope you ll had fun ! !
+
+Original [87]: Hi guys!! Hope everyone is fine and have rested enough.. If anyone has a sprained ankle or anything after yest, let us know
+Normalized [87]: hi guys !! hope everyone is fine and have rested enough ...... if anyone has a sprained ankle or anything after yest ,, let us know
+Mixed E-H [87]: िह guys ! ! hope everyone is fine and have rested enough ...... if anyone हास a sprained ankle or anything after yest , , let us know
+
+Original [88]: “The batch photo” guyzzz!!!
+Normalized [88]:  the batch photo  guyz !!
+Mixed E-H [88]: the batch photo guyz ! !
+
+Original [89]: sooguud! now time to keep it the group pfp?
+Normalized [89]: sooguud !! now time to keep it the group pfp ??
+Mixed E-H [89]: सूगुउद ! ! now time तो keep it the group pfp ? ?
+
+Original [90]: Credits: Chinmay Pateria, Roshan
+Normalized [90]: credits :: chinmay pateria ,, roshan
+Mixed E-H [90]: credits : : िचनमय पतेिरअ , , रोशं
+
+Original [91]: If it's yours plz lemme know
+Normalized [91]: if it 's yours please lem main know
+Mixed E-H [91]: if it 's yours please lem मैन know
+
+Original [92]: Kal books will be near library exhibition please collect
+Normalized [92]: kal books will be near library exhibition please collect
+Mixed E-H [92]: कल books will be near library exhibition please collect
+
+Original [93]: Hello everyone! For the Independence Day celebrations tomorrow, if you'd like to perform a dance, sing,play an instrument, or even recite a poem, please DM your name to Prakhar Gupta (+91 96911 90017).
+Normalized [93]: hello everyone !! for the independence day celebrations tomorrow ,, if you would like to perform a dance ,, sing ,, play an instrument ,, or even recite a poem ,, please direct message your name to prakhar gupta (( +91 96911 90017 )) ..
+Mixed E-H [93]: hello everyone ! ! for the independence day celebrations tomorrow , , if you would like तो perform a dance , , sing , , play an instrument , , or even recite a poem , , please direct message your name तो पराखर गुपता ( ( +91 96911 90017 ) ) ..
+
+Original [94]: Hello everyone! *Join us today in H-105 at 2 PM as E-Cell hosts an inspiring guest talk by the accomplished entrepreneur Kanika Agarwal, Co-founder & CEO of MindPeers.* Kanika was featured on SharkTank India, recognized in AsiaOne’s 40 under 40, and is an active Angel Investor in startups like Boba Bhai and Leap Club.. This session is a unique opportunity to gain insights into her entrepreneurial journey, from building a multimillion-dollar startup while managing anxiety to scaling globally and exploring the intersection of mental health and business. Don’t miss out on this chance to learn from one of the leading voices in mental well-being and entrepreneurship. See you there!
+Normalized [94]: hello everyone !! ** join us today in h105 at 2 pm as ecell hosts an inspiring guest talk by the accomplished entrepreneur kanika agarwal ,, cofounder && ceo of mindpeers .. ** kanika was featured on sharktank india ,, recognized in asiaone  s 40 under 40 ,, and is an active angel investor in startups like boba bhai and leap club ...... this session is a unique opportunity to gain insights into her entrepreneurial journey ,, from building a multimilliondollar startup while managing anxiety to scaling globally and exploring the intersection of mental health and business .. don  t miss out on this chance to learn from one of the leading voices in mental wellbeing and entrepreneurship .. see you there !!
+Mixed E-H [94]: hello everyone ! ! * * join us today in h105 at 2 pm as ecell hosts an inspiring guest talk by the accomplished entrepreneur कंइक अगारवल , , cofounder & & ceo of mindpeers .. * * कंइक was featured on शरकतंक india , , recognized in अिसअओने s 40 under 40 , , and is an active angel investor in startups like बोब भै and लेअप club ...... this session is a unique opportunity तो gain insights into her entrepreneurial journey , , from building a मुलितिमलिलओनदोललर startup while managing anxiety तो scaling globally and exploring the intersection of mental health and business .. don t miss out on this chance तो learn from one of the leading voices in mental wellbeing and एनत्रेपरेनेउरशइप .. सी you there ! !
+
+Original [95]: Free Redbull for the attendees:)
+Normalized [95]: free redbull for the attendees :: ))
+Mixed E-H [95]: free redbull for the अततेनदीस : : ) )
+
+Original [96]: guys if you have labs: welp, i am sorry, there's nothing i can do about it really. mei maafi mangta hu 🙏
+Normalized [96]: guys if you have labs :: welp ,, i am sorry ,, there 's nothing i can do about it really .. mei maafi mangta hu 
+Mixed E-H [96]: guys if you have labs : : welp , , i am sorry , , there 's nothing i can do about it really .. मेइ माफइ मंगता हु
+
+Original [97]: Guys do come asap, ms Kanika is an excellent speaker and it's also a free event
+Normalized [97]: guys do come as soon as possible ,, ms kanika is an excellent speaker and it 's also a free event
+Mixed E-H [97]: guys do come as soon as possible , , ms कंइक is an excellent speaker and it 's also a free event
+
+Original [98]: +free redbulls, if you are still not convinced
+Normalized [98]: +free redbulls ,, if you are still not convinced
+Mixed E-H [98]: +free redbulls , , if you are still not convinced
+
+Original [99]: A lot of people have been falling sick lately. If you need medicines urgently, please ask your roommates, or friends if they have the common ones with them. Also, you can purchase medicines on Netmeds, Apollo, PharmEasy etc- and then deliver it to your hostel. You can buy a good amount of them to use later on also. Take care and get well soon.
+Normalized [99]: a lot of people have been falling sick lately .. if you need medicines urgently ,, please ask your roommates ,, or friends if they have the common ones with them .. also ,, you can purchase medicines on netmeds ,, apollo ,, pharmeasy etc- and then deliver it to your hostel .. you can buy a good amount of them to use later on also .. take care and get well soon ..
+Mixed E-H [99]: a lot of people have been falling sick lately .. if you need medicines urgently , , please ask your रूममतेस , , or friends if they have the common ones with them .. also , , you can पुरचसे medicines on नेतमेदस , , apollo , , पहारमेअसय etc- and then deliver it तो your hostel .. you can buy a good amount of them तो उसे later on also .. take care and get well soon ..
+
+Original [100]: I would suggest get your own candles if possible ❤️
+Normalized [100]: i would suggest get your own candles if possible 
+Mixed E-H [100]: i would suggest get your own candles if possible
+

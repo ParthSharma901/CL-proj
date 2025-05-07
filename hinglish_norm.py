@@ -59,7 +59,7 @@ class HinglishWordClassifier:
             "thru": "through", "gonna": "going to", "wanna": "want to", "gotta": "got to", "dunno": "don't know",
             "yep": "yes", "nope": "no", "wassup": "what's up", "info": "information", "pic": "picture",
             "pics": "pictures", "convo": "conversation", "coz": "because", "bcz": "because", "2day": "today",
-            "2moro": "tomorrow", "4get": "forget", "c u": "see you", "tel": "tell", "tol": "told",
+            "2moro": "tomorrow", "4get": "forget", "c u": "see you", "tel": "tell", "tol": "told","lmao":"laughing my ass off",
 
             "aaf": "always and forever", "aab": "average at best", "aak": "alive and kicking",
             "aamof": "as a matter of fact", "aamoi": "as a matter of interest", "aap": "always a pleasure",
@@ -521,18 +521,44 @@ class HinglishWordClassifier:
         """Tokenize text into words using NLTK."""
         return word_tokenize(text.lower())
 
-    def process_file(self, input_file, normalized_file='normalized_hinglish.txt',
-                     tagged_file='hinglish_tagged.txt', metrics_file='normalization_metrics.txt',
-                     devanagari_file='devanagari_output.txt'):
+    def process_file(self, input_file, output_dir=None,
+                     normalized_file=None, tagged_file=None,
+                     metrics_file=None, devanagari_file=None):
         """
         Process input file in four steps:
         1. Normalize text and save to normalized_file
         2. Classify normalized text and save to tagged_file
         3. Transliterate Hindi words to Devanagari script and save to devanagari_file
         4. Calculate metrics between original and normalized text
+
+        Args:
+            input_file (str): Path to input file
+            output_dir (str, optional): Directory to save output files. If provided, other file paths will be joined with this.
+            normalized_file (str, optional): Path to save normalized text. Defaults to "normalized_hinglish.txt".
+            tagged_file (str, optional): Path to save tagged text. Defaults to "hinglish_tagged.txt".
+            metrics_file (str, optional): Path to save metrics. Defaults to "normalization_metrics.txt".
+            devanagari_file (str, optional): Path to save transliterated text. Defaults to "devanagari_output.txt".
         """
         if not os.path.exists(input_file):
             raise FileNotFoundError(f"Input file not found: {input_file}")
+
+        # Set default filenames if not provided
+        if normalized_file is None:
+            normalized_file = "normalized_hinglish.txt"
+        if tagged_file is None:
+            tagged_file = "hinglish_tagged.txt"
+        if metrics_file is None:
+            metrics_file = "normalization_metrics.txt"
+        if devanagari_file is None:
+            devanagari_file = "devanagari_output.txt"
+
+        # Join with output directory if specified
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
+            normalized_file = os.path.join(output_dir, os.path.basename(normalized_file))
+            tagged_file = os.path.join(output_dir, os.path.basename(tagged_file))
+            metrics_file = os.path.join(output_dir, os.path.basename(metrics_file))
+            devanagari_file = os.path.join(output_dir, os.path.basename(devanagari_file))
 
         # Read input sentences
         original_sentences = []
@@ -680,22 +706,37 @@ def main():
     # Initialize the classifier
     classifier = HinglishWordClassifier()
 
+    # Create output directories if they don't exist
+    output_dir_unofficial = "Normalized output/Unofficial"
+    output_dir_official = "Normalized output/Official"
+
+    os.makedirs(output_dir_unofficial, exist_ok=True)
+    os.makedirs(output_dir_official, exist_ok=True)
+
+    print(f"Created output directories: {output_dir_unofficial} and {output_dir_official}")
+
     # Train the model using train.txt
     print("Training model from train.txt...")
     classifier.train(data_file="train.txt")
 
     # Save the model
-    classifier.save_model()
+    models_dir = "models"
+    os.makedirs(models_dir, exist_ok=True)
+    classifier.save_model(os.path.join(models_dir, "hinglish_model.pkl"))
 
-    # Process input file
-    input_file = "hinglish_sentences.txt"
+    # Process input files
+    input_file = "hinglish_sentences_unofficial.txt"
     print(f"Processing {input_file}...")
     classifier.process_file(
         input_file=input_file,
-        normalized_file="normalized_hinglish.txt",
-        tagged_file="hinglish_tagged.txt",
-        metrics_file="normalization_metrics.txt",
-        devanagari_file="devanagari_output.txt"
+        output_dir=output_dir_unofficial
+    )
+
+    input_file = "hinglish_sentences_official.txt"
+    print(f"Processing {input_file}...")
+    classifier.process_file(
+        input_file=input_file,
+        output_dir=output_dir_official
     )
 
 

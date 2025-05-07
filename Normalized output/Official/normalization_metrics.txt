@@ -1,0 +1,605 @@
+### Normalization Metrics ###
+Average BLEU Score: 0.6477
+Average Edit Distance: 13.8600
+
+Individual Sentence Metrics:
+Sentence 1:
+  Original: lmao
+  Normalized: laughing my ass off
+  BLEU Score: 0.0000
+  Edit Distance: 15
+
+Sentence 2:
+  Original: Tomorrow u will realise whom to trust and whom to not 🤡
+  Normalized: tomorrow you will realise whom to trust and whom to not 
+  BLEU Score: 0.7369
+  Edit Distance: 4
+
+Sentence 3:
+  Original: Anyways, Happy Holi guys! Have fun
+  Normalized: anyways ,, happy holi guys !! have fun
+  BLEU Score: 0.5460
+  Edit Distance: 8
+
+Sentence 4:
+  Original: also, happy pi day
+  Normalized: also ,, happy pi day
+  BLEU Score: 0.5774
+  Edit Distance: 2
+
+Sentence 5:
+  Original: chd moment
+  Normalized: chd moment
+  BLEU Score: 0.3162
+  Edit Distance: 0
+
+Sentence 6:
+  Original: Hope u all had fun....nd had a safe Holi...♥️
+  Normalized: hope you all had fun ...... nd had a safe holi ...... 
+  BLEU Score: 0.4018
+  Edit Distance: 13
+
+Sentence 7:
+  Original: my exams also didn't go well and this helps a ton 🥺
+  Normalized: my exams also did not go well and this helps a ton 
+  BLEU Score: 0.6761
+  Edit Distance: 3
+
+Sentence 8:
+  Original: Food is here
+  Normalized: food is here
+  BLEU Score: 0.5623
+  Edit Distance: 1
+
+Sentence 9:
+  Original: Helloo All Navrang is going to start within the next 10 minutes. We request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers. Hoping to see you all sooooonnn⭐⭐⭐ ~The Dance Crew 💃
+  Normalized: helloo all navrang is going to start within the next 10 minutes .. we request you all to gather in amphi as soon as possible and enjoy the performances prepared by the enthusiastic dancers .. hoping to see you all son ~the dance crew 
+  BLEU Score: 0.7987
+  Edit Distance: 22
+
+Sentence 10:
+  Original: Hey guys our institute’s football team has a match rn in the inter college tournament. Please go to the football ground to support our team and your batchmates ☺️☺️
+  Normalized: hey guys our institute  s football team has a match right now in the inter college tournament .. please go to the football ground to support our team and your batchmates 
+  BLEU Score: 0.7073
+  Edit Distance: 17
+
+Sentence 11:
+  Original: Hi all, Today's football finals are starting rn. Please do come and support
+  Normalized: hi all ,, today 's football finals are starting right now .. please do come and support
+  BLEU Score: 0.5928
+  Edit Distance: 15
+
+Sentence 12:
+  Original: Happy Ugadi and Gudi padwa!♥️
+  Normalized: happy ugadi and gudi padwa !! 
+  BLEU Score: 0.8091
+  Edit Distance: 6
+
+Sentence 13:
+  Original: Eid Mubarak 🌙
+  Normalized: eid mubarak 
+  BLEU Score: 0.1918
+  Edit Distance: 3
+
+Sentence 14:
+  Original: atb for quiz 2 :)
+  Normalized: atb for quiz 2 :: ))
+  BLEU Score: 0.5721
+  Edit Distance: 3
+
+Sentence 15:
+  Original: Hloooo Hope your exams are gng gr8 I just wanted to share smtg quickly. With the next admission cycle starting, many students appearing for UGEE, SPEC, JEE etc., will hv a lot of questions about admissions, cutoffs, branch selection, prep,and more. All these queries will be posted in the IIITH Counseling Forum on Facebook. It would be great to see many of you join in and help out our future peers
+  Normalized: hlo hope your exams are gng great i just wanted to share smtg quickly .. with the next admission cycle starting ,, many students appearing for ugee ,, spec ,, jee etc. ,, will hv a lot of questions about admissions ,, cutoffs ,, branch selection ,, prep ,, and more .. all these queries will be posted in the ith counseling forum on facebook .. it would be great to see many of you join in and help out our future peers
+  BLEU Score: 0.6541
+  Edit Distance: 54
+
+Sentence 16:
+  Original: is this generation even on facebook?
+  Normalized: is this generation even on facebook ??
+  BLEU Score: 0.8409
+  Edit Distance: 2
+
+Sentence 17:
+  Original: Kya kare we are old generation kids
+  Normalized: kya kare we are old generation kids
+  BLEU Score: 1.0000
+  Edit Distance: 1
+
+Sentence 18:
+  Original: Also answer the question asked just write student😅
+  Normalized: also answer the question asked just write student
+  BLEU Score: 0.8409
+  Edit Distance: 2
+
+Sentence 19:
+  Original: send me friend req also tq :>
+  Normalized: send main friend req also tq :: >>
+  BLEU Score: 0.4518
+  Edit Distance: 6
+
+Sentence 20:
+  Original: Basically u will be asked ques like purpose of joining this grp
+  Normalized: basically you will be asked ques like purpose of joining this grp
+  BLEU Score: 0.8265
+  Edit Distance: 3
+
+Sentence 21:
+  Original: Still old😅
+  Normalized: still old
+  BLEU Score: 0.1495
+  Edit Distance: 2
+
+Sentence 22:
+  Original: You want to be old that’s your prerogative
+  Normalized: you want to be old that  s your prerogative
+  BLEU Score: 0.6690
+  Edit Distance: 3
+
+Sentence 23:
+  Original: Lemme google nd come back
+  Normalized: lem main google nd come back
+  BLEU Score: 0.5373
+  Edit Distance: 5
+
+Sentence 24:
+  Original: Hey UG1s, The institute is conducting an FSIS (Faculty Student Interaction Session) with the UG1s today, you would've recieved the mail for the same. We urge you to please go and participate in this session and it helps you answer your questions to the institute and improving student-faculty interaction and understanding.
+  Normalized: hey ug1s ,, the institute is conducting an fsis (( faculty student interaction session )) with the ug1s today ,, you would have recieved the mail for the same .. we urge you to please go and participate in this session and it helps you answer your questions to the institute and improving studentfaculty interaction and understanding ..
+  BLEU Score: 0.7326
+  Edit Distance: 31
+
+Sentence 25:
+  Original: Plis do attend
+  Normalized: plis do attend
+  BLEU Score: 0.5623
+  Edit Distance: 1
+
+Sentence 26:
+  Original: Hey guys! Cult night is about to start... It's the last time UG4 will be dancing on stage. Please come and cheer!!
+  Normalized: hey guys !! cult night is about to start ...... it 's the last time ug4 will be dancing on stage .. please come and cheer !!
+  BLEU Score: 0.7395
+  Edit Distance: 16
+
+Sentence 27:
+  Original: Thank god
+  Normalized: thank god
+  BLEU Score: 0.3162
+  Edit Distance: 1
+
+Sentence 28:
+  Original: Guys, as you know, Chicken Pox is spreading. So be a little more careful about your hygiene and try to avoid close contact with people for some time. And inform the Parliament if you happen to have any symptoms. Stay Safe and atb for endsems and projects!
+  Normalized: guys ,, as you know ,, chicken pox is spreading .. so be a little more careful about your hygiene and try to avoid close contact with people for some time .. and inform the parliament if you happen to have any symptoms .. stay safe and atb for endsems and projects !!
+  BLEU Score: 0.7774
+  Edit Distance: 20
+
+Sentence 29:
+  Original: Adding to that plss pls take note: 1. Initial symptoms include rashes (which may be accompanied by blister in later stage) 2. Fever (low or high either) 3. Fatigue and loss of appetite Also symptoms take a week or more to actually show up ... So ppl might b infected but themselves be unaware of the same So pls try to not b in crowded places at least. And people who have had it in the past or are vaccinated are less prone but can still get it . So pls be careful anyway ❤️❤️
+  Normalized: adding to that plss please take note :: 1. initial symptoms include rashes (( which may be accompanied by blister in later stage )) 2. fever (( low or high either )) 3. fatigue and loss of appetite also symptoms take a week or more to actually show up ...... so ppl might b infected but themselves be unaware of the same so please try to not b in crowded places at least .. and people who have had it in the past or are vaccinated are less prone but can still get it .. so please be careful anyway 
+  BLEU Score: 0.7703
+  Edit Distance: 38
+
+Sentence 30:
+  Original: Reminder! Deadline 6PM.
+  Normalized: reminder !! deadline 6pm ..
+  BLEU Score: 0.2403
+  Edit Distance: 8
+
+Sentence 31:
+  Original: https://www.goldmansachs.com/careers/students/programs-and-internships/india/hackathon For Single Degree Students! Do Register :)
+  Normalized: for single degree students !! do register :: ))
+  BLEU Score: 0.5638
+  Edit Distance: 98
+
+Sentence 32:
+  Original: IIITH students only eligible for CS Hackathon, not Quant.
+  Normalized: ith students only eligible for cs hackathon ,, not quant ..
+  BLEU Score: 0.6176
+  Edit Distance: 13
+
+Sentence 33:
+  Original: They broke a honey comb
+  Normalized: they broke a honey comb
+  BLEU Score: 1.0000
+  Edit Distance: 1
+
+Sentence 34:
+  Original: What did Duals do to you?
+  Normalized: what did duals do to you ??
+  BLEU Score: 0.8409
+  Edit Distance: 4
+
+Sentence 35:
+  Original: 20%/25% of college done
+  Normalized: 20 %% /25 %% of college done
+  BLEU Score: 0.4518
+  Edit Distance: 5
+
+Sentence 36:
+  Original: Ohh wait I forgot about the chds
+  Normalized: ohh wait i forgot about the chds
+  BLEU Score: 1.0000
+  Edit Distance: 2
+
+Sentence 37:
+  Original: What did Duals who plan on graduating after 5 years do to you?
+  Normalized: what did duals who plan on graduating after 5 years do to you ??
+  BLEU Score: 0.9254
+  Edit Distance: 4
+
+Sentence 38:
+  Original: Wait ra I put follow up
+  Normalized: wait ra i put follow up
+  BLEU Score: 1.0000
+  Edit Distance: 2
+
+Sentence 39:
+  Original: Cnd and cgd
+  Normalized: cnd and cgd
+  BLEU Score: 0.5623
+  Edit Distance: 1
+
+Sentence 40:
+  Original: Anyways guys! Congrats, Party hard.. But please be careful.. And if anyone is upset or smthng because of how this year went, u can always reach out us!
+  Normalized: anyways guys !! congrats ,, party hard ...... but please be careful ...... and if anyone is upset or smthng because of how this year went ,, you can always reach out us !!
+  BLEU Score: 0.6211
+  Edit Distance: 25
+
+Sentence 41:
+  Original: And also have fun with DSA 🤡
+  Normalized: and also have fun with dsa 
+  BLEU Score: 0.8465
+  Edit Distance: 5
+
+Sentence 42:
+  Original: Nikki akka getting real
+  Normalized: nikki akka getting real
+  BLEU Score: 1.0000
+  Edit Distance: 1
+
+Sentence 43:
+  Original: Ya ya All comes with experience 🙏🏻
+  Normalized: ya ya all comes with experience 
+  BLEU Score: 0.8465
+  Edit Distance: 4
+
+Sentence 44:
+  Original: Dear All, This is a reminder about the Goldman Sachs Possibilities Summit happening today at KRB from 7:00 PM to 9:00 PM. Senior leaders from Goldman Sachs will be sharing valuable insights into their corporate journey and discussing the dynamic culture of the finance industry. Your attendance is highly encouraged, as this event is not only a great learning opportunity but also crucial for maintaining a strong relationship with Goldman Sachs, which is vital for future recruitment opportunities. Please make sure to attend.
+  Normalized: dear all ,, this is a reminder about the goldman sachs possibilities summit happening today at krb from 700 pm to 900 pm .. senior leaders from goldman sachs will be sharing valuable insights into their corporate journey and discussing the dynamic culture of the finance industry .. your attendance is highly encouraged ,, as this event is not only a great learning opportunity but also crucial for maintaining a strong relationship with goldman sachs ,, which is vital for future recruitment opportunities .. please make sure to attend ..
+  BLEU Score: 0.8013
+  Edit Distance: 37
+
+Sentence 45:
+  Original: Reminder: A gentle reminder for the GS event. Please do attend! Time: 7-9PM Venue: KRB
+  Normalized: reminder :: a gentle reminder for the gs event .. please do attend !! time :: 79pm venue :: krb
+  BLEU Score: 0.4890
+  Edit Distance: 23
+
+Sentence 46:
+  Original: To all those who attended: thank you so much! <3
+  Normalized: to all those who attended :: thank you so much !! << 3
+  BLEU Score: 0.6435
+  Edit Distance: 7
+
+Sentence 47:
+  Original: Hey everyone, hope you are doing well, now that exams are over. We expect civil behavior from you all in and around the labs (T-Hub, KCIS, Vindhya). You are free to roam around and do your masti anywhere in the campus as long as its safe, but kindly understand that labs are supposed to be quiet places as there are hundred of students focusing on their studies, research, etc-. Moreover, a lot of profs have their offices as well. Take this as a reminder and ensure there is a certain decorum maintained in these places. More so because you are not even allowed here in the first place. Don't make us call you out.
+  Normalized: hey everyone ,, hope you are doing well ,, now that exams are over .. we expect civil behavior from you all in and around the labs (( thub ,, kcis ,, vindhya )) .. you are free to roam around and do your masti anywhere in the campus as long as its safe ,, but kindly understand that labs are supposed to be quiet places as there are hundred of students focusing on their studies ,, research ,, etc- .. moreover ,, a lot of profs have their offices as well .. take this as a reminder and ensure there is a certain decorum maintained in these places .. more so because you are not even allowed here in the first place .. do not make us call you out ..
+  BLEU Score: 0.7440
+  Edit Distance: 50
+
+Sentence 48:
+  Original: Please guys, you are ideally not allowed to enter lab spaces. Do not take advantage over our leniency. Research students are working at various times in their labs and before they start complaining about you guys, try to control your behavior. There are a lot lot more places in campus to have fun, lab spaces aint them. Anyways Happy holidays, ab toh baahar ghoom lo before sem starts again :)
+  Normalized: please guys ,, you are ideally not allowed to enter lab spaces .. do not take advantage over our leniency .. research students are working at various times in their labs and before they start complaining about you guys ,, try to control your behavior .. there are a lot lot more places in campus to have fun ,, lab spaces aint them .. anyways happy holidays ,, ab toh baahar ghoom lo before semester starts again :: ))
+  BLEU Score: 0.7257
+  Edit Distance: 30
+
+Sentence 49:
+  Original: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 😂
+  Normalized: ghum rahe hai sir yeh log kabse kahtam hi nahi ho raha inka 
+  BLEU Score: 0.9260
+  Edit Distance: 1
+
+Sentence 50:
+  Original: Kids if anyone missed any endsems please do note this
+  Normalized: kids if anyone missed any endsems please do note this
+  BLEU Score: 1.0000
+  Edit Distance: 1
+
+Sentence 51:
+  Original: guys please cross roads safely 🙏
+  Normalized: guys please cross roads safely 
+  BLEU Score: 0.8187
+  Edit Distance: 1
+
+Sentence 52:
+  Original: basically rule of thumb: only attempt crossing if you think you can cross it at a go, do not stop in the middle of the road.
+  Normalized: basically rule of thumb :: only attempt crossing if you think you can cross it at a go ,, do not stop in the middle of the road ..
+  BLEU Score: 0.8428
+  Edit Distance: 6
+
+Sentence 53:
+  Original: random question: does ug1 not prefer going to bbc? i generally have not noticed a lot of ug1s here! (react with 👍/👎)
+  Normalized: random question :: does ug1 not prefer going to bring beer and chips ?? i generally have not noticed a lot of ug1s here !! (( react with  ))
+  BLEU Score: 0.5749
+  Edit Distance: 28
+
+Sentence 54:
+  Original: I think its coz BBC is very far from OBH 🤡
+  Normalized: i think its because bring beer and chips is very far from obh 
+  BLEU Score: 0.3868
+  Edit Distance: 31
+
+Sentence 55:
+  Original: perhaps.
+  Normalized: perhaps ..
+  BLEU Score: 0.1495
+  Edit Distance: 2
+
+Sentence 56:
+  Original: thumbs up means you generally go to BBC.
+  Normalized: thumbs up means you generally go to bring beer and chips ..
+  BLEU Score: 0.5157
+  Edit Distance: 22
+
+Sentence 57:
+  Original: By the time they wake up, they have classess.. so automatically VC > BBC
+  Normalized: by the time they wake up ,, they have classess ...... so automatically vc >> bring beer and chips
+  BLEU Score: 0.5013
+  Edit Distance: 31
+
+Sentence 58:
+  Original: damn imagine not eating the better dosa
+  Normalized: damn imagine not eating the better dosa
+  BLEU Score: 1.0000
+  Edit Distance: 0
+
+Sentence 59:
+  Original: Bbc dosa not better
+  Normalized: bring beer and chips dosa not better
+  BLEU Score: 0.1635
+  Edit Distance: 18
+
+Sentence 60:
+  Original: Happy Vacas and Safe Journey!
+  Normalized: happy vacas and safe journey !!
+  BLEU Score: 0.8091
+  Edit Distance: 6
+
+Sentence 61:
+  Original: hello please suggest movies (dm) thanks!
+  Normalized: hello please suggest movies (( direct message )) thanks !!
+  BLEU Score: 0.3868
+  Edit Distance: 18
+
+Sentence 62:
+  Original: :)
+  Normalized: :: ))
+  BLEU Score: 0.1699
+  Edit Distance: 3
+
+Sentence 63:
+  Original: Ok cutie
+  Normalized: ok cutie
+  BLEU Score: 0.3162
+  Edit Distance: 1
+
+Sentence 64:
+  Original: heya! hope you're doing well. since i do this everytime, and i am bored (_plus, a few people asked_), here is the set of resources for the next semester: https://github.com/zyx7k/Semester-2-Resources.git took some time and effort but there you go :) enjoy ig. [NOTE] do go through the README.
+  Normalized: heya !! hope you are doing well .. since i do this everytime ,, and i am bored (( __plus ,, a few people asked__ )) ,, here is the set of resources for the next semester :: took some time and effort but there you go :: )) enjoy ig .. [[ note ]] do go through the readme ..
+  BLEU Score: 0.5610
+  Edit Distance: 88
+
+Sentence 65:
+  Original: Bhai chhutti enjoy karne de
+  Normalized: bhai chhutti enjoy karne de
+  BLEU Score: 1.0000
+  Edit Distance: 1
+
+Sentence 66:
+  Original: ok.
+  Normalized: ok ..
+  BLEU Score: 0.1495
+  Edit Distance: 2
+
+Sentence 67:
+  Original: Grades are being released subject wise please do check u r transcript
+  Normalized: grades are being released subject wise please do check you are transcript
+  BLEU Score: 0.7293
+  Edit Distance: 5
+
+Sentence 68:
+  Original: Whatever the grades might be, u ll did great guys! Be proud of yourselves. This was your first semester, and do not expect urselves to get a perfect 10. Do not be disappointed. Just have fun during the vacation, and put more efforts next semester :)
+  Normalized: whatever the grades might be ,, you ll did great guys !! be proud of yourselves .. this was your first semester ,, and do not expect urselves to get a perfect 10. do not be disappointed .. just have fun during the vacation ,, and put more efforts next semester :: ))
+  BLEU Score: 0.7057
+  Edit Distance: 22
+
+Sentence 69:
+  Original: And if anyone wants to talk about it. Feel free to reach out to us
+  Normalized: and if anyone wants to talk about it .. feel free to reach out to us
+  BLEU Score: 0.8154
+  Edit Distance: 4
+
+Sentence 70:
+  Original: Also hv fun njoy your vacation Come back double stronger
+  Normalized: also hv fun njoy your vacation come back double stronger
+  BLEU Score: 1.0000
+  Edit Distance: 2
+
+Sentence 71:
+  Original: Yes guys please don’t worry your grades. You worked hard so please be proud of the effort
+  Normalized: yes guys please don  t worry your grades .. you worked hard so please be proud of the effort
+  BLEU Score: 0.7099
+  Edit Distance: 6
+
+Sentence 72:
+  Original: And also one thing, after grades are out, please do not call out any TAs lmao.. its not in their hands. Those are your final grades
+  Normalized: and also one thing ,, after grades are out ,, please do not call out any tas laughing my ass off ...... its not in their hands .. those are your final grades
+  BLEU Score: 0.6141
+  Edit Distance: 30
+
+Sentence 73:
+  Original: TAs ki bhi halat kharab hai so let them cry also 😂
+  Normalized: tas ki bhi halat kharab hai so let them cry also 
+  BLEU Score: 0.9131
+  Edit Distance: 3
+
+Sentence 74:
+  Original: Now that all your grades are out (Hopefully), Congratulations on finishing your first senester guys! Some of you must be really happy, some of u must be sad, irrespective, u ll did great in the semester. Now forget about what’s done, and think about what u can do guys! Look forward to the next semester. You ll can get a headstart with some DSA as mentioned by Soumil, or can do CP, or anythng. Anyways have fun guys! Party hard for NYE. P.S. If anyone wants to talk something about their grades, hit us up.
+  Normalized: now that all your grades are out (( hopefully )) ,, congratulations on finishing your first senester guys !! some of you must be really happy ,, some of you must be sad ,, irrespective ,, you ll did great in the semester .. now forget about what  s done ,, and think about what you can do guys !! look forward to the next semester .. you ll can get a headstart with some dsa as mentioned by soumil ,, or can do cp ,, or anythng .. anyways have fun guys !! party hard for nye .. ps .. if anyone wants to talk something about their grades ,, hit us up ..
+  BLEU Score: 0.6348
+  Edit Distance: 67
+
+Sentence 75:
+  Original: Like we’ve said before, you’ve worked hard. Be proud of what you have achieved :)
+  Normalized: like we  ve said before ,, you  ve worked hard .. be proud of what you have achieved :: ))
+  BLEU Score: 0.5188
+  Edit Distance: 13
+
+Sentence 76:
+  Original: 15 din bache hain yr chill kro Enjoi holidays
+  Normalized: 15 din bache hain yaar chill karo enjoi holidays
+  BLEU Score: 0.3689
+  Edit Distance: 4
+
+Sentence 77:
+  Original: Kyu yaad dilaayi tu 😭
+  Normalized: kyu yaad dilaayi tu 
+  BLEU Score: 0.7788
+  Edit Distance: 2
+
+Sentence 78:
+  Original: mei toh late aa raha hu more holidays yay
+  Normalized: mei toh late aa raha hu more holidays yay
+  BLEU Score: 1.0000
+  Edit Distance: 0
+
+Sentence 79:
+  Original: Go sleep You will forget again
+  Normalized: go sleep you will forget again
+  BLEU Score: 1.0000
+  Edit Distance: 2
+
+Sentence 80:
+  Original: Please hv u r dinner
+  Normalized: please hv you are dinner
+  BLEU Score: 0.1257
+  Edit Distance: 5
+
+Sentence 81:
+  Original: If someone is injured or sick please let us know
+  Normalized: if someone is injured or sick please let us know
+  BLEU Score: 1.0000
+  Edit Distance: 1
+
+Sentence 82:
+  Original: Don't wait for tmrw
+  Normalized: do not wait for tomorrow
+  BLEU Score: 0.1257
+  Edit Distance: 7
+
+Sentence 83:
+  Original: CURFEW STILL EXISTS PLEASE BE BACK INTO ROOMS BY 12:30PM
+  Normalized: curfew still exists please be back into rooms by 1230pm
+  BLEU Score: 0.8801
+  Edit Distance: 43
+
+Sentence 84:
+  Original: If u guys need any help or wanna talk or literally anything We r here Dm karlo
+  Normalized: if you guys need any help or wan na talk or literally anything we are here direct message karlo
+  BLEU Score: 0.6321
+  Edit Distance: 20
+
+Sentence 85:
+  Original: *ONE SHOUTOUT FOR MENTORS ALSO* (Just react to msg to give shoutout)
+  Normalized: ** one shoutout for mentors also ** (( just react to message to give shoutout ))
+  BLEU Score: 0.5486
+  Edit Distance: 38
+
+Sentence 86:
+  Original: Also guys huge shoutout to @918106925340 for organising the trip and coordinating with all the teams.. And most importantly every apex member for the batch trip today!! Hope you’ll had fun!!
+  Normalized: also guys huge shoutout to @@ 918106925340 for organising the trip and coordinating with all the teams ...... and most importantly every apex member for the batch trip today !! hope you  ll had fun !!
+  BLEU Score: 0.8397
+  Edit Distance: 14
+
+Sentence 87:
+  Original: Hi guys!! Hope everyone is fine and have rested enough.. If anyone has a sprained ankle or anything after yest, let us know
+  Normalized: hi guys !! hope everyone is fine and have rested enough ...... if anyone has a sprained ankle or anything after yest ,, let us know
+  BLEU Score: 0.8324
+  Edit Distance: 11
+
+Sentence 88:
+  Original: “The batch photo” guyzzz!!!
+  Normalized:  the batch photo  guyz !!
+  BLEU Score: 0.1541
+  Edit Distance: 6
+
+Sentence 89:
+  Original: sooguud! now time to keep it the group pfp?
+  Normalized: sooguud !! now time to keep it the group pfp ??
+  BLEU Score: 0.7740
+  Edit Distance: 4
+
+Sentence 90:
+  Original: Credits: Chinmay Pateria, Roshan
+  Normalized: credits :: chinmay pateria ,, roshan
+  BLEU Score: 0.4347
+  Edit Distance: 8
+
+Sentence 91:
+  Original: If it's yours plz lemme know
+  Normalized: if it 's yours please lem main know
+  BLEU Score: 0.3826
+  Edit Distance: 10
+
+Sentence 92:
+  Original: Kal books will be near library exhibition please collect
+  Normalized: kal books will be near library exhibition please collect
+  BLEU Score: 1.0000
+  Edit Distance: 1
+
+Sentence 93:
+  Original: Hello everyone! For the Independence Day celebrations tomorrow, if you'd like to perform a dance, sing,play an instrument, or even recite a poem, please DM your name to Prakhar Gupta (+91 96911 90017).
+  Normalized: hello everyone !! for the independence day celebrations tomorrow ,, if you would like to perform a dance ,, sing ,, play an instrument ,, or even recite a poem ,, please direct message your name to prakhar gupta (( +91 96911 90017 )) ..
+  BLEU Score: 0.5860
+  Edit Distance: 44
+
+Sentence 94:
+  Original: Hello everyone! *Join us today in H-105 at 2 PM as E-Cell hosts an inspiring guest talk by the accomplished entrepreneur Kanika Agarwal, Co-founder & CEO of MindPeers.* Kanika was featured on SharkTank India, recognized in AsiaOne’s 40 under 40, and is an active Angel Investor in startups like Boba Bhai and Leap Club.. This session is a unique opportunity to gain insights into her entrepreneurial journey, from building a multimillion-dollar startup while managing anxiety to scaling globally and exploring the intersection of mental health and business. Don’t miss out on this chance to learn from one of the leading voices in mental well-being and entrepreneurship. See you there!
+  Normalized: hello everyone !! ** join us today in h105 at 2 pm as ecell hosts an inspiring guest talk by the accomplished entrepreneur kanika agarwal ,, cofounder && ceo of mindpeers .. ** kanika was featured on sharktank india ,, recognized in asiaone  s 40 under 40 ,, and is an active angel investor in startups like boba bhai and leap club ...... this session is a unique opportunity to gain insights into her entrepreneurial journey ,, from building a multimilliondollar startup while managing anxiety to scaling globally and exploring the intersection of mental health and business .. don  t miss out on this chance to learn from one of the leading voices in mental wellbeing and entrepreneurship .. see you there !!
+  BLEU Score: 0.7074
+  Edit Distance: 67
+
+Sentence 95:
+  Original: Free Redbull for the attendees:)
+  Normalized: free redbull for the attendees :: ))
+  BLEU Score: 0.6389
+  Edit Distance: 6
+
+Sentence 96:
+  Original: guys if you have labs: welp, i am sorry, there's nothing i can do about it really. mei maafi mangta hu 🙏
+  Normalized: guys if you have labs :: welp ,, i am sorry ,, there 's nothing i can do about it really .. mei maafi mangta hu 
+  BLEU Score: 0.6970
+  Edit Distance: 10
+
+Sentence 97:
+  Original: Guys do come asap, ms Kanika is an excellent speaker and it's also a free event
+  Normalized: guys do come as soon as possible ,, ms kanika is an excellent speaker and it 's also a free event
+  BLEU Score: 0.6751
+  Edit Distance: 20
+
+Sentence 98:
+  Original: +free redbulls, if you are still not convinced
+  Normalized: +free redbulls ,, if you are still not convinced
+  BLEU Score: 0.7652
+  Edit Distance: 2
+
+Sentence 99:
+  Original: A lot of people have been falling sick lately. If you need medicines urgently, please ask your roommates, or friends if they have the common ones with them. Also, you can purchase medicines on Netmeds, Apollo, PharmEasy etc- and then deliver it to your hostel. You can buy a good amount of them to use later on also. Take care and get well soon.
+  Normalized: a lot of people have been falling sick lately .. if you need medicines urgently ,, please ask your roommates ,, or friends if they have the common ones with them .. also ,, you can purchase medicines on netmeds ,, apollo ,, pharmeasy etc- and then deliver it to your hostel .. you can buy a good amount of them to use later on also .. take care and get well soon ..
+  BLEU Score: 0.7386
+  Edit Distance: 29
+
+Sentence 100:
+  Original: I would suggest get your own candles if possible ❤️
+  Normalized: i would suggest get your own candles if possible 
+  BLEU Score: 0.8948
+  Edit Distance: 3
+

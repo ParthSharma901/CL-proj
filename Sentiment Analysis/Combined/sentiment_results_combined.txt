@@ -1,0 +1,20 @@
+Combined Hinglish-Devanagari Sentiment Analysis Results
+===========================================
+
+Unofficial Dataset Summary:
+- Total sentences: 98
+- Positive: 5
+- Negative: 4
+- Neutral: 89
+
+Official Dataset Summary:
+- Total sentences: 100
+- Positive: 36
+- Negative: 1
+- Neutral: 63
+
+Combined Analysis:
+- Total sentences: 198
+- Positive: 41
+- Negative: 5
+- Neutral: 152
